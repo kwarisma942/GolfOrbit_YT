@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Trump_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ab9b1f86a27d6f0438f928e9f6bc5f44, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - ec6bf262d561dec46b44a975b1e8a19f: 21300000
+    - 100b0103ccab91b45bd0ce4958020d19: 21300000
+    - 15f35173dd2a1394abd90fd6eaa989e8: 21300000
+    - 8c39fc73a416df64b8ffab20f38acc11: 21300000
+    - 80c7f6d3c5da4fd4aab27037bc95e07d: 21300000
+    - 102dbd250831ed54cb5c23eb578d3b48: 21300000
+    - 9f183f454152d9c4a8162852dddf53a6: 21300000
+    - 63e2be4647a781c46a016d57bba12bb3: 21300000
+    - f338c6661eba32b419ff4eb7c92579e7: 21300000
+    - a296650b590a87b40a07ebe08620ae20: 21300000
+    - 613986cddcb087b4fb17257fb692f35d: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ec6bf262d561dec46b44a975b1e8a19f, type: 3}
+  - {fileID: 21300000, guid: 100b0103ccab91b45bd0ce4958020d19, type: 3}
+  - {fileID: 21300000, guid: 15f35173dd2a1394abd90fd6eaa989e8, type: 3}
+  - {fileID: 21300000, guid: 8c39fc73a416df64b8ffab20f38acc11, type: 3}
+  - {fileID: 21300000, guid: 80c7f6d3c5da4fd4aab27037bc95e07d, type: 3}
+  - {fileID: 21300000, guid: 102dbd250831ed54cb5c23eb578d3b48, type: 3}
+  - {fileID: 21300000, guid: 9f183f454152d9c4a8162852dddf53a6, type: 3}
+  - {fileID: 21300000, guid: 63e2be4647a781c46a016d57bba12bb3, type: 3}
+  - {fileID: 21300000, guid: f338c6661eba32b419ff4eb7c92579e7, type: 3}
+  - {fileID: 21300000, guid: a296650b590a87b40a07ebe08620ae20, type: 3}
+  - {fileID: 21300000, guid: 613986cddcb087b4fb17257fb692f35d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - trump_L_arm
+  - trump_L_leg
+  - trump_R_arm
+  - trump_R_leg
+  - trump_R_foot
+  - trump_R_forearm
+  - trump_butt
+  - trump_L_foot
+  - trump_torso
+  - trump_L_forearm
+  - trump_club
+  m_RenderDataMap: {}
+  m_Tag: Trump_atlas
+  m_IsVariant: 0

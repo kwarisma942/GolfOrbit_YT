@@ -1,0 +1,4358 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Adverty:
+    - Adverty5.AdvertySettings
+    Adverty.dll:
+    - Adverty5.AdPlacements.ClickablePlacementComponent
+    - Adverty5.AdPlacements.MeshAdPlacement
+    - Adverty5.AdPlacements.SpriteAdPlacement
+    - Adverty5.AdvertySettings
+    AnzuUnity.dll:
+    - anzu.AnzuAd
+    - anzu.AnzuStats
+    AnzuUnityEditor.dll:
+    - anzu.ChannelDebugWindow
+    - anzu.EditorSettingsSO
+    - anzu.PluginTokenSO
+    AnzuUtilities.dll:
+    - anzu.AnzuChannelSO
+    - anzu.AppSettingsSO
+    Assembly-CSharp:
+    - Crystal.SafeArea
+    - FGBuildInfo
+    - FGVersionText
+    - FunGames.Analytics.FGAnalyticsSettings
+    - FunGames.Analytics.FirebaseA.FGFirebaseSettings
+    - FunGames.Analytics.GA.FGGameAnalyticsSettings
+    - FunGames.Core.FGMainSettings
+    - FunGames.MMP.AdjustLtvTracking.FGAdjustLtvTrackerSettings
+    - FunGames.MMP.AdjustMMP.FGAdjustSettings
+    - FunGames.MMP.FGMMPSettings
+    - FunGames.MMP.Facebook.FGFacebookSettings
+    - FunGames.MMP.FacebookLtvTracking.FGFacebookLtvTrackerSettings
+    - FunGames.Mediation.ApplovinMax.AmazonWithMax.FGAmazonSettings
+    - FunGames.Mediation.ApplovinMax.FGApplovinMaxSettings
+    - FunGames.Mediation.FGMediationSettings
+    - FunGames.Monetization.IAP.FGIAPProduct
+    - FunGames.Monetization.IAP.FGIAPSettings
+    - FunGames.Monetization.IAP.Revenuecat.FGRevenuecatSettings
+    - FunGames.Monetization.InGameAds.Adverty.FGAdvertySettings
+    - FunGames.Monetization.InGameAds.Anzu.FGAnzuSettings
+    - FunGames.Monetization.InGameAds.FGIGAdsSettings
+    - FunGames.Monetization.InGameAds.Gadsme.FGGadsmeSettings
+    - FunGames.RemoteConfig.FGRemoteConfigSettings
+    - FunGames.RemoteConfig.TNRemoteConfig.FGTNRemoteConfigSettings
+    - FunGames.Tools.FGLoadingScreen
+    - FunGames.UserConsent.ATT.UnityATT.FGUnityATTSettings
+    - FunGames.UserConsent.FGATTPrePopupSettings
+    - FunGames.UserConsent.FGATTSettings
+    - FunGames.UserConsent.FGGDPRSettings
+    - FunGames.UserConsent.FGUserConsentSettings
+    - FunGames.UserConsent.GDPR.CustomGDPR.FGCustomGDPRSettings
+    - FunGames.UserConsent.GDPR.GoogleUMP.FGGoogleUMPSettings
+    - GameAnalyticsSDK.Setup.Settings
+    - I2.Loc.LanguageSourceAsset
+    - PaperPlaneTools.AlertMonoBehaviour
+    - PaperPlaneTools.RateBoxPrefabScript
+    - PurchasingManagement.UnityPurchasingSettings
+    - QP_QATracker
+    - QP_QuietObject
+    - QuietFCM
+    - TransformRotation
+    - UIRotate
+    - VarsManager
+    Assembly-CSharp-Editor.dll:
+    - AdjustSettings
+    - Homebrew.EditorOverride
+    Assembly-CSharp.dll:
+    - AdjustEventManager
+    - Adverty5.FGAdvertyLoader
+    - AnimIntro
+    - Anzu.Examples.InitializeFromAnzuUnity
+    - Ball
+    - BannerHelper
+    - CameraManager
+    - Crystal.SafeArea
+    - Crystal.SafeAreaDemo
+    - CustomLogger.GUILogger
+    - DaytimeMaterial
+    - DebugElements
+    - Diamond
+    - EasyHyperText
+    - ExampleRemoteConfigABtests
+    - FGApplovinMaxExample
+    - FGBuildInfo
+    - FGDebugAnalyticsExample
+    - FGDebugConsoleBuilder
+    - FGDebugTrackingAutorizationExample
+    - FGFirebaseCustomAdImpression
+    - FGNoInternetPopup
+    - FGUpdatePopup
+    - FGVersionText
+    - FeedbackManager
+    - FunGames.Analytics.FGAnalyticsManager
+    - FunGames.Analytics.FGAnalyticsSettings
+    - FunGames.Analytics.FirebaseA.FGFireBase
+    - FunGames.Analytics.FirebaseA.FGFirebaseSettings
+    - FunGames.Analytics.GA.FGGameAnalytics
+    - FunGames.Analytics.GA.FGGameAnalyticsSettings
+    - FunGames.Core.FGCore
+    - FunGames.Core.FGMainSettings
+    - FunGames.Core.Utils.DontDestroyOnLoad
+    - FunGames.Core.Utils.FGTMPProText
+    - FunGames.MMP.AdjustLtvTracking.FGAdjustLtvTracker
+    - FunGames.MMP.AdjustLtvTracking.FGAdjustLtvTrackerSettings
+    - FunGames.MMP.AdjustMMP.FGAdjust
+    - FunGames.MMP.AdjustMMP.FGAdjustSettings
+    - FunGames.MMP.FGMMPManager
+    - FunGames.MMP.FGMMPSettings
+    - FunGames.MMP.Facebook.FGFacebook
+    - FunGames.MMP.Facebook.FGFacebookSettings
+    - FunGames.MMP.FacebookLtvTracking.FGFacebookLtvTracker
+    - FunGames.MMP.FacebookLtvTracking.FGFacebookLtvTrackerSettings
+    - FunGames.Mediation.ApplovinMax.AmazonWithMax.FGAmazonSettings
+    - FunGames.Mediation.ApplovinMax.AmazonWithMax.FGAmazonWithMax
+    - FunGames.Mediation.ApplovinMax.FGApplovinMaxSettings
+    - FunGames.Mediation.ApplovinMax.FGMax
+    - FunGames.Mediation.FGMediationManager
+    - FunGames.Mediation.FGMediationSettings
+    - FunGames.Monetization.IAP.FGIAPManager
+    - FunGames.Monetization.IAP.FGIAPProduct
+    - FunGames.Monetization.IAP.FGIAPSettings
+    - FunGames.Monetization.IAP.Revenuecat.FGRevenuecat
+    - FunGames.Monetization.IAP.Revenuecat.FGRevenuecatSettings
+    - FunGames.Monetization.InGameAds.Adverty.FGAdverty
+    - FunGames.Monetization.InGameAds.Adverty.FGAdvertySettings
+    - FunGames.Monetization.InGameAds.Anzu.FGAnzu
+    - FunGames.Monetization.InGameAds.Anzu.FGAnzuSettings
+    - FunGames.Monetization.InGameAds.FGIGAdPlacementWithRemoteConfig
+    - FunGames.Monetization.InGameAds.FGIGAdsManager
+    - FunGames.Monetization.InGameAds.FGIGAdsSettings
+    - FunGames.Monetization.InGameAds.Gadsme.FGGadsme
+    - FunGames.Monetization.InGameAds.Gadsme.FGGadsmeSettings
+    - FunGames.RemoteConfig.FGRemoteConfigManager
+    - FunGames.RemoteConfig.FGRemoteConfigSettings
+    - FunGames.RemoteConfig.TNRemoteConfig.FGTNRemoteConfig
+    - FunGames.RemoteConfig.TNRemoteConfig.FGTNRemoteConfigSettings
+    - FunGames.Tools.Debugging.FGDebugConsole
+    - FunGames.Tools.Debugging.FGDebugDefaultExample
+    - FunGames.Tools.FGLoadingScreen
+    - FunGames.Tools.Gradient
+    - FunGames.UserConsent.ATT.FGATTManager
+    - FunGames.UserConsent.ATT.UnityATT.FGUnityATT
+    - FunGames.UserConsent.ATT.UnityATT.FGUnityATTSettings
+    - FunGames.UserConsent.ATTPrePopup.FGATTPrePopupManager
+    - FunGames.UserConsent.FGATTPrePopupSettings
+    - FunGames.UserConsent.FGATTSettings
+    - FunGames.UserConsent.FGGDPRSettings
+    - FunGames.UserConsent.FGUserConsentManager
+    - FunGames.UserConsent.FGUserConsentSettings
+    - FunGames.UserConsent.GDPR.CustomGDPR.FGCustomGDPR
+    - FunGames.UserConsent.GDPR.CustomGDPR.FGCustomGDPRSettings
+    - FunGames.UserConsent.GDPR.CustomGDPR.FGGdprDisplaySimpleWithSettings
+    - FunGames.UserConsent.GDPR.FGGDPRManager
+    - FunGames.UserConsent.GDPR.GoogleUMP.FGGoogleUMP
+    - FunGames.UserConsent.GDPR.GoogleUMP.FGGoogleUMPSettings
+    - GPlayPassManager
+    - GameAnalyticsSDK.Events.GA_SpecialEvents
+    - GameAnalyticsSDK.GameAnalytics
+    - GameAnalyticsSDK.Setup.Settings
+    - GiftWheelCard
+    - Golfer
+    - GreenMesh
+    - Hole
+    - HyperlinksTMP
+    - I2.Loc.CoroutineManager
+    - I2.Loc.LanguageSourceAsset
+    - I2.Loc.Localize
+    - I2.Loc.LocalizeTarget_UnityUI_Text
+    - I2.Loc.ResourceManager
+    - InputManager
+    - MeddiationDebugger
+    - MobileInputs
+    - MobileJoyPad.ShotArea
+    - Monitoring.FpsCounter
+    - MultiplierText
+    - PanelADPause
+    - PaperPlaneTools.AlertUnityUIAdapter
+    - PaperPlaneTools.RateBoxPrefabScript
+    - ParachuteSprite
+    - Pinpin.ApplicationManager
+    - Pinpin.GameAssets
+    - Pinpin.GameConfig
+    - Pinpin.GameDatas
+    - Pinpin.GameManager
+    - Pinpin.HighScoreFX
+    - Pinpin.InitScene.InitSceneManager
+    - Pinpin.Scene.MainScene.MainSceneManager
+    - Pinpin.Scene.MainScene.UI.CharacterUnlockPopup
+    - Pinpin.Scene.MainScene.UI.ChristmasPanel
+    - Pinpin.Scene.MainScene.UI.ClubHousePanel
+    - Pinpin.Scene.MainScene.UI.DailyVipPopup
+    - Pinpin.Scene.MainScene.UI.DayTimeToggle
+    - Pinpin.Scene.MainScene.UI.DebugPanel
+    - Pinpin.Scene.MainScene.UI.EndGamePanel
+    - Pinpin.Scene.MainScene.UI.FakeMainPanel
+    - Pinpin.Scene.MainScene.UI.GamePanel
+    - Pinpin.Scene.MainScene.UI.GiftWheelPanel
+    - Pinpin.Scene.MainScene.UI.GoldenBallPopup
+    - Pinpin.Scene.MainScene.UI.JackpotPanel
+    - Pinpin.Scene.MainScene.UI.LanguagePopup
+    - Pinpin.Scene.MainScene.UI.LeaveGamePopup
+    - Pinpin.Scene.MainScene.UI.MainPanel
+    - Pinpin.Scene.MainScene.UI.MainSceneUIManager
+    - Pinpin.Scene.MainScene.UI.NetworkAlertPopup
+    - Pinpin.Scene.MainScene.UI.NewSubscriptionPanel
+    - Pinpin.Scene.MainScene.UI.NewWorldPopup
+    - Pinpin.Scene.MainScene.UI.OfflineEarningNotificationPopup
+    - Pinpin.Scene.MainScene.UI.OfflineEarningsPopup
+    - Pinpin.Scene.MainScene.UI.OrbitPanel
+    - Pinpin.Scene.MainScene.UI.RatingPopup
+    - Pinpin.Scene.MainScene.UI.SettingsPanel
+    - Pinpin.Scene.MainScene.UI.ShopPanel
+    - Pinpin.Scene.MainScene.UI.SkinShopCardBall
+    - Pinpin.Scene.MainScene.UI.SkinShopCardCharacter
+    - Pinpin.Scene.MainScene.UI.SkinShopCardWorld
+    - Pinpin.Scene.MainScene.UI.SubscriptionPanel
+    - Pinpin.UI.BlackScreen
+    - Pinpin.UI.GDPRPopup
+    - Pinpin.UI.InformationPopup
+    - Pinpin.UI.LanguageButton
+    - Pinpin.UI.LoadingScreen
+    - Pinpin.UI.ProcessingPopup
+    - Pinpin.UI.PushButton
+    - Pinpin.UI.UIAbTest
+    - Pinpin.UI.UICurrencyUpdater
+    - Pinpin.UI.UIShopButton
+    - Pinpin.UI.VideoToVIPIconSwitch
+    - PlanetManager
+    - PlanetMesh
+    - PurchasingManagement.UnityPurchasingSettings
+    - QP_QATracker
+    - QP_QuietObject
+    - QuietFCM
+    - SafeArea
+    - ScreenShake
+    - ShopCard
+    - ShopCardHC
+    - SubscriptionCard
+    - SubscriptionDesign
+    - TransformRotation
+    - TutoThumbMovement
+    - UIImageFitter
+    - UIRotate
+    - UISettingsButton
+    - UISounds
+    - UpdateValue
+    - VarsManager
+    - VersionText
+    - WaterMesh
+    - WordAnimator
+    - WorldElement
+    - com.adjust.sdk.Adjust
+    DOTween.dll:
+    - DG.Tweening.Core.DOTweenSettings
+    Facebook.Unity.Settings.dll:
+    - Facebook.Unity.Settings.FacebookSettings
+    Gadsme.dll:
+    - Gadsme.GadsmeMeshSerializer
+    - Gadsme.GadsmePlacementBanner
+    - Gadsme.GadsmePreferences
+    GoogleMobileAds.Editor:
+    - GoogleMobileAds.Editor.GoogleMobileAdsSettings
+    IngameDebugConsole.Runtime.dll:
+    - IngameDebugConsole.DebugLogItem
+    - IngameDebugConsole.DebugLogManager
+    - IngameDebugConsole.DebugLogPopup
+    - IngameDebugConsole.DebugLogRecycledListView
+    - IngameDebugConsole.DebugLogResizeListener
+    - IngameDebugConsole.DebugsOnScrollListener
+    - IngameDebugConsole.EventSystemHandler
+    - IngameDebugConsole.InputFieldWarningsFixer
+    MaxSdk.Scripts.IntegrationManager.Editor:
+    - AppLovinSettings
+    MaxSdk.Scripts.dll:
+    - AppLovinMax.Internal.MaxEventExecutor
+    ParticleImage:
+    - AssetKits.ParticleImage.ParticleImage
+    ParticleImage.dll:
+    - AssetKits.ParticleImage.ParticleImage
+    RainbowFolders.dll:
+    - Borodar.RainbowFolders.ProjectRuleset
+    Unity.2D.Animation.Editor.dll:
+    - UnityEditor.U2D.Animation.BoneGizmo
+    Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
+    - UnityEngine.U2D.Animation.SpriteSkin
+    - UnityEngine.U2D.Animation.SpriteSkinComposite
+    - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
+    Unity.2D.IK.Editor.dll:
+    - UnityEditor.U2D.IK.IKEditorManager
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
+    - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.Mobile.AndroidLogcat.Editor.dll:
+    - Unity.Android.Logcat.AndroidLogcatManager
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI:
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Text
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.AspectRatioFitter
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.ToggleGroup
+    - UnityEngine.UI.VerticalLayoutGroup
+    revenuecat.purchases-unity.dll:
+    - Purchases
+  serializedClasses:
+    Adverty:
+    - Adverty5.PlatformSetting
+    AnzuUtilities:
+    - anzu.AnzuChannel
+    - anzu.AppSettings
+    Assembly-CSharp:
+    - AdjustLevelToken
+    - DaytimeMaterial/DayTime
+    - DebugElement
+    - FGAdUnit
+    - FunGames.Core.Modules.FGModuleInfo
+    - FunGames.MMP.AdjustLtvTracking.FGAdjustLtvEvent
+    - FunGames.MMP.AdjustMMP.FGAdImpressionEventTrigger
+    - FunGames.Monetization.IAP.FGProductType
+    - FunGames.RemoteConfig.FGRemoteConfigValue
+    - I2.Loc.EventCallback
+    - I2.Loc.LanguageData
+    - I2.Loc.LanguageSourceData
+    - I2.Loc.TermData
+    - MobileJoyPad.ShotArea/MoveEvent
+    - Pinpin.GameAssets/BallData
+    - Pinpin.GameAssets/GolferData
+    - Pinpin.GameAssets/IAPAsset
+    - Pinpin.GameAssets/ShopItemAsset
+    - Pinpin.GameAssets/WorldData
+    - Pinpin.GameConfig/AdsSettings
+    - Pinpin.GameConfig/ApplicationConfig
+    - Pinpin.GameConfig/GameSettings
+    - Pinpin.GameConfig/GameSettings/BallsCost
+    - Pinpin.GameConfig/GameSettings/IAP
+    - Pinpin.GameConfig/GameSettings/JackpotGain
+    - Pinpin.GameConfig/GameSettings/PowerBonuses
+    - Pinpin.GameConfig/GameSettings/PriceMultiplier
+    - Pinpin.GameConfig/GameSettings/WheelGift
+    - Pinpin.GameConfig/GameSettings/WheelGiftType
+    - Pinpin.GameDatas/PlayerPrefDatas
+    - Pinpin.GameDatas/SavedDatas
+    - Pinpin.UI.UIAbTest/SpriteToChange
+    - PlanetManager/Paralax
+    - TextResizer
+    - com.adjust.sdk.AdjustEnvironment
+    - com.adjust.sdk.AdjustLogLevel
+    - com.adjust.sdk.AdjustUrlStrategy
+    DOTween:
+    - DG.Tweening.Core.DOTweenSettings/ModulesSetup
+    - DG.Tweening.Core.DOTweenSettings/SafeModeOptions
+    Facebook.Unity.Settings:
+    - Facebook.Unity.Settings.FacebookSettings/UrlSchemes
+    Gadsme:
+    - Gadsme.GadsmeAdFormat
+    ParticleImage:
+    - AssetKits.ParticleImage.Module
+    - AssetKits.ParticleImage.SeparatedMinMaxCurve
+    - AssetKits.ParticleImage.SpeedRange
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    - UnityEngine.RectOffset
+    UnityEngine.ParticleSystemModule:
+    - UnityEngine.ParticleSystem/MinMaxCurve
+    - UnityEngine.ParticleSystem/MinMaxGradient
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Open_RemoveAds
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Open_RemoveAdsOffer
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Buy_No_Ads
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Buy_No_Ads
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Buy_No_Ads
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Buy_No_Ads
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Close_RemoveAdsOffer
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Close_RemoveAds
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: CheckInternetConnection
+  - assembly: IngameDebugConsole.Runtime
+    fullTypeName: IngameDebugConsole.DebugLogManager
+    methodName: ShowLogWindow
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: FGDebugConsoleBuilder
+    methodName: UpdateConsoleState
+  - assembly: IngameDebugConsole.Runtime
+    fullTypeName: IngameDebugConsole.DebugLogManager
+    methodName: HideLogWindow
+  - assembly: Assembly-CSharp
+    fullTypeName: FGDebugTrackingAutorizationExample
+    methodName: ShowATT
+  - assembly: Assembly-CSharp
+    fullTypeName: FGDebugTrackingAutorizationExample
+    methodName: ShowGDPR
+  - assembly: Assembly-CSharp
+    fullTypeName: FunGames.Tools.Debugging.FGDebugDefaultExample
+    methodName: ClearConsole
+  - assembly: Assembly-CSharp
+    fullTypeName: FunGames.Tools.Debugging.FGDebugDefaultExample
+    methodName: ClearConsole
+  - assembly: Assembly-CSharp
+    fullTypeName: FGDebugAnalyticsExample
+    methodName: ProgressionComplete
+  - assembly: Assembly-CSharp
+    fullTypeName: FGDebugAnalyticsExample
+    methodName: ProgressionDesign
+  - assembly: Assembly-CSharp
+    fullTypeName: FGDebugAnalyticsExample
+    methodName: ProgressionFail
+  - assembly: Assembly-CSharp
+    fullTypeName: FGDebugAnalyticsExample
+    methodName: ProgressionStart
+  - assembly: Assembly-CSharp
+    fullTypeName: FGDebugAnalyticsExample
+    methodName: ProgressionDesignDictionary
+  - assembly: Assembly-CSharp
+    fullTypeName: FGApplovinMaxExample
+    methodName: ShowBanner
+  - assembly: Assembly-CSharp
+    fullTypeName: FunGames.Tools.Debugging.FGDebugDefaultExample
+    methodName: ClearConsole
+  - assembly: Assembly-CSharp
+    fullTypeName: FGApplovinMaxExample
+    methodName: HideBanner
+  - assembly: Assembly-CSharp
+    fullTypeName: FGApplovinMaxExample
+    methodName: ShowRewarded
+  - assembly: Assembly-CSharp
+    fullTypeName: FGApplovinMaxExample
+    methodName: ShowInterstitial
+  - assembly: Assembly-CSharp
+    fullTypeName: FGApplovinMaxExample
+    methodName: ShowMaxDebugger
+  - assembly: Assembly-CSharp
+    fullTypeName: GPlayPassManager
+    methodName: BuyIAP
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Open_RemoveAds
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Open_RemoveAdsOffer
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: CheckInternetConnection
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Close_RemoveAds
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Close_RemoveAdsOffer
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Buy_No_Ads
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Buy_No_Ads
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Buy_No_Ads
+  - assembly: Assembly-CSharp
+    fullTypeName: QP_QuietObject
+    methodName: Buy_No_Ads
+  - assembly: Assembly-CSharp
+    fullTypeName: Pinpin.Scene.MainScene.UI.ClubHousePanel
+    methodName: GetRandomeChar
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Pinpin.Scene.MainScene.UI.ClubHousePanel
+    methodName: EnableRandomChar
+  - assembly: Assembly-CSharp
+    fullTypeName: Pinpin.UI.UIShopButton
+    methodName: RvUpgrade
+  - assembly: Assembly-CSharp
+    fullTypeName: PanelADPause
+    methodName: Collect
+  - assembly: Assembly-CSharp
+    fullTypeName: PanelADPause
+    methodName: TripleAction
+  - assembly: Assembly-CSharp
+    fullTypeName: Pinpin.Scene.MainScene.MainSceneManager
+    methodName: OpenVipPanel
+  - assembly: Assembly-CSharp
+    fullTypeName: Pinpin.UI.UIShopButton
+    methodName: RvUpgrade
+  - assembly: Assembly-CSharp
+    fullTypeName: PanelADPause
+    methodName: Collect
+  - assembly: Assembly-CSharp
+    fullTypeName: Pinpin.UI.UIShopButton
+    methodName: RvUpgrade
+  - assembly: Assembly-CSharp
+    fullTypeName: PanelADPause
+    methodName: TripleAction
+  sceneClasses:
+    Assets/GameAssets/Scenes/InitScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 62
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16842}
+    - Class: 114
+      Script: {instanceID: 16844}
+    - Class: 114
+      Script: {instanceID: 16846}
+    - Class: 114
+      Script: {instanceID: 16848}
+    - Class: 114
+      Script: {instanceID: 16850}
+    - Class: 114
+      Script: {instanceID: 16852}
+    - Class: 114
+      Script: {instanceID: 16854}
+    - Class: 114
+      Script: {instanceID: 16856}
+    - Class: 114
+      Script: {instanceID: 16862}
+    - Class: 114
+      Script: {instanceID: 16870}
+    - Class: 114
+      Script: {instanceID: 16996}
+    - Class: 114
+      Script: {instanceID: 17018}
+    - Class: 114
+      Script: {instanceID: 17180}
+    - Class: 114
+      Script: {instanceID: 17208}
+    - Class: 114
+      Script: {instanceID: 17270}
+    - Class: 114
+      Script: {instanceID: 17348}
+    - Class: 114
+      Script: {instanceID: 17610}
+    - Class: 114
+      Script: {instanceID: 17690}
+    - Class: 114
+      Script: {instanceID: 17712}
+    - Class: 114
+      Script: {instanceID: 17714}
+    - Class: 114
+      Script: {instanceID: 17848}
+    - Class: 114
+      Script: {instanceID: 18012}
+    - Class: 114
+      Script: {instanceID: 18216}
+    - Class: 114
+      Script: {instanceID: 18228}
+    - Class: 114
+      Script: {instanceID: 18336}
+    - Class: 114
+      Script: {instanceID: 18380}
+    - Class: 114
+      Script: {instanceID: 18446}
+    - Class: 114
+      Script: {instanceID: 18450}
+    - Class: 114
+      Script: {instanceID: 18494}
+    - Class: 114
+      Script: {instanceID: 18534}
+    - Class: 114
+      Script: {instanceID: 18542}
+    - Class: 114
+      Script: {instanceID: 18612}
+    - Class: 114
+      Script: {instanceID: 18668}
+    - Class: 114
+      Script: {instanceID: 18678}
+    - Class: 114
+      Script: {instanceID: 18782}
+    - Class: 114
+      Script: {instanceID: 18792}
+    - Class: 114
+      Script: {instanceID: 18832}
+    - Class: 114
+      Script: {instanceID: 18852}
+    - Class: 114
+      Script: {instanceID: 18902}
+    - Class: 114
+      Script: {instanceID: 18928}
+    - Class: 114
+      Script: {instanceID: 18970}
+    - Class: 114
+      Script: {instanceID: 19010}
+    - Class: 114
+      Script: {instanceID: 19092}
+    - Class: 114
+      Script: {instanceID: 19132}
+    - Class: 114
+      Script: {instanceID: 19172}
+    - Class: 114
+      Script: {instanceID: 19208}
+    - Class: 114
+      Script: {instanceID: 19230}
+    - Class: 114
+      Script: {instanceID: 19238}
+    - Class: 114
+      Script: {instanceID: 19300}
+    - Class: 114
+      Script: {instanceID: 19360}
+    - Class: 114
+      Script: {instanceID: 19416}
+    - Class: 114
+      Script: {instanceID: 19480}
+    - Class: 114
+      Script: {instanceID: 19658}
+    - Class: 114
+      Script: {instanceID: 19686}
+    - Class: 114
+      Script: {instanceID: 19702}
+    - Class: 114
+      Script: {instanceID: 19738}
+    - Class: 114
+      Script: {instanceID: 19904}
+    - Class: 114
+      Script: {instanceID: 19998}
+    - Class: 114
+      Script: {instanceID: 20048}
+    - Class: 114
+      Script: {instanceID: 20164}
+    - Class: 114
+      Script: {instanceID: 20276}
+    - Class: 114
+      Script: {instanceID: 20356}
+    - Class: 114
+      Script: {instanceID: 20368}
+    - Class: 114
+      Script: {instanceID: 20376}
+    - Class: 114
+      Script: {instanceID: 20380}
+    - Class: 114
+      Script: {instanceID: 20410}
+    - Class: 114
+      Script: {instanceID: 20466}
+    - Class: 114
+      Script: {instanceID: 20494}
+    - Class: 114
+      Script: {instanceID: 20568}
+    - Class: 114
+      Script: {instanceID: 20742}
+    - Class: 114
+      Script: {instanceID: 20752}
+    - Class: 114
+      Script: {instanceID: 20788}
+    - Class: 114
+      Script: {instanceID: 20844}
+    - Class: 114
+      Script: {instanceID: 20856}
+    - Class: 114
+      Script: {instanceID: 20872}
+    - Class: 114
+      Script: {instanceID: 20874}
+    - Class: 114
+      Script: {instanceID: 20890}
+    - Class: 114
+      Script: {instanceID: 20898}
+    - Class: 114
+      Script: {instanceID: 20946}
+    - Class: 114
+      Script: {instanceID: 20970}
+    - Class: 114
+      Script: {instanceID: 21044}
+    - Class: 114
+      Script: {instanceID: 21162}
+    - Class: 114
+      Script: {instanceID: 21182}
+    - Class: 114
+      Script: {instanceID: 21198}
+    - Class: 114
+      Script: {instanceID: 21290}
+    - Class: 114
+      Script: {instanceID: 21338}
+    - Class: 114
+      Script: {instanceID: 21388}
+    - Class: 114
+      Script: {instanceID: 21408}
+    - Class: 114
+      Script: {instanceID: 21418}
+    - Class: 114
+      Script: {instanceID: 21420}
+    - Class: 114
+      Script: {instanceID: 21486}
+    - Class: 114
+      Script: {instanceID: 21514}
+    - Class: 114
+      Script: {instanceID: 21524}
+    - Class: 114
+      Script: {instanceID: 21614}
+    - Class: 114
+      Script: {instanceID: 21644}
+    - Class: 114
+      Script: {instanceID: 21648}
+    - Class: 114
+      Script: {instanceID: 21720}
+    - Class: 114
+      Script: {instanceID: 21832}
+    - Class: 114
+      Script: {instanceID: 21862}
+    - Class: 114
+      Script: {instanceID: 21884}
+    - Class: 114
+      Script: {instanceID: 21976}
+    - Class: 114
+      Script: {instanceID: 22234}
+    - Class: 114
+      Script: {instanceID: 22274}
+    - Class: 114
+      Script: {instanceID: 22278}
+    - Class: 114
+      Script: {instanceID: 22454}
+    - Class: 114
+      Script: {instanceID: 22600}
+    - Class: 114
+      Script: {instanceID: 22634}
+    - Class: 114
+      Script: {instanceID: 22734}
+    - Class: 114
+      Script: {instanceID: 22772}
+    - Class: 114
+      Script: {instanceID: 22780}
+    - Class: 114
+      Script: {instanceID: 22804}
+    - Class: 114
+      Script: {instanceID: 22844}
+    - Class: 114
+      Script: {instanceID: 22856}
+    - Class: 114
+      Script: {instanceID: 23008}
+    - Class: 114
+      Script: {instanceID: 23064}
+    - Class: 114
+      Script: {instanceID: 23250}
+    - Class: 114
+      Script: {instanceID: 23274}
+    - Class: 114
+      Script: {instanceID: 23290}
+    - Class: 114
+      Script: {instanceID: 23364}
+    - Class: 114
+      Script: {instanceID: 23392}
+    - Class: 114
+      Script: {instanceID: 23418}
+    - Class: 114
+      Script: {instanceID: 23432}
+    - Class: 114
+      Script: {instanceID: 23486}
+    - Class: 114
+      Script: {instanceID: 23642}
+    - Class: 114
+      Script: {instanceID: 23822}
+    - Class: 114
+      Script: {instanceID: 23828}
+    - Class: 114
+      Script: {instanceID: 23846}
+    - Class: 114
+      Script: {instanceID: 24024}
+    - Class: 114
+      Script: {instanceID: 24038}
+    - Class: 114
+      Script: {instanceID: 24118}
+    - Class: 114
+      Script: {instanceID: 24272}
+    - Class: 114
+      Script: {instanceID: 24388}
+    - Class: 114
+      Script: {instanceID: 24428}
+    - Class: 114
+      Script: {instanceID: 24430}
+    - Class: 114
+      Script: {instanceID: 24448}
+    - Class: 114
+      Script: {instanceID: 24470}
+    - Class: 114
+      Script: {instanceID: 24588}
+    - Class: 114
+      Script: {instanceID: 24614}
+    - Class: 114
+      Script: {instanceID: 24630}
+    - Class: 114
+      Script: {instanceID: 24734}
+    - Class: 114
+      Script: {instanceID: 24814}
+    - Class: 114
+      Script: {instanceID: 24836}
+    - Class: 114
+      Script: {instanceID: 25208}
+    - Class: 114
+      Script: {instanceID: 25298}
+    - Class: 114
+      Script: {instanceID: 25378}
+    - Class: 114
+      Script: {instanceID: 25474}
+    - Class: 114
+      Script: {instanceID: 25516}
+    - Class: 114
+      Script: {instanceID: 25528}
+    - Class: 114
+      Script: {instanceID: 25546}
+    - Class: 114
+      Script: {instanceID: 25632}
+    - Class: 114
+      Script: {instanceID: 25680}
+    - Class: 114
+      Script: {instanceID: 25786}
+    - Class: 114
+      Script: {instanceID: 25798}
+    - Class: 114
+      Script: {instanceID: 25856}
+    - Class: 114
+      Script: {instanceID: 25928}
+    - Class: 114
+      Script: {instanceID: 25944}
+    - Class: 114
+      Script: {instanceID: 26040}
+    - Class: 114
+      Script: {instanceID: 33828}
+    - Class: 114
+      Script: {instanceID: 522328}
+    - Class: 114
+      Script: {instanceID: 522492}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 687078895
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/GameAssets/Scenes/MainScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 62
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16842}
+    - Class: 114
+      Script: {instanceID: 16844}
+    - Class: 114
+      Script: {instanceID: 16846}
+    - Class: 114
+      Script: {instanceID: 16848}
+    - Class: 114
+      Script: {instanceID: 16850}
+    - Class: 114
+      Script: {instanceID: 16854}
+    - Class: 114
+      Script: {instanceID: 16856}
+    - Class: 114
+      Script: {instanceID: 16858}
+    - Class: 114
+      Script: {instanceID: 16862}
+    - Class: 114
+      Script: {instanceID: 16970}
+    - Class: 114
+      Script: {instanceID: 16978}
+    - Class: 114
+      Script: {instanceID: 17180}
+    - Class: 114
+      Script: {instanceID: 17208}
+    - Class: 114
+      Script: {instanceID: 17260}
+    - Class: 114
+      Script: {instanceID: 17348}
+    - Class: 114
+      Script: {instanceID: 17410}
+    - Class: 114
+      Script: {instanceID: 17460}
+    - Class: 114
+      Script: {instanceID: 17528}
+    - Class: 114
+      Script: {instanceID: 17606}
+    - Class: 114
+      Script: {instanceID: 17788}
+    - Class: 114
+      Script: {instanceID: 17850}
+    - Class: 114
+      Script: {instanceID: 17858}
+    - Class: 114
+      Script: {instanceID: 18054}
+    - Class: 114
+      Script: {instanceID: 18336}
+    - Class: 114
+      Script: {instanceID: 18612}
+    - Class: 114
+      Script: {instanceID: 18698}
+    - Class: 114
+      Script: {instanceID: 18954}
+    - Class: 114
+      Script: {instanceID: 19000}
+    - Class: 114
+      Script: {instanceID: 19208}
+    - Class: 114
+      Script: {instanceID: 19268}
+    - Class: 114
+      Script: {instanceID: 19350}
+    - Class: 114
+      Script: {instanceID: 19356}
+    - Class: 114
+      Script: {instanceID: 19558}
+    - Class: 114
+      Script: {instanceID: 19586}
+    - Class: 114
+      Script: {instanceID: 19650}
+    - Class: 114
+      Script: {instanceID: 19660}
+    - Class: 114
+      Script: {instanceID: 19710}
+    - Class: 114
+      Script: {instanceID: 19756}
+    - Class: 114
+      Script: {instanceID: 19920}
+    - Class: 114
+      Script: {instanceID: 20008}
+    - Class: 114
+      Script: {instanceID: 20060}
+    - Class: 114
+      Script: {instanceID: 20128}
+    - Class: 114
+      Script: {instanceID: 20284}
+    - Class: 114
+      Script: {instanceID: 20320}
+    - Class: 114
+      Script: {instanceID: 20410}
+    - Class: 114
+      Script: {instanceID: 20412}
+    - Class: 114
+      Script: {instanceID: 20434}
+    - Class: 114
+      Script: {instanceID: 20646}
+    - Class: 114
+      Script: {instanceID: 20656}
+    - Class: 114
+      Script: {instanceID: 20898}
+    - Class: 114
+      Script: {instanceID: 20950}
+    - Class: 114
+      Script: {instanceID: 21090}
+    - Class: 114
+      Script: {instanceID: 21202}
+    - Class: 114
+      Script: {instanceID: 21218}
+    - Class: 114
+      Script: {instanceID: 21290}
+    - Class: 114
+      Script: {instanceID: 21410}
+    - Class: 114
+      Script: {instanceID: 21826}
+    - Class: 114
+      Script: {instanceID: 21860}
+    - Class: 114
+      Script: {instanceID: 21886}
+    - Class: 114
+      Script: {instanceID: 21954}
+    - Class: 114
+      Script: {instanceID: 22098}
+    - Class: 114
+      Script: {instanceID: 22144}
+    - Class: 114
+      Script: {instanceID: 22158}
+    - Class: 114
+      Script: {instanceID: 22208}
+    - Class: 114
+      Script: {instanceID: 22274}
+    - Class: 114
+      Script: {instanceID: 22312}
+    - Class: 114
+      Script: {instanceID: 22478}
+    - Class: 114
+      Script: {instanceID: 22480}
+    - Class: 114
+      Script: {instanceID: 22490}
+    - Class: 114
+      Script: {instanceID: 22492}
+    - Class: 114
+      Script: {instanceID: 22664}
+    - Class: 114
+      Script: {instanceID: 22776}
+    - Class: 114
+      Script: {instanceID: 22892}
+    - Class: 114
+      Script: {instanceID: 22950}
+    - Class: 114
+      Script: {instanceID: 23010}
+    - Class: 114
+      Script: {instanceID: 23104}
+    - Class: 114
+      Script: {instanceID: 23354}
+    - Class: 114
+      Script: {instanceID: 23418}
+    - Class: 114
+      Script: {instanceID: 23432}
+    - Class: 114
+      Script: {instanceID: 23444}
+    - Class: 114
+      Script: {instanceID: 23838}
+    - Class: 114
+      Script: {instanceID: 23918}
+    - Class: 114
+      Script: {instanceID: 23932}
+    - Class: 114
+      Script: {instanceID: 24038}
+    - Class: 114
+      Script: {instanceID: 24040}
+    - Class: 114
+      Script: {instanceID: 24128}
+    - Class: 114
+      Script: {instanceID: 24218}
+    - Class: 114
+      Script: {instanceID: 24278}
+    - Class: 114
+      Script: {instanceID: 24318}
+    - Class: 114
+      Script: {instanceID: 24428}
+    - Class: 114
+      Script: {instanceID: 24454}
+    - Class: 114
+      Script: {instanceID: 24826}
+    - Class: 114
+      Script: {instanceID: 24882}
+    - Class: 114
+      Script: {instanceID: 25182}
+    - Class: 114
+      Script: {instanceID: 25528}
+    - Class: 114
+      Script: {instanceID: 25612}
+    - Class: 114
+      Script: {instanceID: 25614}
+    - Class: 114
+      Script: {instanceID: 25642}
+    - Class: 114
+      Script: {instanceID: 25702}
+    - Class: 114
+      Script: {instanceID: 25744}
+    - Class: 114
+      Script: {instanceID: 25754}
+    - Class: 114
+      Script: {instanceID: 25938}
+    - Class: 114
+      Script: {instanceID: 25942}
+    - Class: 114
+      Script: {instanceID: 26066}
+    - Class: 114
+      Script: {instanceID: 26110}
+    - Class: 114
+      Script: {instanceID: 76244}
+    - Class: 114
+      Script: {instanceID: 207780}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 687078895
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 7ec40387c8d009532e80ab57eca395d0
+    assemblyName: AnzuUnity.dll
+    namespaceName: anzu
+    className: AnzuAd
+  - hash:
+      serializedVersion: 2
+      Hash: 67f2e533bbfe68206e21fd8cf233561c
+    assemblyName: UnityEngine.SpatialTracking
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 3a4076ae49aa4c01c4e00dc0fdf012e8
+    assemblyName: AnzuUnity.dll
+    namespaceName: anzu
+    className: AnzuMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0e654444655ef62820f9476a31dcfab8
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: InitializeFromAppSettingsSO
+  - hash:
+      serializedVersion: 2
+      Hash: 1d6f0322f1444beed11356fe1e442274
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CollisionEventDispatch
+  - hash:
+      serializedVersion: 2
+      Hash: 40bdadcd1cc14ab9d74347f31c1d4dd2
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 7f66ad52fa9019c9ccf7c782f3cbc106
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_SpriteRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 3f5d504ed34e601a4a1772b320db1ce8
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax
+    className: FGMediationMaxMrecAd
+  - hash:
+      serializedVersion: 2
+      Hash: 8500400dc0bacb9fddd9761dfbdd2580
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MeddiationDebugger
+  - hash:
+      serializedVersion: 2
+      Hash: 7e16403b54321c76403025d873693c88
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene
+    className: MainSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: d75df0b83c74ab3d9088964ef8188507
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: a9165eeda64f31de15ebc1fbda8ee6cf
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Tools.Debugging
+    className: FGDebugDefaultExample
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4e5f3087d3d5e320d8c93748a37b9451
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_MeshRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 479e432792005b1c1bbed57f039d2fe1
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: LogView
+  - hash:
+      serializedVersion: 2
+      Hash: 8c7e5651ec4a51561ce0984ea981876b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScreenshotTaker
+  - hash:
+      serializedVersion: 2
+      Hash: 04f60421828152719e13a3f249cd7772
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InputSystemWarning
+  - hash:
+      serializedVersion: 2
+      Hash: 7e741b8f20ba49d93daddcb465bc694f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BugReportingConfigureOnly
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: d6a7d1c88a7ff715a5a29f9a8f51595d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Golfer
+  - hash:
+      serializedVersion: 2
+      Hash: cdf3cb6a45c716a59e72a1f0a2614bd3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SubscriptionCard
+  - hash:
+      serializedVersion: 2
+      Hash: fdc33d127d62880aadfab64f2f606d0c
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Core.Utils
+    className: FGTMPProText
+  - hash:
+      serializedVersion: 2
+      Hash: 96624268bb256bdec8ac624c700a1aca
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AppstoreTestScene
+  - hash:
+      serializedVersion: 2
+      Hash: ed46a705be2c5f31175a73f7ab2743a9
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Adverty
+    className: FGAdvertyPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: 7dd244ce4a356139bb1b8b98d0e1d204
+    assemblyName: Assembly-CSharp
+    namespaceName: GameAnalyticsSDK
+    className: GameAnalytics
+  - hash:
+      serializedVersion: 2
+      Hash: 383a0cb71212e9c80032319a10f5ccdd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PurchaseRowPrefab
+  - hash:
+      serializedVersion: 2
+      Hash: 49ae7f4ab86f75a744120f4344e81cd6
+    assemblyName: Unity.Notifications.Android
+    namespaceName: Unity.Notifications.Android
+    className: AndroidReceivedNotificationMainThreadDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 746314f2d827f3441752e2ae74005929
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AdUnitAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: 26e19db09d2656cec7c76a52df25035a
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: SkinShopCardWorld
+  - hash:
+      serializedVersion: 2
+      Hash: 86cee613cacd6946a35caddc0b56d67d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIImageFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1d433b41b414bffab5b9d886a8ab6ece
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax
+    className: FGMediationMaxInterstitialAd
+  - hash:
+      serializedVersion: 2
+      Hash: 059b4f90ea3adae9d85f990407baf145
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Diamond
+  - hash:
+      serializedVersion: 2
+      Hash: 17fd81fb0ffbacb6c184b763332b4cb9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsLogsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7ccb67c4f92e84617cfdaa18296be0f9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsA2UNotificationsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 15970c967bbf04e469650201856990c0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScreenShake
+  - hash:
+      serializedVersion: 2
+      Hash: 2ac9401eeadb3ff5b3c08cb5563cd2a8
+    assemblyName: ParticleImage
+    namespaceName: AssetKits.ParticleImage
+    className: ParticleImage
+  - hash:
+      serializedVersion: 2
+      Hash: 2d6f32f8bc93fd105e21709dce7ab9eb
+    assemblyName: Assembly-CSharp
+    namespaceName: CustomLogger
+    className: FileLogger
+  - hash:
+      serializedVersion: 2
+      Hash: caea6c7a135e2bb2087d2239e3acb9bf
+    assemblyName: IngameDebugConsole.Runtime
+    namespaceName: IngameDebugConsole
+    className: InputFieldWarningsFixer
+  - hash:
+      serializedVersion: 2
+      Hash: 741a4759b6665f67235ee5f27dd7ec44
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Analytics.GA
+    className: FGGameAnalyticsSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 0c6de72eaf8c1070da824268c4bfad9d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: fb5820a9617b95dee93e3c8e7256bada
+    assemblyName: ParticleImage
+    namespaceName: AssetKits.ParticleImage
+    className: ParticleTrailRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 7e93247d600e115dac0cdd880de94e99
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 07141e34197c03ea12b06d538000e00b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OdeeoManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2a118c90f3289e80f3743f822d0da9e3
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: OrbitPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 5ca260cdb5ce9abb99f8375aae90d880
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: AutoInitializeAznuCore
+  - hash:
+      serializedVersion: 2
+      Hash: cdc56159e3ea51b9f9282e5789235efb
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.RemoteConfig.TNRemoteConfig
+    className: FGTNRemoteConfigSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 2083279ef3b87ec1cbc9d92c27924f5b
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: GDPRPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 0b435a56320498cf795ef274d818e069
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISettingsButton
+  - hash:
+      serializedVersion: 2
+      Hash: da55c96f4c9d6c109ce8b17e7c8843ea
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIInputHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 35c85cf3e485ff76c71d4e1ed0c94e86
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsVirtualGamepadManager
+  - hash:
+      serializedVersion: 2
+      Hash: 674f22ab166efb9fbd2bbc5a88542c7e
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: ec59bc56f69d3d13d1fc9d3e087fb56d
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SkeletonAsset
+  - hash:
+      serializedVersion: 2
+      Hash: abcf7f9dcd38df1a92340816a23f13c8
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.GDPR.CustomGDPR
+    className: FGGdprDisplaySimpleWithSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 10d560bd229e622f21aec60cdc190d0b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PanelADPause
+  - hash:
+      serializedVersion: 2
+      Hash: b9d5fcc4d364a52e7b776596f201b0c2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UnityLogSaver
+  - hash:
+      serializedVersion: 2
+      Hash: ccc308991a95c8c71ff08d2bc85da0e8
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: AppRequests
+  - hash:
+      serializedVersion: 2
+      Hash: d16be595aacf08d4c8ff9ab4a51ff034
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.RemoteConfig
+    className: FGRemoteConfigManager
+  - hash:
+      serializedVersion: 2
+      Hash: dade56b31370d06dfc60a54aaaec4b98
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax
+    className: FGMediationMaxAppOpenAd
+  - hash:
+      serializedVersion: 2
+      Hash: 27dc773e7c90c2967a0b505cb310f937
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin
+    className: GameAssets
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 52db48e3be0a2b4f8b06f918fd1ebfbc
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bf6c7e03d1eb6fe1bcd9e3c70ee28bf7
+    assemblyName: Assembly-CSharp
+    namespaceName: Adverty5
+    className: FGAdvertyLoader
+  - hash:
+      serializedVersion: 2
+      Hash: d186b99626e2e880827df45dbc93419f
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizationParamsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5814b619178217d31c9acf1cdb896fd1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsGraphAPIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7625d4fc51c7e23948ef76f7e094b717
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: SetConsent
+  - hash:
+      serializedVersion: 2
+      Hash: 4b022076b4ccdfeeac7d109f70ef7b0c
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.ATT.UnityATT
+    className: FGUnityATT
+  - hash:
+      serializedVersion: 2
+      Hash: 4d785c2947ccffba5336310c80e5b09a
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LanguageSourceAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a1f45a119d80aa50e6ca5c0904466b96
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Analytics.FirebaseA
+    className: FGFirebaseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 3b3ceff203ba63b65653a00967a9141a
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: ToggleLanguage
+  - hash:
+      serializedVersion: 2
+      Hash: 57946b6aa1d2bde92f50b994635217e8
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP
+    className: FGMMPManager
+  - hash:
+      serializedVersion: 2
+      Hash: ea881f97e50992f8379ba79384c998e0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGDebugAnalyticsExample
+  - hash:
+      serializedVersion: 2
+      Hash: 6ddf94363c6ce4b02d9fdd51290cb0f9
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 4ee0ba0cb6d914a01ad2770a7b02b8ca
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: SetLanguage
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 16879450ec10da541567b7b38d89f914
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AdjustEventManager
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 80aeb876b0e95f6256bbfcbf33e26e84
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: LimbSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 8e2fc3129978d9ef321276bbbee5767f
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: ClubHousePanel
+  - hash:
+      serializedVersion: 2
+      Hash: bf40c7a9dc15bc219687c9838aa9b41f
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: c8db265119accc9590ba46b7b51f782f
+    assemblyName: GoogleMobileAds.Common.dll
+    namespaceName: GoogleMobileAds.Common
+    className: AppStateEventClient
+  - hash:
+      serializedVersion: 2
+      Hash: fc5b41ebef3d232fec980ab152130671
+    assemblyName: GoogleMobileAds.Common.dll
+    namespaceName: GoogleMobileAds.Common
+    className: MobileAdsEventExecutor
+  - hash:
+      serializedVersion: 2
+      Hash: 62ba0f20c62e33f2d726f798ecab1202
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.GDPR.CustomGDPR
+    className: FGCustomGDPR
+  - hash:
+      serializedVersion: 2
+      Hash: da4a351095e39827a664f84913548955
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.IAP.Revenuecat
+    className: FGRevenuecat
+  - hash:
+      serializedVersion: 2
+      Hash: dc23e38c9f7e1197fbdeb8d15e9b5651
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: AdEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 0095fb4425b7b60fb88efd87777643be
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_TextMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 763022d1bb0a6c98939ae6fc95d186e3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGVersionText
+  - hash:
+      serializedVersion: 2
+      Hash: 25620a7c48604cdf62bb9499d0b1ef22
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.IAP
+    className: FGIAPSettings
+  - hash:
+      serializedVersion: 2
+      Hash: ae77b178e28efbc521d399a1f70476bd
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: CallbackNotification
+  - hash:
+      serializedVersion: 2
+      Hash: 3466053099d7dfd27de7e5d8eb7c7174
+    assemblyName: Assembly-CSharp
+    namespaceName: com.adjust.sdk
+    className: Adjust
+  - hash:
+      serializedVersion: 2
+      Hash: 89d9428f6d4560b4dba8f47f50572aad
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGApplovinMaxExample
+  - hash:
+      serializedVersion: 2
+      Hash: 1b8577d8a2978cac8b5fda9885045d3d
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: UIAbTest
+  - hash:
+      serializedVersion: 2
+      Hash: ff442a6641e0d09db1d1813639f635aa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsPurchaseManager
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a5f52e289070cca28d53aa2d26bf266a
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: Bone
+  - hash:
+      serializedVersion: 2
+      Hash: 973715a9bd0134ba736753cf51984433
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityUI_RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: d18ccf6675ed72e402fc4d391571b364
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Ball
+  - hash:
+      serializedVersion: 2
+      Hash: 3c00712d46f3a1d0608394a9366ed429
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: QP_QATracker
+  - hash:
+      serializedVersion: 2
+      Hash: 49d771c151a393c3e6ae8ab780b51bb0
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Anzu
+    className: FGAnzuClickablePlacement
+  - hash:
+      serializedVersion: 2
+      Hash: 677edcfccd01da728aeb4b727a5c77c8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AppstoreHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 85092248d699bd6de41bc92cdc2fba04
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGDebugTrackingAutorizationExample
+  - hash:
+      serializedVersion: 2
+      Hash: 06c26aedaa1223176af3efbefe6b7361
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EditorAdUnit
+  - hash:
+      serializedVersion: 2
+      Hash: 921a44ea626c710bf7a985c576e3491c
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Analytics.GA
+    className: FGGameAnalytics
+  - hash:
+      serializedVersion: 2
+      Hash: 3ef2db09d47122b28d3c8d545800a23d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UniClipboardExample
+  - hash:
+      serializedVersion: 2
+      Hash: 7de9b640073f8b824bdf146077f7f537
+    assemblyName: IngameDebugConsole.Runtime
+    namespaceName: IngameDebugConsole
+    className: DebugsOnScrollListener
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 0cd77b8a4ed668e3727c83bd85da63a4
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP.AdjustMMP
+    className: FGAdjustSettings
+  - hash:
+      serializedVersion: 2
+      Hash: a87593c9a2e2749d064789f35a182a16
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WaterMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 213c22be9f3140dc87631ed18a312057
+    assemblyName: Assembly-CSharp
+    namespaceName: PaperPlaneTools
+    className: AlertUnityUIAdapter
+  - hash:
+      serializedVersion: 2
+      Hash: ce7f061e6f7e39b27e5a1956554b53af
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: UploadToMediaLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 8e1ae2814d4d62fe0afe4a7cb5a34dab
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin
+    className: GameDatas
+  - hash:
+      serializedVersion: 2
+      Hash: 6cc77b2d0d527412ce12ba3a7a1ce320
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: GadsmeMeshSerializer
+  - hash:
+      serializedVersion: 2
+      Hash: 2052e40f5cea7e6c19d104a1f0fc71bb
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: GadsmePlacement
+  - hash:
+      serializedVersion: 2
+      Hash: 77804732ece1543d4b867a305ac7f8c5
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: GadsmePlacementAudio
+  - hash:
+      serializedVersion: 2
+      Hash: c598ba71fee8d23e60b5f1b9c6560af9
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: GadsmePlacementBanner
+  - hash:
+      serializedVersion: 2
+      Hash: 8be23e1a659337d2abc64d3bffe6a8b5
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: GadsmePlacementVideo
+  - hash:
+      serializedVersion: 2
+      Hash: a84b9598677d19abfb394bf32c74119c
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: GadsmePreferences
+  - hash:
+      serializedVersion: 2
+      Hash: 187117b1681711651d417eee3fe5b4eb
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: GadsmeRawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 91ac2ebd95b7e35aa32cb4664e935282
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: GadsmeVisibilityDebug
+  - hash:
+      serializedVersion: 2
+      Hash: baba655bd44baa0aad061c566cd0870e
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: T5dc23e3_6
+  - hash:
+      serializedVersion: 2
+      Hash: 726d806db1f7245561ff02828b690c32
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: T5dc23e3_18
+  - hash:
+      serializedVersion: 2
+      Hash: fc30052ec69d116b352909e97a263b64
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: T5dc23e3_19
+  - hash:
+      serializedVersion: 2
+      Hash: 7ee482526f17a662cae2d48b4660123b
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: T5dc23e3_29
+  - hash:
+      serializedVersion: 2
+      Hash: 204ffacf5661e8d337b49da4a14e71f6
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: T5dc23e3_40
+  - hash:
+      serializedVersion: 2
+      Hash: 9541120c9179fd892923b2e0b1cc1d9f
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: T5dc23e3_41
+  - hash:
+      serializedVersion: 2
+      Hash: f10eeb0ef74225d97ae772d36f7be962
+    assemblyName: Gadsme.dll
+    namespaceName: Gadsme
+    className: T5dc23e3_45
+  - hash:
+      serializedVersion: 2
+      Hash: c822947287501d79e085d44a6aa30042
+    assemblyName: Assembly-CSharp
+    namespaceName: CustomLogger
+    className: GUILogger
+  - hash:
+      serializedVersion: 2
+      Hash: 476f1cc8143d7fb90cef4d07603ba3e2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SettingsMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 5b8b7230ad968399f6726aa1269dcdcb
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 2a4bf9bfa4fc85b7c3fd76767f844af6
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 4f1dec93fa2a0b0e7b8b47518da31b1c
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 3ffa7b5ecd7a080f6f4d0bfd4721a3d6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: APSDemo
+  - hash:
+      serializedVersion: 2
+      Hash: d382a9ec908ecb89e89510f5138ebace
+    assemblyName: UnityEngine.Purchasing.Codeless
+    namespaceName: UnityEngine.Purchasing
+    className: CodelessIAPButton
+  - hash:
+      serializedVersion: 2
+      Hash: 5cee3271cb722b482ff8927739e9370e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SubscriptionDesign
+  - hash:
+      serializedVersion: 2
+      Hash: 6179e3d0bfd65b7902949ce1029e54ab
+    assemblyName: AdvertyExample
+    namespaceName: Adverty5.Examples
+    className: AdReceivingValidation
+  - hash:
+      serializedVersion: 2
+      Hash: 9421ac528532dde1004912cff8c8f822
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: GiftWheelPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 960935b102b3064f4b924de16426e340
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 11a94103a8302083f9871465bd37f06b
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: DoublePress
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: fc8b9ce0b476dd7dd62fc20101b88e56
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: SkinShopCardCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: 68f3eeb5c44d7ccc2a0fc425ad3c6503
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Hole
+  - hash:
+      serializedVersion: 2
+      Hash: bf9fbf0e97aaf5f39ca0e2b09c2a55b9
+    assemblyName: Assembly-CSharp
+    namespaceName: MobileJoyPad
+    className: ShotArea
+  - hash:
+      serializedVersion: 2
+      Hash: 05882f72f414cfec845b3461666d6083
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.Gadsme
+    className: FGGadsmeSDKInitializer
+  - hash:
+      serializedVersion: 2
+      Hash: 9c9867c6999766932eccb5beba8a83f6
+    assemblyName: revenuecat.purchases-unity
+    namespaceName: 
+    className: Purchases
+  - hash:
+      serializedVersion: 2
+      Hash: 0e98d21bbe6f8bedaa604686af2684a2
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.ATT.UnityATT
+    className: FGUnityATTSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 623cf0df22590d6b805eee6cb52fc875
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: LanguageButton
+  - hash:
+      serializedVersion: 2
+      Hash: 62c516306d2ca8d09cce8d863ebd5c30
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds
+    className: FGIGAdsManager
+  - hash:
+      serializedVersion: 2
+      Hash: b13fbedda06ee9c0de1a20b14542a9b3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WordAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: c0818a9b61cffa01d599c240f153742c
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.SimpleAndroidNotifications
+    className: NotificationExample
+  - hash:
+      serializedVersion: 2
+      Hash: 3a7c37146bfb71b67407951ceeab465f
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_TextMeshPro_Label
+  - hash:
+      serializedVersion: 2
+      Hash: 67e21a2524d4d8da36cc44c6c2c6f415
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Anzu
+    className: FGAnzuPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0be8ec6695882aa6be366eed2c3b459b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlanetMesh
+  - hash:
+      serializedVersion: 2
+      Hash: fd291ed3cb48a23c70a7c942d3fd5531
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: GoldenBallPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 77db045e1e2846c0c17dafd3341b6f43
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Gadsme
+    className: FGGadsmeCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 55a9f48d9c1f657ab0590998481aebab
+    assemblyName: IngameDebugConsole.Runtime
+    namespaceName: IngameDebugConsole
+    className: DebugLogItem
+  - hash:
+      serializedVersion: 2
+      Hash: d5ba6cfc94ba694ec9ec9ec3d96e038e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsLoginManager
+  - hash:
+      serializedVersion: 2
+      Hash: e9bee737050e37e08debb6b5a3d68f24
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: EmptyMedia
+  - hash:
+      serializedVersion: 2
+      Hash: 94bbfc35a25ab499c98040f4b6501973
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: RatingPopup
+  - hash:
+      serializedVersion: 2
+      Hash: a5cc26e480dac80500df3bc9cacb18c9
+    assemblyName: IngameDebugConsole.Runtime
+    namespaceName: IngameDebugConsole
+    className: DebugLogPopup
+  - hash:
+      serializedVersion: 2
+      Hash: a763e98e69df58c56fb690791dbb8a66
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: Subscription
+  - hash:
+      serializedVersion: 2
+      Hash: c75f261c41a456cb5a417611eb45bd04
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 88aa8cbd6cfc4a9a9fce5897425c0087
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: ConsoleBase
+  - hash:
+      serializedVersion: 2
+      Hash: 027f203f1d97f8af23f8e0a2638532eb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FeedbackManager
+  - hash:
+      serializedVersion: 2
+      Hash: ee09cdb1e65407a8534de58b159d3858
+    assemblyName: IngameDebugConsole.Runtime
+    namespaceName: IngameDebugConsole
+    className: DebugLogResizeListener
+  - hash:
+      serializedVersion: 2
+      Hash: b4753026d0f784b0f54c81508c023e50
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: MultiCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 8376a8061f52d0ac6004409c91c3623f
+    assemblyName: Assembly-CSharp
+    namespaceName: Adverty5
+    className: AdBannerRotation
+  - hash:
+      serializedVersion: 2
+      Hash: 9fb649207604b350e76e5efa1ec5af40
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LightFromAdExample
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 8f4c84a35976c8a3df77542fd2af54ee
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Anzu
+    className: FGAnzuSettings
+  - hash:
+      serializedVersion: 2
+      Hash: bb065d1eb5689eeda772d9ed4a588494
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityUI_Text
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 31ed654cbf9fc1997ea5bfe587c6cb4b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GAHyperBidIntegration
+  - hash:
+      serializedVersion: 2
+      Hash: 042785b832afb73fd0585521aa7baf43
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0c559a2c6f0c652c9dfd4dbc1ed5805e
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: NewSubscriptionPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 781d1308f803199bb889aedb8b2e94e4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TransformRotation
+  - hash:
+      serializedVersion: 2
+      Hash: c933b590b3badb5918fa01e73cd5cc0c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 16021981d8a89a505d935911cc6f9d95
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Tools
+    className: Gradient
+  - hash:
+      serializedVersion: 2
+      Hash: 83621f1ad92f9443f6d30b04f8acf5a5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SafeArea
+  - hash:
+      serializedVersion: 2
+      Hash: 54a0ae99897dd1ac83f1b6fccb3d42dd
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: ButtonKey
+  - hash:
+      serializedVersion: 2
+      Hash: 8eb0647ce3ff765984b94aace9531f6d
+    assemblyName: Assembly-CSharp
+    namespaceName: GameAnalyticsSDK.Events
+    className: GA_SpecialEvents
+  - hash:
+      serializedVersion: 2
+      Hash: f2c34d0f32d8ca0b097ade8a9cdee419
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: JackpotPanel
+  - hash:
+      serializedVersion: 2
+      Hash: dea80f927df5035c3e9e761b9b1019d1
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: GamePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 0342f30bf10921d0473ab37b8a8cde1c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VarsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 153a192b18f10a958a522cce4dd8fa32
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: PressRelease
+  - hash:
+      serializedVersion: 2
+      Hash: afd50721d2a5b85813eaa10a0f7bc288
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PurchasePage
+  - hash:
+      serializedVersion: 2
+      Hash: dc07614912a768cf89037b967358eb70
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.IAP
+    className: FGIAPManager
+  - hash:
+      serializedVersion: 2
+      Hash: 45d18bf05d2dd4f4ab280b12abe15a7f
+    assemblyName: MaxSdk.Scripts
+    namespaceName: AppLovinMax.Scripts
+    className: MaxEventSystemChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 0d747ec795ab2152db7f0cf9c5cef80b
+    assemblyName: Unity.Services.Analytics
+    namespaceName: Unity.Services.Analytics
+    className: AnalyticsContainer
+  - hash:
+      serializedVersion: 2
+      Hash: b940cba5dd325c2186e37874a49854e8
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: DynamicResize
+  - hash:
+      serializedVersion: 2
+      Hash: ae8906d88b9f50a3e442c103f2ffbe2b
+    assemblyName: Adverty
+    namespaceName: Adverty5
+    className: AdvertyLooper
+  - hash:
+      serializedVersion: 2
+      Hash: 35af80981162b5a2b3b654071fe4b829
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Core
+    className: FGMainSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8512f5f2310d5e6813873732d098450b
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Analytics.FirebaseA
+    className: FGFirebaseDependencyChecker
+  - hash:
+      serializedVersion: 2
+      Hash: 71ddf70459fe31f4cfe8b24c78540927
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LanguageSource
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 3e7ae1b6b004e28ec32e23c0cbbbf2be
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: SubscriptionPanel
+  - hash:
+      serializedVersion: 2
+      Hash: b4a0927a40b444e7d511dc2e3c107809
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: NewWorldPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 9078325c2a6f6a2d9612ade897511860
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8611ff3cdc00e1a345ff1a7450423766
+    assemblyName: IngameDebugConsole.Runtime
+    namespaceName: IngameDebugConsole
+    className: DebugLogRecycledListView
+  - hash:
+      serializedVersion: 2
+      Hash: 5e2b9ea961f8baac50b19faecf5bf1bd
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Analytics
+    className: FGAnalyticsSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d946113df58ad2f63e280f1cd99219b5
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin
+    className: ApplicationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1d7e9df10db6957fd561bcf681b4ac93
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax
+    className: FGMax
+  - hash:
+      serializedVersion: 2
+      Hash: 8d742cc2c932059a2fbc8197ef20e694
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent
+    className: FGUserConsentManager
+  - hash:
+      serializedVersion: 2
+      Hash: 477c2fe61d7f1cd2f54be28da543bc14
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.GDPR.GoogleUMP
+    className: FGGoogleUMP
+  - hash:
+      serializedVersion: 2
+      Hash: bd5eb0f17f94d7bbd7e7ede15362a70d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: QP_QuietObject
+  - hash:
+      serializedVersion: 2
+      Hash: cbe400b7bdd9de59649b530e7025c24c
+    assemblyName: Assembly-CSharp
+    namespaceName: Crystal
+    className: SafeArea
+  - hash:
+      serializedVersion: 2
+      Hash: 694625836b9286421989b10b6d9ce5a9
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent
+    className: FGUserConsentSettings
+  - hash:
+      serializedVersion: 2
+      Hash: ec73ebc367bd455bc1a5162c67a47341
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShopCardHC
+  - hash:
+      serializedVersion: 2
+      Hash: 717e54e48b94247684a4568d32b36a67
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.InitScene
+    className: InitSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: b95c20bd4455820ec501c67d5c69d5bc
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: RealTimeTranslation
+  - hash:
+      serializedVersion: 2
+      Hash: cfb3efcd558112d76cd5e816758d2d0f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CollisionEventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a609491f85dc460400015bb6cd22e8d7
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Gadsme
+    className: FGGadsmeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 14fb963022965ffa004cc4ec810b9fdd
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: BufferManager
+  - hash:
+      serializedVersion: 2
+      Hash: d448fe5b79f6a46a9d59b2b7d86529e6
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: LeaveGamePopup
+  - hash:
+      serializedVersion: 2
+      Hash: f3c169dd2d5b427beb326ec72bf832c2
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Tools.Debugging
+    className: FGDebugConsole
+  - hash:
+      serializedVersion: 2
+      Hash: ddcb078a5bc6856e9ffaab8968a7d2f0
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_VideoPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: c5595643511e8bb0357c711a9c0ab063
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Analytics
+    className: FGAnalyticsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 02b33a2abcd9ba2749e92f108d9d1db2
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Anzu
+    className: FGAnzu
+  - hash:
+      serializedVersion: 2
+      Hash: 33b1d26e997b7489c1c361d2756edf61
+    assemblyName: Adverty
+    namespaceName: Adverty5.AdPlacements
+    className: ClickablePlacementComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 4d89c5fbe2198fada003adbfddbd7123
+    assemblyName: Adverty
+    namespaceName: Adverty5.AdPlacements
+    className: SpriteAdPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d3c6accdcf594f6bb3ab9bc2ccdb927a
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Analytics.FirebaseA
+    className: FGFireBase
+  - hash:
+      serializedVersion: 2
+      Hash: ca594268f18f6587a97251b63ef05149
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsInitManager
+  - hash:
+      serializedVersion: 2
+      Hash: 48642050fc6a26fb97fb4a9bb6493bf8
+    assemblyName: Assembly-CSharp
+    namespaceName: PaperPlaneTools
+    className: Scaler
+  - hash:
+      serializedVersion: 2
+      Hash: 9091ddaa4fbc955420f4c55a29527bf9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGDebugConsoleBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 8a2f78c25d5e92eb97ee5544a162a2e9
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: 1c2fbafa81002894bf5aa3236bcbd34e
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.IAP
+    className: FGIAPProduct
+  - hash:
+      serializedVersion: 2
+      Hash: 430bbf35b9e1c504832d1291d49be918
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: ChristmasPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 11e0ac4b17b211349d5e7c1764535577
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GPlayPassManager
+  - hash:
+      serializedVersion: 2
+      Hash: 712a4c6e905acb9dccd9c3341f3df7b4
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP.AdjustMMP
+    className: FGAdjust
+  - hash:
+      serializedVersion: 2
+      Hash: a47182e2cc4ad3e76939204f5ef61278
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: b93933d6e1d7ef0e32ce96264a14d4bd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HyperlinksTMP
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 69331c9dc8e51257818798fec99bf844
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: TournamentsMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 7295716911b4e60be87df3043b6cdf5b
+    assemblyName: Assembly-CSharp
+    namespaceName: OgurySdk
+    className: OguryCallbacks
+  - hash:
+      serializedVersion: 2
+      Hash: a15838aa027fa13d9bb1009cc81afc8c
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent
+    className: FGATTSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 5813a2e9a19d24ff6c0798513fd9cddb
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: Example_LocalizedString
+  - hash:
+      serializedVersion: 2
+      Hash: 47ee34eb8b6021efa0289dbbb17a5a85
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: eb3689ba55543e2ebdd1aed67d41538a
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 40c892ecc6350a00d28f96c0cbcec08d
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: Hold
+  - hash:
+      serializedVersion: 2
+      Hash: d6c56e4f533e1cfe81e965302e28136c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WorldElement
+  - hash:
+      serializedVersion: 2
+      Hash: 9593721a520e63b6604b40d79c20b65e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: c27554f9feec0ec62923b4c200a63b9e
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: CCDSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 282204af4195bc1e2c9f267cc0654e93
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BugReportingScript
+  - hash:
+      serializedVersion: 2
+      Hash: e751b5f4c4cfccbb64d2a3e48e3f479a
+    assemblyName: IngameDebugConsole.Runtime
+    namespaceName: IngameDebugConsole
+    className: EventSystemHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 5a29a8ad959e9394809e0ae61eda51e7
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: VideoToVIPIconSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 061a5d77ce0aa52a60c21c566c6d8af2
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: aedda9be40cb1a8e2dba712fe70ac632
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: ShopPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 89111b915dcf49581b750baa19198ffe
+    assemblyName: Assembly-CSharp
+    namespaceName: PaperPlaneTools
+    className: AlertMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: b39e6493cf8ecc9e2630cd25c38f346e
+    assemblyName: Assembly-CSharp
+    namespaceName: Monitoring
+    className: FpsCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 3fee71a6d311de8a117291eeb6f87891
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin
+    className: HighScoreFX
+  - hash:
+      serializedVersion: 2
+      Hash: f6bd83c33a405a231714c1a0c6a31e8f
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: RecommendedAspectRatios
+  - hash:
+      serializedVersion: 2
+      Hash: 74192f6e9f7c29201b9e4dac3029068c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DebugElements
+  - hash:
+      serializedVersion: 2
+      Hash: acac998cf43bd68caf92f5ed201498c4
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Gadsme
+    className: FGGadsme
+  - hash:
+      serializedVersion: 2
+      Hash: 5bf7b1a08b18556b01ce6e495a14efb7
+    assemblyName: Adverty
+    namespaceName: Adverty5
+    className: AdvertyLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d55992199bd2f5a5502658391cdf8ba7
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: febfe381863555adae2a686a35d56508
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GiftWheelCard
+  - hash:
+      serializedVersion: 2
+      Hash: 030e2c38915331d12a94ac77435a56fd
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsEventTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 22d05eed6cbc0a37e0b2e0909bc268e6
+    assemblyName: Unity.Analytics.Tracker.dll
+    namespaceName: UnityEngine.Analytics
+    className: AnalyticsTracker
+  - hash:
+      serializedVersion: 2
+      Hash: c33818b3cfb378145831b5d5a3349765
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: MainPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 9f955560b219a7eb075d514e77a6fa51
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Oscillator
+  - hash:
+      serializedVersion: 2
+      Hash: 41c774bc80b2c66dfea092b2134f4673
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinUpdateHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6f072768ad5a666a30b7e5d16600e9c6
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityUI_Image
+  - hash:
+      serializedVersion: 2
+      Hash: a2000ed1f749848ea13e1a712ab603fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VersionText
+  - hash:
+      serializedVersion: 2
+      Hash: 6b550a8a5dab6d21071c0fdf8a234843
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: DialogShare
+  - hash:
+      serializedVersion: 2
+      Hash: 549092db64a33b79c4c4f93843d653f7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BannerHelper
+  - hash:
+      serializedVersion: 2
+      Hash: c841b663fb0e5e03e3c4bfd4b0b0a322
+    assemblyName: Assembly-CSharp
+    namespaceName: Proyecto26.Helper
+    className: ExecuteOnMainThread
+  - hash:
+      serializedVersion: 2
+      Hash: ed306490150b5851a1a73eac4e5b6636
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP.FacebookLtvTracking
+    className: FGFacebookLtvTrackerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 42192f5e950f09978986994e19d2bd78
+    assemblyName: UnityEngine.Purchasing.Stores
+    namespaceName: UnityEngine.Purchasing
+    className: LifecycleNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 22144716285810093041d8907ea551d8
+    assemblyName: AnzuUtilities.dll
+    namespaceName: anzu
+    className: AnzuChannelSO
+  - hash:
+      serializedVersion: 2
+      Hash: 15cdd6b1bcbb7aea5455b136f044b722
+    assemblyName: AnzuUtilities.dll
+    namespaceName: anzu
+    className: AppSettingsSO
+  - hash:
+      serializedVersion: 2
+      Hash: 24c23dda379f6455356ca717f8135ba9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MultiplierText
+  - hash:
+      serializedVersion: 2
+      Hash: 16053a85a9792c6fe80e4c9a469ff2f5
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: GlobalParametersExample
+  - hash:
+      serializedVersion: 2
+      Hash: 1bf845f533ac80adef6ab7ab63a8a0ee
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsSoftKeyboardManager
+  - hash:
+      serializedVersion: 2
+      Hash: ead3a3bc940b8682dcfff9dec38c371a
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: ResourceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9dea55c85e640561dc9a3ba6417f652c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UIState
+  - hash:
+      serializedVersion: 2
+      Hash: 82e5314b984bcb2c407de4774cd8bc12
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: InitializeFromAnzuUnity
+  - hash:
+      serializedVersion: 2
+      Hash: 7fe82033b9295e4167deda4e8aa1cee2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGCoreExample
+  - hash:
+      serializedVersion: 2
+      Hash: 505ac8f3efb5cc11944f91b41d8c8d69
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: OfflineEarningsPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 086c52c6bf24acfb5d89af51b029d6a4
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: CharacterUnlockPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 1b55763fd43061111a34f72f0f2a091d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShopCard
+  - hash:
+      serializedVersion: 2
+      Hash: cd9d190d16b9e1032dbc1a1dbf225947
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: InputManager
+  - hash:
+      serializedVersion: 2
+      Hash: e8a448418e63581a849101179e5c45a1
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation
+    className: FGMediationSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 415431a1c5802adfcbbefe50b120cdff
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: QuietFCM
+  - hash:
+      serializedVersion: 2
+      Hash: ebbc47b539a4f44f32d178f5a06cc82b
+    assemblyName: AnzuUnity.dll
+    namespaceName: anzu
+    className: AnimatedTexture
+  - hash:
+      serializedVersion: 2
+      Hash: b2cb47264411d7975e69f89377d7353f
+    assemblyName: AnzuUnity.dll
+    namespaceName: anzu
+    className: AnimatedTextureStats
+  - hash:
+      serializedVersion: 2
+      Hash: fee9698281409fc24fccf21aaf42e993
+    assemblyName: AnzuUnity.dll
+    namespaceName: anzu
+    className: AnzuRatioVisualizer
+  - hash:
+      serializedVersion: 2
+      Hash: 8697ef075d2221e362d76643c3a09248
+    assemblyName: AnzuUnity.dll
+    namespaceName: anzu
+    className: AnzuStats
+  - hash:
+      serializedVersion: 2
+      Hash: 2cfc7304fd757e16fed6c4586a13b918
+    assemblyName: AnzuUnity.dll
+    namespaceName: anzu
+    className: AnzuUnity
+  - hash:
+      serializedVersion: 2
+      Hash: ad9fff9d085c5fd31f1f2c1201b20895
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP
+    className: FGMMPSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 357a2de629e65b9e5b120f5e7794f0ba
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: NetworkAlertPopup
+  - hash:
+      serializedVersion: 2
+      Hash: ce855d23cb395f6d70f62951f9f99678
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGBuildInfo
+  - hash:
+      serializedVersion: 2
+      Hash: eae81e9add140f7f516033c826d5d3e3
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent
+    className: FGATTPrePopupSettings
+  - hash:
+      serializedVersion: 2
+      Hash: bb7a9af43bdd75ebaf6cc8f1fbb42f03
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGDebugRemoteConfigExample
+  - hash:
+      serializedVersion: 2
+      Hash: 0dce6c04be79d893478a646abeefc984
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: RegisterBundlesManager
+  - hash:
+      serializedVersion: 2
+      Hash: 149b2c2ca58681114f92e8da4a543287
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TransformTranslation
+  - hash:
+      serializedVersion: 2
+      Hash: 9637dcdf3068a91dfe653e61bb82f13d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: f4217104218f54cfa9af8d25ce6bd7da
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP.Facebook
+    className: FGFacebook
+  - hash:
+      serializedVersion: 2
+      Hash: 4aecc4f65b3ecebdd2eeb3033a067cfe
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: CoroutineManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2f33f02367848069656eb6f3af6d4e8b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UpdateValue
+  - hash:
+      serializedVersion: 2
+      Hash: 005561b06e9d77768622f23e077f499d
+    assemblyName: Adverty
+    namespaceName: Adverty5.Checks
+    className: AdvertyViewabilityCheck
+  - hash:
+      serializedVersion: 2
+      Hash: d77e76f05659ae49bdeb8f9f099d4c2d
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: DebugPanel
+  - hash:
+      serializedVersion: 2
+      Hash: a705e6685ea0a8ba12e19403711b1f68
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: UILabelledValue
+  - hash:
+      serializedVersion: 2
+      Hash: fbfc38a02e2c042c64a1d560774080e6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlanetManager
+  - hash:
+      serializedVersion: 2
+      Hash: 06751636163b77af7f88ec85b5628616
+    assemblyName: Adverty
+    namespaceName: Adverty5.AdPlacements
+    className: MeshAdPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: e081e91670555e1fcf4a388454e51cd3
+    assemblyName: UnityEngine.Purchasing.Stores
+    namespaceName: UnityEngine.Purchasing.Extension
+    className: UnityUtil
+  - hash:
+      serializedVersion: 2
+      Hash: 0225e3bbd5b23f09430ef0a115116e1a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsReferralsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 58de047c3924547bd4897c2a19cd5e74
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.RemoteConfig.TNRemoteConfig
+    className: FGTNRemoteConfig
+  - hash:
+      serializedVersion: 2
+      Hash: a4c8abdc7065ef9c5c5b05ef45353a35
+    assemblyName: Assembly-CSharp
+    namespaceName: Crystal
+    className: SafeAreaDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 3cf9bda7ec6bbfda6b4c82b6ff900f38
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainPage
+  - hash:
+      serializedVersion: 2
+      Hash: 4997f1507344fcc162e0a938ea18968e
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Mobile.Android
+    className: AndroidFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: ea0c2dad9bd7be76649f6438aed6e246
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Mobile.Android
+    className: AndroidFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 7f6162a7ee9bc7a4ec55faaa8bbdc21c
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: AsyncRequestString
+  - hash:
+      serializedVersion: 2
+      Hash: 82cad0ce361ba6e71c05a2f4adac9789
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Canvas
+    className: CanvasFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 4df3d04ecb7b922609e0fdaede688ce6
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Canvas
+    className: CanvasFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: a014f25e3e5104eda0346fff9603dd0b
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: CodelessCrawler
+  - hash:
+      serializedVersion: 2
+      Hash: cd7021ce5c4016e68cb3fc9ea470e340
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: CodelessUIInteractEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 90ec43cd8eb60d4da9e2d19313181f07
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor
+    className: EditorFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: dafe25194598e25a299af4b4a08f7d89
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor
+    className: EditorFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: b16d230a46501e091d1a2776d817aa15
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor.Dialogs
+    className: EmptyMockDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 52bdfad84af33afb1b04fde297661543
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: FacebookScheduler
+  - hash:
+      serializedVersion: 2
+      Hash: 27c8b64eab72d6bf53b2c9167a539dde
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: FB
+  - hash:
+      serializedVersion: 2
+      Hash: a82024bb32475f529298f8b49a9fb9c2
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: FBGamingServices
+  - hash:
+      serializedVersion: 2
+      Hash: 34e197864c169997bf4a88a15ba45a2a
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Mobile.IOS
+    className: IOSFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 01ae54ff720e2277389bc35c384c4038
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Mobile.IOS
+    className: IOSFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 9120d3dcef0243133d9423de66c3ae44
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Canvas
+    className: JsBridge
+  - hash:
+      serializedVersion: 2
+      Hash: b023df886a85a9df703f6250b26c408d
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor.Dialogs
+    className: MockLoginDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 540139715070e1594b3005edaa6b42c4
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor.Dialogs
+    className: MockShareDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 83811e6ee7113bb738f94b74e6607437
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Windows
+    className: WindowsFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: b6678df020e854e5ed88bbd269658800
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Windows
+    className: WindowsFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: a328d45304b22089efeb25b8616e72a8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsFriendsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8ea1cf1378c62f7ec201e0686c7325b7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsPhysicalGamepadManager
+  - hash:
+      serializedVersion: 2
+      Hash: e2188f910687b00f193f17f8fee4619e
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Adverty
+    className: FGAdverty
+  - hash:
+      serializedVersion: 2
+      Hash: 191a593494521d4a73917d915318d824
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_Child
+  - hash:
+      serializedVersion: 2
+      Hash: 98275237890cc8535cd33066531b01f9
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP.Facebook
+    className: FGFacebookSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 3f3c8bc6a2cf386d3d79fe3e08161abe
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Core.Utils
+    className: DontDestroyOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: 29df8c63fe738ba5a02f98dfbb2feb53
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: CustomLocalizeCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 4d4bdd5daeb758cf37cf98759cee510c
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax
+    className: FGMediationMaxRewardedAd
+  - hash:
+      serializedVersion: 2
+      Hash: 37db9ca62be9018f080a4bb33b280ded
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISounds
+  - hash:
+      serializedVersion: 2
+      Hash: 8c07f9cff1c297f680547e0a26f80545
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds.Adverty
+    className: FGAdvertySettings
+  - hash:
+      serializedVersion: 2
+      Hash: bc9a85b0f38c0e5bdc870a4381eb9a41
+    assemblyName: Facebook.Unity.Settings.dll
+    namespaceName: Facebook.Unity.Settings
+    className: FacebookSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 6057e86fcd34f37ddbcc074fa0f6a777
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: AutoChangeCultureInfo
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 167624d9e4930f58f09c1d62b0309002
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: SettingsPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: ef116fcc57ea0378176080b0cfaea6fb
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: Example_ChangeLanguage
+  - hash:
+      serializedVersion: 2
+      Hash: 6e7182e45e90f96d4afe6ca94cdb3308
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsADSManager
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 68f2cb287af2eee1f639824485a3402b
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: e339aa4722119dd4b911fc5ce85c3568
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: LoadingScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 672716ae97f6ddb615fa5ac3ec9da349
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 62a3c9149503f41a08577fc8113c6627
+    assemblyName: AnzuUnityEditor.dll
+    namespaceName: anzu
+    className: EditorSettingsSO
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 2ccb6b84e93730725a9d35e8e1225206
+    assemblyName: Firebase.Platform.dll
+    namespaceName: Firebase.Platform
+    className: FirebaseMonoBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 97888775261c79f6679c501ea91c4ebd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BugReportingMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: 3bd2063aa674d237f3cef692550153f4
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Tools
+    className: UIDrag
+  - hash:
+      serializedVersion: 2
+      Hash: fec6280025d7f18626c94a9f5c245d85
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP.AdjustLtvTracking
+    className: FGAdjustLtvTrackerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 2ba7e62df8e7c45afc5b4cba366f2bd0
+    assemblyName: IngameDebugConsole.Runtime
+    namespaceName: IngameDebugConsole
+    className: DebugLogManager
+  - hash:
+      serializedVersion: 2
+      Hash: f0ae5a646b8d0b17787e24f2e3f4cbd0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AnimIntro
+  - hash:
+      serializedVersion: 2
+      Hash: 772c3d0775db798210ee36f8bcb98ca1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExampleRemoteConfigABtests
+  - hash:
+      serializedVersion: 2
+      Hash: 174b39e7ca3b049d05689ec0088ddab9
+    assemblyName: MaxSdk.Scripts
+    namespaceName: AppLovinMax.Internal
+    className: MaxEventExecutor
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 5363287f8a096cd7f42dda93ff36531a
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds
+    className: FGIGAdPlacementWithRemoteConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 7c6d3c6fab1d1f3152b980025043b2ee
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UpdateStore
+  - hash:
+      serializedVersion: 2
+      Hash: 07bc9892e96d5f534d103bc7b029471c
+    assemblyName: UnityEngine.Purchasing.Codeless
+    namespaceName: UnityEngine.Purchasing
+    className: IAPButton
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c315e94cabb7e985ae84c12a44b99132
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GDPRPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 880df6b37b70c8cb1b9517e81c0e079b
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.ATT
+    className: FGATTManager
+  - hash:
+      serializedVersion: 2
+      Hash: 379aa6ae1d05049da0513075f3ec273b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ExampleGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 9f17f4e8a25a0f04745b8d74cc5aa8b4
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: UIShopButton
+  - hash:
+      serializedVersion: 2
+      Hash: 8e53df59686366634f684cedd13d23a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UISafeZone
+  - hash:
+      serializedVersion: 2
+      Hash: 8831e2ed3aa5e958595615584217dd28
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Menu
+  - hash:
+      serializedVersion: 2
+      Hash: 4d97fd1cb3ae8893eb199a6db9ad7655
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax.AmazonWithMax
+    className: FGAmazonSettings
+  - hash:
+      serializedVersion: 2
+      Hash: eec7decb911614a841fce938c8941250
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: Localize
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 1e8c96f410b57bebc80c98ecc61bd1db
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_TextMeshPro_UGUI
+  - hash:
+      serializedVersion: 2
+      Hash: e242767d96e6a1f266ef62fab884c352
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: FakeMainPanel
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 19824dd35debb3fff0983df49f8359ab
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 474ae18b88d81ea99125ffbf8e69862d
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP.Facebook._UnitTest
+    className: FGFacebookUnitTest
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc7f0ce14e5b8031f080c73ae1cf904
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Tools
+    className: FGLoadingScreen
+  - hash:
+      serializedVersion: 2
+      Hash: dd888fa8055e2e78eaee64e95f79b77d
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: UICurrencyUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e57628a3f6d84ca97b37339001c6a2cd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MobileInputs
+  - hash:
+      serializedVersion: 2
+      Hash: d099dff0f3ba1fcde69a627388d45365
+    assemblyName: Assembly-CSharp
+    namespaceName: PaperPlaneTools
+    className: RateBoxPrefabScript
+  - hash:
+      serializedVersion: 2
+      Hash: 830c3b545f6e6ee60a4cebab90516f2c
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: e3da7f893410d197814174b980344572
+    assemblyName: Assembly-CSharp
+    namespaceName: GameAnalyticsSDK.Setup
+    className: Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 0845451e1cfacdf809dcb9cdde666f97
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: RegisterGlobalParameters
+  - hash:
+      serializedVersion: 2
+      Hash: fba0490fa68b3da30cdb8be34d47a4f4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGFirebaseCustomAdImpression
+  - hash:
+      serializedVersion: 2
+      Hash: 5508e1e2e526d657e5868707a298a4f6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TutoThumbMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 2bb1365c0e9f91f7a352b4be06db432e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FramerateMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: 85e7a3e712d470cc431c6588c5bf7da8
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Core
+    className: FGCore
+  - hash:
+      serializedVersion: 2
+      Hash: 5f27242e1ad2aadb1faa604dd779a464
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 35c0b2b33990e665aa01c37502ee9a67
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsExampleTabsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: ac4bd37b89f342eb95b847f5e8be7137
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax.AmazonWithMax
+    className: FGAmazonWithMax
+  - hash:
+      serializedVersion: 2
+      Hash: 8196ca4f6966dddfe01756d1087354a8
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP.FacebookLtvTracking
+    className: FGFacebookLtvTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 02c05d03dc7886747dbcc4bec386b593
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.InGameAds
+    className: FGIGAdsSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 04d4240bdcbe2872fdcf7f08fd2f857f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LogScroller
+  - hash:
+      serializedVersion: 2
+      Hash: 26972777a33e6d5eb505dee1a6775d02
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGNoInternetPopup
+  - hash:
+      serializedVersion: 2
+      Hash: ddd8af3164f287f34ab21dc48aa713a5
+    assemblyName: Assembly-CSharp
+    namespaceName: MoreMountains.NiceVibrations
+    className: NiceVibrationsDemoManager
+  - hash:
+      serializedVersion: 2
+      Hash: fac5006d73ac28b60e2d2326aa7833a9
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.GDPR
+    className: FGGDPRManager
+  - hash:
+      serializedVersion: 2
+      Hash: d8c1c50c35d9e506a6f83a88beb426a7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EasyHyperText
+  - hash:
+      serializedVersion: 2
+      Hash: 4b8f5f27f93cd0341bf78ebc9cfa257a
+    assemblyName: Assembly-CSharp
+    namespaceName: PurchasingManagement
+    className: UnityPurchasingSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 88773946c7bf87462bc8c3f85818ba9d
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: MiscRotate
+  - hash:
+      serializedVersion: 2
+      Hash: e20a6de5f1fd1dfae6f1186e8f77c3d9
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteResolver
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 977e9f2f4bed538d751ab12890d83ccd
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: PushButton
+  - hash:
+      serializedVersion: 2
+      Hash: 9c415c2ba01ed362f0dbec1270cf3dc6
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: fe17f9a7401c266e762eac68cbdd3e9e
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: GraphRequest
+  - hash:
+      serializedVersion: 2
+      Hash: 86784c7d29e356bd8a412dbf4539b58e
+    assemblyName: Adverty
+    namespaceName: Adverty5.AdPlacements
+    className: UIAdPlacement
+  - hash:
+      serializedVersion: 2
+      Hash: e933fd4b101905fb73e13c1ad1f6ecf4
+    assemblyName: Adverty
+    namespaceName: Adverty5.AdPlacements
+    className: ClickablePlacementUIComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 37de2d47854d9330d1993443d46f2cb4
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: AccessTokenMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 6ee4d31f297ef7869ce4d5ebea69750c
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: AppLinks
+  - hash:
+      serializedVersion: 2
+      Hash: 9f9c4c4fc7435a57eed819bad84cf731
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainScript
+  - hash:
+      serializedVersion: 2
+      Hash: 0f993925fe036a4cb26bbce8d241223c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayOnDemo
+  - hash:
+      serializedVersion: 2
+      Hash: bc38b52fcde247a3cc782fb700bce171
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: ShowStats
+  - hash:
+      serializedVersion: 2
+      Hash: e957da4c57d18a8c30ad311f3b6ca2c8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SavePage
+  - hash:
+      serializedVersion: 2
+      Hash: 83447eb14ba5f9222c0f703aabb89c38
+    assemblyName: UnityEngine.XR.LegacyInputHelpers
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 2318e5b0d6a74eba9f966fd6079bf3da
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: MainMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 1ddefdcf5b83bd372f7f3c9dbdff54cf
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: InformationPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 4188bdcec3bea39da52412cd5949d291
+    assemblyName: UnityEngine.Purchasing.Codeless
+    namespaceName: UnityEngine.Purchasing
+    className: IAPListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c7433c066f849e04daec3ed5bd8180d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AmazonMaxDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 0d82ce2e615a3625a40f6168322127bd
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.ATTPrePopup
+    className: FGATTPrePopupManager
+  - hash:
+      serializedVersion: 2
+      Hash: 47d50f529890b9237021f88334dc1cf6
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 704b6294ec572884e01dc7eb2644fa8a
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax
+    className: FGMediationMaxBannerAd
+  - hash:
+      serializedVersion: 2
+      Hash: 8e766c6580464c743cb15da93066091a
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.RemoteConfig
+    className: FGRemoteConfigSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d9c6936700589f5ba888ad648498ee7f
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation
+    className: FGMediationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2e6abb76527960c5fca347ca76457520
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: SetLanguageDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: fc6a88870d53f2f422de071092620ff3
+    assemblyName: UnityEngine.Purchasing.Stores
+    namespaceName: UnityEngine.Purchasing
+    className: UIFakeStoreWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 1776a5c52b9b3f0956c63549cf4831e3
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.GDPR.CustomGDPR
+    className: FGGdprDisplaySimple
+  - hash:
+      serializedVersion: 2
+      Hash: dea831aca74f40fbc601173a2a5994ac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AdsPage
+  - hash:
+      serializedVersion: 2
+      Hash: 8939cfd11c975695a9aaea3d4a71cf26
+    assemblyName: Adverty
+    namespaceName: Adverty5
+    className: AdvertySettings
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 29362692ab8b7c46bfb7c8cb42bfe5b4
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteLibrarySourceAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 55f5765cb06890959149e592c2e6c945
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: InitializeFromScratch
+  - hash:
+      serializedVersion: 2
+      Hash: 360b14c80a1c39a6841f5c403bc800b2
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_Prefab
+  - hash:
+      serializedVersion: 2
+      Hash: 2098ca07242b70c7723dc81258443ba4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GreenMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 8e7d3da7ec2f7a29f600934862d5ef4a
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin
+    className: GameConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 833329943b94a99ae979011e5e58fd79
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: Pay
+  - hash:
+      serializedVersion: 2
+      Hash: cd8249ab43368fa24a14bdc165ef33d5
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.GDPR.CustomGDPR
+    className: FGCustomGDPRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8d570dfe749b111b16ffb0149f8ac4d4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsShareManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3201aa588a2a7e787ff683a2f82f26bb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FBWindowsTournamentsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 19b75cfc4f6da31b9a761d31a581374d
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Analytics
+    className: FGAnalyticsTrackingButton
+  - hash:
+      serializedVersion: 2
+      Hash: 765f046cc9a569357bbb44473131bd44
+    assemblyName: Unity.Analytics.DataPrivacy
+    namespaceName: UnityEngine.Analytics
+    className: DataPrivacyButton
+  - hash:
+      serializedVersion: 2
+      Hash: b14b53ae3efa5318c509b4d260d0e6f8
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_AudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: 7a31c81afefab3e5892143aad4547a40
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: BlackScreen
+  - hash:
+      serializedVersion: 2
+      Hash: e507fd99bb6e2bfbc9992445404d981d
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: OfflineEarningNotificationPopup
+  - hash:
+      serializedVersion: 2
+      Hash: aef0122703cb24c8595fd027537555c3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DaytimeMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: cc06dfeead730b6b15111d024d110c14
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: LanguagePopup
+  - hash:
+      serializedVersion: 2
+      Hash: 9f294a81e08f2fd6931520d621a21b27
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Monetization.IAP.Revenuecat
+    className: FGRevenuecatSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71ba3ce2d36f8b3e86f3fe1f5145cc02
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: DayTimeToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 824526894e7d4f58addfb06a97dd7fd4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GUIDepthExample
+  - hash:
+      serializedVersion: 2
+      Hash: 359af8d19339529a1fa57ad6b7fbccb6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LocalizationExporter
+  - hash:
+      serializedVersion: 2
+      Hash: 3988880bcc2cc2b2e222f91b52b2d91a
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Core
+    className: FGPlaytimeMeasurement
+  - hash:
+      serializedVersion: 2
+      Hash: cae2c3a01fae9602b8643e03707e5118
+    assemblyName: Assembly-CSharp
+    namespaceName: Anzu.Examples
+    className: Reward
+  - hash:
+      serializedVersion: 2
+      Hash: 177fb9198afab87ab3aa8ab1858065ec
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: DailyVipPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 08d233469ea3e148233fc9426f29299e
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.UI
+    className: ProcessingPopup
+  - hash:
+      serializedVersion: 2
+      Hash: 089dcfced8f6bbb7fda514429c85bb09
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.GDPR.GoogleUMP
+    className: FGGoogleUMPSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 5e3b84d01b013b4707292ea6a4a8c1c2
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.MMP.AdjustLtvTracking
+    className: FGAdjustLtvTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 538a7ad37e6c3aa365649abce166fc12
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent.GDPR.GoogleUMP
+    className: FGGoogleMobileAdsSDK
+  - hash:
+      serializedVersion: 2
+      Hash: f12fd2aa378baa6109d0afc6bfb7a743
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax
+    className: FGMaxLoadEventSender
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 1f1ee5563d20d7a4ad267bd598c2071c
+    assemblyName: Unity.2D.Animation.Runtime
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinComposite
+  - hash:
+      serializedVersion: 2
+      Hash: 9b57d1fc20b0dee00902786dfd2a5e13
+    assemblyName: Assembly-CSharp
+    namespaceName: I2.Loc
+    className: RegisterCallback_AllowSyncFromGoogle
+  - hash:
+      serializedVersion: 2
+      Hash: c844a2b407c5aed627a1835702488d8d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ProductRowPrefab
+  - hash:
+      serializedVersion: 2
+      Hash: fd44ca143f1eee6ac6f43e7d981fc9da
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.Mediation.ApplovinMax
+    className: FGApplovinMaxSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 52e5ae15c31d546bc526096d112b3480
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: MainSceneUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3863abc9ff542a5f15acacf9edb92f25
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: SkinShopCardBall
+  - hash:
+      serializedVersion: 2
+      Hash: f56aa6270a07c2dc45211ec28e5d73f5
+    assemblyName: Assembly-CSharp
+    namespaceName: FunGames.UserConsent
+    className: FGGDPRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 359a163207fb1c4f299e9a9533ca5f4e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UnityMainThreadDispatcher
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 1c06349b8e2282fbebd1fc6a62c8fd2d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FGUpdatePopup
+  - hash:
+      serializedVersion: 2
+      Hash: 3ca7f2be93d5156a91693dfd4bd38e3f
+    assemblyName: Unity.2D.IK.Runtime
+    namespaceName: UnityEngine.U2D.IK
+    className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 5a0342e90123e0dfa57db82118e374d8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8ee81ced2e6c26b1f507eae0149bb5af
+    assemblyName: Assembly-CSharp
+    namespaceName: Facebook.Unity.Example
+    className: AppEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 30a2530e9e3c36f8002ad7c520090817
+    assemblyName: Assembly-CSharp
+    namespaceName: Pinpin.Scene.MainScene.UI
+    className: EndGamePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 7f224a7982c64be76bf29774d5b13282
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ParachuteSprite
+  platform: 13
+  scenePathNames:
+  - Assets/GameAssets/Scenes/InitScene.unity
+  - Assets/GameAssets/Scenes/MainScene.unity
+  playerPath: /Users/Kwarisma/Desktop/APK/Golf_1.39(141)FixAnzu.apk

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Papy_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f515a5066ccc48c41a9f1ac16860b31e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - cd517f60a0d2742eabff43ea6003ad8d: 21300000
+    - ae7631f0fc0d2484d9f9a95d0bcb7f4e: 21300000
+    - 3e052c7183ce24dda9c77a1d15f3067e: 21300000
+    - f81dba53e57d21a4c9745ffc23580b04: 21300000
+    - 74f6bbe4333f4405cb92ef29a0e5edca: 21300000
+    - 98bb3865b3f0d4aa4af6b2f76d373ecb: 21300000
+    - ad85e2e6d207c4856816f5ead8cffb37: 21300000
+    - fe5f407a814a441049eb9990ad8b7537: 21300000
+    - 8256a65bb6d1442b18f0596d5a9cce78: 21300000
+    - b2bc8f0dc70724be7a93ea01be27262d: 21300000
+    - 13e195fd8d5354d69bbc0b6d775ea934: 21300000
+    - bd17ed5fda7754d9e97a538d9d4dcbc3: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: cd517f60a0d2742eabff43ea6003ad8d, type: 3}
+  - {fileID: 21300000, guid: ae7631f0fc0d2484d9f9a95d0bcb7f4e, type: 3}
+  - {fileID: 21300000, guid: 3e052c7183ce24dda9c77a1d15f3067e, type: 3}
+  - {fileID: 21300000, guid: f81dba53e57d21a4c9745ffc23580b04, type: 3}
+  - {fileID: 21300000, guid: 74f6bbe4333f4405cb92ef29a0e5edca, type: 3}
+  - {fileID: 21300000, guid: 98bb3865b3f0d4aa4af6b2f76d373ecb, type: 3}
+  - {fileID: 21300000, guid: ad85e2e6d207c4856816f5ead8cffb37, type: 3}
+  - {fileID: 21300000, guid: fe5f407a814a441049eb9990ad8b7537, type: 3}
+  - {fileID: 21300000, guid: 8256a65bb6d1442b18f0596d5a9cce78, type: 3}
+  - {fileID: 21300000, guid: b2bc8f0dc70724be7a93ea01be27262d, type: 3}
+  - {fileID: 21300000, guid: 13e195fd8d5354d69bbc0b6d775ea934, type: 3}
+  - {fileID: 21300000, guid: bd17ed5fda7754d9e97a538d9d4dcbc3, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - papy-left-foot
+  - papy-leftforearm-
+  - papy-club
+  - lion-rightforearm
+  - papy-leftarm-
+  - papy-torso
+  - papy-short-
+  - papy-rightforearm
+  - papy-rightfoot-
+  - papy-leftleg-
+  - papy-rightleg
+  - papy-rightArm--
+  m_RenderDataMap: {}
+  m_Tag: Papy_atlas
+  m_IsVariant: 0

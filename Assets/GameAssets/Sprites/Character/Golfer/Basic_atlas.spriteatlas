@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Basic_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 0a5bc19773afc834ba7436c967997831, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 97818a61e269475458a2d2117b22a089: 21300000
+    - 8330a2533e42dca43ba6f737f8a3ea53: 21300000
+    - fd0ad1e338998ca4f8e9923132d701cc: 21300000
+    - 8d6b50747ad42224b80a3b6dcc15f281: 21300000
+    - 449e32982f68453439fa0408e1c5c8af: 21300000
+    - 7dcc7929f509c064eadf552f56c786f7: 21300000
+    - 62ba3e395f4b5214995d7f8b5e119c33: 21300000
+    - cb32110bcde3fc042b0edd7f78b21ae4: 21300000
+    - e5213e4c94e093f4aaeb85bd755175e2: 21300000
+    - 232efc8db09dc5e4d92d91fa0d22479e: 21300000
+    - ab66d52e07455ed49b52ca362e6e6b74: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 97818a61e269475458a2d2117b22a089, type: 3}
+  - {fileID: 21300000, guid: 8330a2533e42dca43ba6f737f8a3ea53, type: 3}
+  - {fileID: 21300000, guid: fd0ad1e338998ca4f8e9923132d701cc, type: 3}
+  - {fileID: 21300000, guid: 8d6b50747ad42224b80a3b6dcc15f281, type: 3}
+  - {fileID: 21300000, guid: 449e32982f68453439fa0408e1c5c8af, type: 3}
+  - {fileID: 21300000, guid: 7dcc7929f509c064eadf552f56c786f7, type: 3}
+  - {fileID: 21300000, guid: 62ba3e395f4b5214995d7f8b5e119c33, type: 3}
+  - {fileID: 21300000, guid: cb32110bcde3fc042b0edd7f78b21ae4, type: 3}
+  - {fileID: 21300000, guid: e5213e4c94e093f4aaeb85bd755175e2, type: 3}
+  - {fileID: 21300000, guid: 232efc8db09dc5e4d92d91fa0d22479e, type: 3}
+  - {fileID: 21300000, guid: ab66d52e07455ed49b52ca362e6e6b74, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - basic-14
+  - basic-9
+  - basic-16
+  - basic-11
+  - basic-13
+  - basic-15
+  - basic-12
+  - basic-10
+  - basic-7
+  - basic-8
+  - basic-6
+  m_RenderDataMap: {}
+  m_Tag: Basic_atlas
+  m_IsVariant: 0

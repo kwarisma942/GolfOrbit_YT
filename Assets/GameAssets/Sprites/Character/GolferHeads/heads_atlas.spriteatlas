@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: heads_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 6152b71498076f44ca06c9e8a669b889, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a6bdba21ae9e31f4998bdd64c88926fa: 21300000
+    - ad607731501a5eb4e8d38bc121f329e0: 21300000
+    - e6a98bd1f02c54db9aa68b317853f36a: 21300000
+    - ab09d5d29248242d5a4c1d24fd23ddff: 21300000
+    - 8db7aa13d59bffd40821b6da3457e71b: 21300000
+    - b70bc78321587f24db4ad79617a496c3: 21300000
+    - 65f47ac3fecf92045b2534c1e06e671a: 21300000
+    - 701e66949cd9b9d4b88957d90586928c: 21300000
+    - f8591b954f85f71408463dd0ab98d78a: 21300000
+    - 80c150f6918109a488a254638bf767be: 21300000
+    - dfed1bc7ad5f046d8a539febf103f254: 21300000
+    - 2866b968d7e05da4bb6a0530ae4bce1d: 21300000
+    - e568c5e8ca1380147b6cb43de5bd6c92: 21300000
+    - 9f36f5d9868e24eb0a47c5244d12c255: 21300000
+    - 037e623a710f347f09ec8d97cf114faa: 21300000
+    - d8befb7a793c6bd4588ef7551ce2ab17: 21300000
+    - 63b948ba719f841df87abe95d8aaddae: 21300000
+    - 2b62fd4ba176a1b4696fa8815c832b57: 21300000
+    - 95452ebbd001f1f458118c50cf0ee0f1: 21300000
+    - 291e807cbfd1b274087e20e6d2f22b33: 21300000
+    - 6165739d36f5947a5919e23a583aba3c: 21300000
+    - ddacc8fd3be0e254ea96e9fa15cb9a71: 21300000
+    - 828c495ef92abb44087d014330ae1ac1: 21300000
+    - 57aecf8ea71b84447ad2a032f9267efd: 21300000
+    - d9ce743fbb4289e44b8055baab92fa94: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a6bdba21ae9e31f4998bdd64c88926fa, type: 3}
+  - {fileID: 21300000, guid: ad607731501a5eb4e8d38bc121f329e0, type: 3}
+  - {fileID: 21300000, guid: e6a98bd1f02c54db9aa68b317853f36a, type: 3}
+  - {fileID: 21300000, guid: ab09d5d29248242d5a4c1d24fd23ddff, type: 3}
+  - {fileID: 21300000, guid: 8db7aa13d59bffd40821b6da3457e71b, type: 3}
+  - {fileID: 21300000, guid: b70bc78321587f24db4ad79617a496c3, type: 3}
+  - {fileID: 21300000, guid: 65f47ac3fecf92045b2534c1e06e671a, type: 3}
+  - {fileID: 21300000, guid: 701e66949cd9b9d4b88957d90586928c, type: 3}
+  - {fileID: 21300000, guid: f8591b954f85f71408463dd0ab98d78a, type: 3}
+  - {fileID: 21300000, guid: 80c150f6918109a488a254638bf767be, type: 3}
+  - {fileID: 21300000, guid: dfed1bc7ad5f046d8a539febf103f254, type: 3}
+  - {fileID: 21300000, guid: 2866b968d7e05da4bb6a0530ae4bce1d, type: 3}
+  - {fileID: 21300000, guid: e568c5e8ca1380147b6cb43de5bd6c92, type: 3}
+  - {fileID: 21300000, guid: 9f36f5d9868e24eb0a47c5244d12c255, type: 3}
+  - {fileID: 21300000, guid: 037e623a710f347f09ec8d97cf114faa, type: 3}
+  - {fileID: 21300000, guid: d8befb7a793c6bd4588ef7551ce2ab17, type: 3}
+  - {fileID: 21300000, guid: 63b948ba719f841df87abe95d8aaddae, type: 3}
+  - {fileID: 21300000, guid: 2b62fd4ba176a1b4696fa8815c832b57, type: 3}
+  - {fileID: 21300000, guid: 95452ebbd001f1f458118c50cf0ee0f1, type: 3}
+  - {fileID: 21300000, guid: 291e807cbfd1b274087e20e6d2f22b33, type: 3}
+  - {fileID: 21300000, guid: 6165739d36f5947a5919e23a583aba3c, type: 3}
+  - {fileID: 21300000, guid: ddacc8fd3be0e254ea96e9fa15cb9a71, type: 3}
+  - {fileID: 21300000, guid: 828c495ef92abb44087d014330ae1ac1, type: 3}
+  - {fileID: 21300000, guid: 57aecf8ea71b84447ad2a032f9267efd, type: 3}
+  - {fileID: 21300000, guid: d9ce743fbb4289e44b8055baab92fa94, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - kitty_head@2x
+  - panda_head
+  - jedi-head
+  - chickenHead
+  - pirate_head@2x
+  - Marius_head
+  - mexican_head
+  - basic-5
+  - trump_head
+  - zombie_head@2x
+  - lion-head
+  - viking-head
+  - french_head
+  - gym-head
+  - papy-head-
+  - cosmonaut_head
+  - alien-head-copy
+  - tiger_head
+  - golfeuse_head
+  - santa_head
+  - clown-head
+  - dancer_head@2x
+  - mamy-head
+  - unicorn_head@2x
+  - baywatch-head
+  m_RenderDataMap: {}
+  m_Tag: heads_atlas
+  m_IsVariant: 0

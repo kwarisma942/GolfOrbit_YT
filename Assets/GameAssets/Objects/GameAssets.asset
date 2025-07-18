@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084664185ca624045953c45cb1a6b020, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: d74fd1e46981e4d239594a17c3b0dfe3, type: 2}
+  golfers:
+  - name: MaleGolfer
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: f1ffc365ceedc0d4b9e4315877e66c8d, type: 3}
+    prefab: {fileID: 114088501262840912, guid: 6632be138a73bab4fa876b3d68019979, type: 3}
+    shopHead: {fileID: 21300000, guid: 701e66949cd9b9d4b88957d90586928c, type: 3}
+  premiumGolfers: []
+  instagramGolfer:
+    name: Mexican
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 78739c5fd148a694ba300238ef024a5a, type: 3}
+    prefab: {fileID: 114088501262840912, guid: 33dc657c846c2c14bb9c3203eb7ce7c8, type: 3}
+    shopHead: {fileID: 21300000, guid: 65f47ac3fecf92045b2534c1e06e671a, type: 3}
+  planets:
+  - name: earth_planet
+    shopPreview: {fileID: 21300000, guid: ae4559dc1f988994196b8bcc83445502, type: 3}
+    shopButtonPreview: {fileID: 21300000, guid: bc2f9445b55c1004eb1655dbe9e28e22,
+      type: 3}
+    prefabs:
+    - {fileID: 114039699900681710, guid: 4d8ba9bdc4d16994d977e89d7fc45905, type: 3}
+    - {fileID: 114039699900681710, guid: 5233d19377daaa94099d9a6a628345dc, type: 3}
+    - {fileID: 114039699900681710, guid: bf8697e8223083644bd1d581d22d70e7, type: 3}
+    orbitButtonSprite: {fileID: 0}
+    orbitImage: {fileID: 21300000, guid: 96de46a2cadba1e4a86bad314b66fa96, type: 3}
+    dayTimeController: {fileID: 114461829055609132, guid: c99bb0b7cc326f44ea99bab3a523d5d7,
+      type: 3}
+    landParticlesColor:
+    - serializedVersion: 2
+      key0: {r: 0.43529415, g: 0.8745099, b: 0.20784315, a: 1}
+      key1: {r: 0.10196079, g: 0.7254902, b: 0.12941177, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0.8588236, g: 0.7568628, b: 0.32156864, a: 1}
+      key1: {r: 0.9215687, g: 0.882353, b: 0.6666667, a: 1}
+      key2: {r: 0.9215687, g: 0.8352942, b: 0.4901961, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 26214
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_ColorSpace: -1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0, g: 0.5137255, b: 0.7294118, a: 0.75686276}
+      key1: {r: 0, g: 0.7254902, b: 1, a: 0.75686276}
+      key2: {r: 0, g: 0.5921569, b: 0.84313726, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 26214
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_ColorSpace: -1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0.04705883, g: 0.5529412, b: 0.07450981, a: 1}
+      key1: {r: 0.08627451, g: 0.4784314, b: 0.10196079, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_ColorSpace: -1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    birdsColor:
+      serializedVersion: 2
+      key0: {r: 0.9294118, g: 0.92549026, b: 0.92549026, a: 1}
+      key1: {r: 0.95294124, g: 0.7803922, b: 0.30980393, a: 1}
+      key2: {r: 0.22352943, g: 0.2509804, b: 0.28627452, a: 0}
+      key3: {r: 1, g: 1, b: 1, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 21627
+      ctime1: 43253
+      ctime2: 65535
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_ColorSpace: -1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    backgroundMusic: {fileID: 8300000, guid: c2c4a265a67e8234a862a2039b59bed6, type: 3}
+    waterName: in_the_water
+  balls:
+  - name: White
+    ballColor: {r: 1, g: 1, b: 1, a: 1}
+    ballSprite: {fileID: 21300000, guid: 8645d3408a98a7a4ebe7a38fc9598161, type: 3}
+    ballTooltip: 
+    cost: 0
+  inAppProducts:
+  - name: handfull of gems
+    description: 200 gems
+    productId: com.gpp.gosmalliap
+    hardCurrencyAmount: 200
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC2,29"
+    fakeUSPrice: $1.99
+  shopItems:
+  - name: chest_of_gold
+    description: 100,000 coins
+    hardCurrencyPrice: 100
+    softCurrencyAmount: 100000
+  holePrefab: {fileID: 1928671878255620, guid: 21313416d79fa8647b06350cd02380d0, type: 3}
+  oldHolePrefab: {fileID: 1502254385597446, guid: 55b3b6d461ae0eb4394107add0255da4,
+    type: 3}

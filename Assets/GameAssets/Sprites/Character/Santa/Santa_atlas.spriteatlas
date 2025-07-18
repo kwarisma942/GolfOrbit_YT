@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Santa_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: af9d1878cc85c7f45a5af08a37c337d9, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 0f497a003be133d42bfe99dbdd8bd5c0: 21300000
+    - 3738a3a0d7f9ab440af62955bcca095d: 21300000
+    - dd3dc533e987d484bb9f6c279876cbc3: 21300000
+    - 474401f5665553247991eeb495bb85c5: 21300000
+    - 1d4bbb263e4d4cf4abc08a466ffecfed: 21300000
+    - 76a5f23648bb0e44cb052583a4cf3a99: 21300000
+    - f76eac9710ec67644855ca0588ee8e9f: 21300000
+    - d31732095d96c864f8099e313eae7d3b: 21300000
+    - ba7fd45e89cf1f14a9425d16be0b99c5: 21300000
+    - 7d22a72f5273f4c469e8c00370897281: 21300000
+    - 74ccb4afb0e8c804b8ab19aa152ffade: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 0f497a003be133d42bfe99dbdd8bd5c0, type: 3}
+  - {fileID: 21300000, guid: 3738a3a0d7f9ab440af62955bcca095d, type: 3}
+  - {fileID: 21300000, guid: dd3dc533e987d484bb9f6c279876cbc3, type: 3}
+  - {fileID: 21300000, guid: 474401f5665553247991eeb495bb85c5, type: 3}
+  - {fileID: 21300000, guid: 1d4bbb263e4d4cf4abc08a466ffecfed, type: 3}
+  - {fileID: 21300000, guid: 76a5f23648bb0e44cb052583a4cf3a99, type: 3}
+  - {fileID: 21300000, guid: f76eac9710ec67644855ca0588ee8e9f, type: 3}
+  - {fileID: 21300000, guid: d31732095d96c864f8099e313eae7d3b, type: 3}
+  - {fileID: 21300000, guid: ba7fd45e89cf1f14a9425d16be0b99c5, type: 3}
+  - {fileID: 21300000, guid: 7d22a72f5273f4c469e8c00370897281, type: 3}
+  - {fileID: 21300000, guid: 74ccb4afb0e8c804b8ab19aa152ffade, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - santa_rightLeg
+  - santa_rightFoot
+  - santa_club
+  - santa_leftArm
+  - santa_rightForeArm
+  - santa_leftFoot
+  - santa_torso
+  - santa_bottom
+  - santa_rightArm
+  - santa_leftleg
+  - santa_leftForeArm
+  m_RenderDataMap: {}
+  m_Tag: Santa_atlas
+  m_IsVariant: 0

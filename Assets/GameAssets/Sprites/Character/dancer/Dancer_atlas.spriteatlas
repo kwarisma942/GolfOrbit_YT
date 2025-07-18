@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dancer_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: fd36e4fd7a3f8fd44b9d1cac9147fae0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - df4f8c24454df3d4eada4a19fe1be17d: 21300000
+    - a126e8b61f06a4c43880da52179552a2: 21300000
+    - a7f38f68bd25f2e49a8597b406b1a3c0: 21300000
+    - 22fcf94a888fafb4aa5d3560c9882751: 21300000
+    - 507fa5cbce270744ea91e1f2ff5146b0: 21300000
+    - 8258b26c9d85fc0418b098ef5f76198f: 21300000
+    - 3f0e999d8b5acfd41a3014bba63acc85: 21300000
+    - 5efb2cfde46f8244e9b653b47c447744: 21300000
+    - 464b9f9eb23fdb44c9f145e4bda63841: 21300000
+    - 880f12fe7d8a03c488876eaf174cf6ac: 21300000
+    - 94f14beff07adf742b6696c67f350b9b: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: df4f8c24454df3d4eada4a19fe1be17d, type: 3}
+  - {fileID: 21300000, guid: a126e8b61f06a4c43880da52179552a2, type: 3}
+  - {fileID: 21300000, guid: a7f38f68bd25f2e49a8597b406b1a3c0, type: 3}
+  - {fileID: 21300000, guid: 22fcf94a888fafb4aa5d3560c9882751, type: 3}
+  - {fileID: 21300000, guid: 507fa5cbce270744ea91e1f2ff5146b0, type: 3}
+  - {fileID: 21300000, guid: 8258b26c9d85fc0418b098ef5f76198f, type: 3}
+  - {fileID: 21300000, guid: 3f0e999d8b5acfd41a3014bba63acc85, type: 3}
+  - {fileID: 21300000, guid: 5efb2cfde46f8244e9b653b47c447744, type: 3}
+  - {fileID: 21300000, guid: 464b9f9eb23fdb44c9f145e4bda63841, type: 3}
+  - {fileID: 21300000, guid: 880f12fe7d8a03c488876eaf174cf6ac, type: 3}
+  - {fileID: 21300000, guid: 94f14beff07adf742b6696c67f350b9b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - dancer_L_hand@2x
+  - dancer_R_leg@2x
+  - dancer_L_foot@2x
+  - dancer_L_shoulder@2x
+  - dancer_L_leg@2x
+  - dancer_R_foot@2x
+  - dancer_R_shoulder@2x
+  - dancer_club@2x
+  - dancer_R_hand@2x
+  - dancer_torso@2x
+  - dancer_dress@2x
+  m_RenderDataMap: {}
+  m_Tag: Dancer_atlas
+  m_IsVariant: 0

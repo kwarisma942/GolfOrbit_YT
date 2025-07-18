@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Marius_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3eb137f79d6f08546823a10e1e1adaad, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - b6d73fb153fb9c945b8099bc60d54fb0: 21300000
+    - 4f82364262fa58f45bc91396641d48d5: 21300000
+    - 0a9771c36cc03b04abed7d3e97349255: 21300000
+    - 8c6b4144f8cf019448786301f7ae3571: 21300000
+    - 875d1d74cbfbc9147b5664ebec973795: 21300000
+    - 1a78ab842f26788439ffe331c6e22451: 21300000
+    - c5cecef531113b543961177dc92f8c13: 21300000
+    - 784a87c9ef94bd146a08614f61dda017: 21300000
+    - d6188d7a14d7d37449e53ce5bad3661a: 21300000
+    - 184deada03e61384d8ac90f7434675af: 21300000
+    - 9f1cde3b8d5e2eb43b16408509791c0a: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b6d73fb153fb9c945b8099bc60d54fb0, type: 3}
+  - {fileID: 21300000, guid: 4f82364262fa58f45bc91396641d48d5, type: 3}
+  - {fileID: 21300000, guid: 0a9771c36cc03b04abed7d3e97349255, type: 3}
+  - {fileID: 21300000, guid: 8c6b4144f8cf019448786301f7ae3571, type: 3}
+  - {fileID: 21300000, guid: 875d1d74cbfbc9147b5664ebec973795, type: 3}
+  - {fileID: 21300000, guid: 1a78ab842f26788439ffe331c6e22451, type: 3}
+  - {fileID: 21300000, guid: c5cecef531113b543961177dc92f8c13, type: 3}
+  - {fileID: 21300000, guid: 784a87c9ef94bd146a08614f61dda017, type: 3}
+  - {fileID: 21300000, guid: d6188d7a14d7d37449e53ce5bad3661a, type: 3}
+  - {fileID: 21300000, guid: 184deada03e61384d8ac90f7434675af, type: 3}
+  - {fileID: 21300000, guid: 9f1cde3b8d5e2eb43b16408509791c0a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Marius_tosro
+  - Marius_R_arm
+  - Marius_L_foot
+  - Marius_R_forearm
+  - Marius_L_forearm
+  - Marius_R_leg
+  - Marius_R_foot
+  - marius_butt
+  - Marius_club
+  - Marius_L_arm
+  - Marius_L_leg
+  m_RenderDataMap: {}
+  m_Tag: Marius_atlas
+  m_IsVariant: 0

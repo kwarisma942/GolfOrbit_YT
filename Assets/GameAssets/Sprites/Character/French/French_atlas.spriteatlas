@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: French_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d65aed4e4519d394baaff9ff51929889, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - d9a4c8010084419449692fa209394de2: 21300000
+    - 21855d3377afb3c4db9df0f353fe0ce1: 21300000
+    - ce2efe330b6c73144bb0cd95882794b8: 21300000
+    - 15b01074ff539e94da539a4337d61b7f: 21300000
+    - acbce0a5d0ada3d44bed4a0b31145b31: 21300000
+    - af903e6bc9e6d504a87aa546ae161362: 21300000
+    - c65be44c56724334aa505747164eaa82: 21300000
+    - fc1e9e0ebcd61cc41a6b0f751499f84d: 21300000
+    - c0133a5eab1e5b44eb2ac8c852167d34: 21300000
+    - de851d1f3838e894ca4580a6a54d282e: 21300000
+    - da20aedf3f8681c43abaac1a6af79e27: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d9a4c8010084419449692fa209394de2, type: 3}
+  - {fileID: 21300000, guid: 21855d3377afb3c4db9df0f353fe0ce1, type: 3}
+  - {fileID: 21300000, guid: ce2efe330b6c73144bb0cd95882794b8, type: 3}
+  - {fileID: 21300000, guid: 15b01074ff539e94da539a4337d61b7f, type: 3}
+  - {fileID: 21300000, guid: acbce0a5d0ada3d44bed4a0b31145b31, type: 3}
+  - {fileID: 21300000, guid: af903e6bc9e6d504a87aa546ae161362, type: 3}
+  - {fileID: 21300000, guid: c65be44c56724334aa505747164eaa82, type: 3}
+  - {fileID: 21300000, guid: fc1e9e0ebcd61cc41a6b0f751499f84d, type: 3}
+  - {fileID: 21300000, guid: c0133a5eab1e5b44eb2ac8c852167d34, type: 3}
+  - {fileID: 21300000, guid: de851d1f3838e894ca4580a6a54d282e, type: 3}
+  - {fileID: 21300000, guid: da20aedf3f8681c43abaac1a6af79e27, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - french_club
+  - french_torso
+  - french_L_arm
+  - French_R_leg
+  - french_L_leg
+  - French_L_foot
+  - french_butt
+  - French_R_arm
+  - fench_L_forearm
+  - French_R_forearm
+  - French_R_foot
+  m_RenderDataMap: {}
+  m_Tag: French_atlas
+  m_IsVariant: 0

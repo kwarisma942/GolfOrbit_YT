@@ -1,0 +1,2444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: ad_loading
+      TermType: 0
+      Description: 
+      Languages:
+      - Loading ad...
+      - "Chargement de la publicit\xE9..."
+      - Werbung wird geladen...
+      - "Caricamento pubblicit\xE0..."
+      - Cargando anuncios...
+      - Carregando propaganda...
+      - "\u5E83\u544A\u3092\u30ED\u30FC\u30C7\u30A3\u30F3\u30B0\u4E2D..."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: albatros
+      TermType: 0
+      Description: 
+      Languages:
+      - Albatros!
+      - Albatros!
+      - Albatros!
+      - Albatros!
+      - "\xA1Albatros!"
+      - Albatros!
+      - "\u30A2\u30EB\u30D0\u30C8\u30ED\u30B9\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: already_completed_planet
+      TermType: 0
+      Description: 
+      Languages:
+      - You have already completed this planet, what do you want to do?
+      - "Tu as d\xE9j\xE0 fini cette plan\xE8te, que veux tu faire?"
+      - Du hast diesen Planeten schon beendet, was willst du tun?
+      - "Hai gi\xE0 completato questo pianeta, cosa vuoi fare?"
+      - "Ya has completado este planeta, \xBFqu\xE9 quieres hacer?"
+      - "Voc\xEA j\xE1 completou este planeta. O que quer fazer?"
+      - "\u3053\u306E\u60D1\u661F\u306F\u653B\u7565\u6E08\u307F\u3002\u6B21\u306F\u3069\u3046\u3059\u308B\uFF1F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: already_subscribed
+      TermType: 0
+      Description: 
+      Languages:
+      - Already subscribed? Restore purchase now.
+      - "D\xE9j\xE0 inscrit? Restaure ton achat maintenant."
+      - Schon abonniert? Kauf jetzt wiederherstellen.
+      - "Sei gi\xE0 iscritto? Riattiva l'acquisto adesso."
+      - "\xBFYa suscrito? Restaurar la compra."
+      - "J\xE1 inscrito? Restaurar a compra agora."
+      - "\u8CFC\u5165\u6E08\u307F\u3067\u3059\u304B\uFF1F\u4ECA\u3059\u3050\u5FA9\u5143\u3002"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: animation_intro
+      TermType: 0
+      Description: 
+      Languages:
+      - Travel over all greens in the universe!
+      - Traverse tout les terrains de golf de l'univers!
+      - "Reise \xFCber alle Greens im Universum!"
+      - Viaggia tra tutti i green dell'universo!
+      - "\xA1Viaja por todos los greens en el universo!"
+      - Viaje por todos os campos de golfe do universo!
+      - "\u5168\u5B87\u5B99\u306E\u5168\u3066\u306E\u30B0\u30EA\u30FC\u30F3\u3092\u5236\u8987\u3057\u3088\u3046\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: back_to_shop
+      TermType: 0
+      Description: 
+      Languages:
+      - Back to Shop
+      - Retourner au magasin
+      - "Zur\xFCck zum Shop"
+      - Torna al negozio
+      - Volver a la tienda
+      - Voltar para a loja
+      - "\u30B7\u30E7\u30C3\u30D7\u3078\u623B\u308B"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ball
+      TermType: 0
+      Description: 
+      Languages:
+      - Ball
+      - Balle
+      - Ball
+      - Pallina
+      - Bola
+      - Bola
+      - "\u30DC\u30FC\u30EB"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ball_blue_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Speed Ball : Speed x2'
+      - 'Balle rapide: Vitesse x2'
+      - 'Geschwindigkeitsball: Geschwindigkeit x2'
+      - "Pallina veloce: Velocit\xE0 x2"
+      - 'Velocidad de la bola: Velocidad x2'
+      - 'Bola de velocidade: velocidade x2'
+      - "\u30B9\u30D4\u30FC\u30C9\u30DC\u30FC\u30EB\uFF1A\u30B9\u30D4\u30FC\u30C9x2"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ball_golden_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Golden Ball : Gold Earnings x3'
+      - "Balle dor\xE9e: Gains x3"
+      - 'Goldener Ball: Goldgewinne x3'
+      - 'Pallina d''oro: Oro x2'
+      - 'Bola Oro: Monedas de oro x3'
+      - 'Bola dourada: ganhos de ouro x3'
+      - "\u30B4\u30FC\u30EB\u30C7\u30F3\u30DC\u30FC\u30EB\uFF1A\u30B4\u30FC\u30EB\u30C9x3"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ball_orange_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Bounce Ball : Bounce x2'
+      - 'Balle rebondissante: Rebond x2'
+      - 'Bounce-Ball: Bounce x2'
+      - 'Pallina Rimbalzante: Rimbalzo x2'
+      - 'Bola Rebote: Rebote x2'
+      - 'Bola quicante: quicar x2'
+      - "\u30D0\u30A6\u30F3\u30B9\u30DC\u30FC\u30EB\uFF1A\u30D0\u30A6\u30F3\u30B9x2"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ball_red_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Power Ball : Power x2'
+      - 'Balle puissante: Puissance x2'
+      - 'Kraft-Ball: Kraft x2'
+      - 'Pallina potente: Potenza x2'
+      - "Bola Energ\xEDa: Energ\xEDa x2"
+      - "Bola de pot\xEAncia: pot\xEAncia x2"
+      - "\u30D1\u30EF\u30FC\u30DC\u30FC\u30EB\uFF1A\u30D1\u30EF\u30FCx2"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ball_violet_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Extra Ball : Earnings and Power x3'
+      - 'Balle ultime: Gains et Puissance x3'
+      - 'Extra-Ball: Gewinne und Kraft x3'
+      - 'Pallina extra: Premi e potenza x3'
+      - 'Bola Extra: monedas y fuerza x3'
+      - "Bola extra: ganhos e pot\xEAncia x3"
+      - "\u30A8\u30AF\u30B9\u30C8\u30E9\u30DC\u30FC\u30EB\uFF1A\u7403\u6570\u3068\u30D1\u30EF\u30FCx3"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: best_offer
+      TermType: 0
+      Description: 
+      Languages:
+      - Best Offer!
+      - Meilleure offre!
+      - Bestes Angebot!
+      - Migliore offerta!
+      - "\xA1La mejor oferta!"
+      - Melhor oferta!
+      - "\u30D9\u30B9\u30C8\u30AA\u30D5\u30A1\u30FC\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: birdie
+      TermType: 0
+      Description: 
+      Languages:
+      - Birdie!
+      - Birdie!
+      - Birdie!
+      - Uccellino!
+      - "\xA1Hoyo bajo par!"
+      - Birdie!
+      - "\u30D0\u30FC\u30C7\u30A3\u30FC\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: bonus
+      TermType: 0
+      Description: 
+      Languages:
+      - BONUS
+      - BONUS
+      - Bonus
+      - BONUS
+      - BONUS
+      - "B\xF4nus"
+      - "\u30DC\u30FC\u30CA\u30B9"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: bounce
+      TermType: 0
+      Description: 
+      Languages:
+      - BOUNCE
+      - REBOND
+      - BOUNCE
+      - RIMBALZO
+      - REBOTE
+      - QUICAR
+      - "\u30D0\u30A6\u30F3\u30B9"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: bounce_upgrade_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - Ball bounces {0}% further
+      - La balle rebondit {0}% + loin
+      - Ball springt {0}% weiter
+      - "La pallina rimbalza il {0}% pi\xF9 lontano"
+      - "La bola rebota {0}% m\xE1s"
+      - A bola quica {0}% mais longe
+      - "{0}%\u9060\u304F\u307E\u3067\u30DC\u30FC\u30EB\u3092\u98DB\u3070\u3059"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: buy
+      TermType: 0
+      Description: 
+      Languages:
+      - Buy it!
+      - "Ach\xE8te le!"
+      - Kauf es!
+      - Compralo!
+      - "\xA1Comprar!"
+      - Comprar!
+      - "\u8CB7\u304A\u3046\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: check_connection_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - Please check your internet connection
+      - "Veuillez v\xE9rifier votre connexion internet"
+      - "Bitte \xFCberpr\xFCfe deine Interentverbindung"
+      - Controlla la tua connessione internet
+      - "Comprueba tu conexi\xF3n a internet, por favor"
+      - "Por favor, verifique sua conex\xE3o com a internet"
+      - "\u30A4\u30F3\u30BF\u30FC\u30CD\u30C3\u30C8\u63A5\u7D9A\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: choose_new_golfer
+      TermType: 0
+      Description: 
+      Languages:
+      - Choose the new Golfer !
+      - Choisir le nouveau golfeur!
+      - "W\xE4hle den neuen Golfer!"
+      - Scegli il nuovo golfista!
+      - "\xA1Selecciona al nuevo golfista!"
+      - Escolher o novo jogador de golfe!
+      - "\u65B0\u3057\u3044\u30B4\u30EB\u30D5\u30A1\u30FC\u3092\u9078\u307C\u3046\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: club_house
+      TermType: 0
+      Description: 
+      Languages:
+      - clubhouse
+      - Club House
+      - Clubhaus
+      - clubhouse
+      - clubhouse
+      - sede do clube
+      - "\u30AF\u30E9\u30D6\u30CF\u30A6\u30B9"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: collect
+      TermType: 0
+      Description: 
+      Languages:
+      - Collect
+      - "R\xE9colter"
+      - Sammeln
+      - Raccogli
+      - RECOGER
+      - Coletar
+      - "\u30B3\u30EC\u30AF\u30C8"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: cool
+      TermType: 0
+      Description: 
+      Languages:
+      - Cool!
+      - Cool!
+      - Cool!
+      - Grande!
+      - "\xA1Genial!"
+      - Legal!
+      - "\u30AF\u30FC\u30EB\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: distance_unit_abrevation
+      TermType: 0
+      Description: 
+      Languages:
+      - ft
+      - m
+      - m
+      - m
+      - m
+      - m
+      - m
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: divide_countdown_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - Divide countdown by 2 (New time =
+      - Divise le temps d'attente par 2 (Nouveau temps =
+      - Countdown durch 2 teilen (Neue Zeit =
+      - Dimezza il conto alla rovescia (nuovo tempo =
+      - "Divide por 2 la cuenta atr\xE1s (Tiempo renovado ="
+      - Dividir a contagem regressiva por 2 (novo tempo =
+      - "\uFF12\u3067\u5272\u3063\u3066\u3044\u3053\u3046 "
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: do_it_again
+      TermType: 0
+      Description: 
+      Languages:
+      - Do it again!
+      - Encore une fois!
+      - Mach es noch mal!
+      - Fallo di nuovo!
+      - "\xA1Hazlo de nuevo!"
+      - "Fa\xE7a de novo!"
+      - "\u3082\u3046\u4E00\u5EA6\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: do_you_like
+      TermType: 0
+      Description: 
+      Languages:
+      - Do you like Golf Orbit?
+      - Tu aimes Golf Orbit?
+      - "Gef\xE4llt dir Golf Orbit?"
+      - Ti piace Golf Orbit?
+      - "\xBFTe gusta Golf Orbit?"
+      - "Voc\xEA gosta do Golf Orbit?"
+      - "\u30B4\u30EB\u30D5\u30AA\u30FC\u30D3\u30C3\u30C8\u6C17\u306B\u5165\u308A\u307E\u3057\u305F\u304B\uFF1F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: eagle
+      TermType: 0
+      Description: 
+      Languages:
+      - Eagle!
+      - Eagle!
+      - Eagle!
+      - Aquila!
+      - "\xA1Eagle!"
+      - Eagle!
+      - "\u30A4\u30FC\u30B0\u30EB\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: earning_multiplier
+      TermType: 0
+      Description: 
+      Languages:
+      - Earning Multiplier !
+      - Multiplicateur de gains!
+      - Gewinnvervielfacher!
+      - Moltiplicatore di guadagni!
+      - "\xA1Multiplicador de ganancias!"
+      - Multiplicador de ganhos!
+      - "\uFF13\u500D\u306E\u6570\u3092\u30B2\u30C3\u30C8\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: earth_planet
+      TermType: 0
+      Description: 
+      Languages:
+      - Earth Planet
+      - "Plan\xE8te Terre"
+      - Erd-Planet
+      - Pianeta Terra
+      - Planeta Tierra
+      - Planeta Terra
+      - "\u5730\u7403"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: exclusive_golfers_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - 5 exclusive golfers
+      - 5 golfeurs exclusifs
+      - 5 exklusive Golfer
+      - 5 golfisti esclusivi
+      - 5 golfistas exclusivos
+      - 5 jogadores de golfe exclusivos
+      - "\uFF15\u4EBA\u306E\u6700\u9AD8\u30B4\u30EB\u30D5\u9078\u624B"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: free
+      TermType: 0
+      Description: 
+      Languages:
+      - Free !
+      - Gratuit!
+      - Kostenlos!
+      - Gratis!
+      - "\xA1Gratis!"
+      - "Gr\xE1tis!"
+      - "\u7121\u6599\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: free_golden_ball
+      TermType: 0
+      Description: 
+      Languages:
+      - Free Golden Ball
+      - "Balle dor\xE9e gratuite!"
+      - Kostenloser Goldener Ball
+      - Pallina d'oro gratis
+      - Bola Oro gratis
+      - "Bola dourada de gra\xE7a"
+      - "\u30B4\u30FC\u30EB\u30C7\u30F3\u30DC\u30FC\u30EB\u3092\u7121\u6599\u3067"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: free_play
+      TermType: 0
+      Description: 
+      Languages:
+      - Free play!
+      - Essai gratuit!
+      - Kostenloses Spiel!
+      - Partita gratis!
+      - "\xA1Juega gratis!"
+      - "Jogar de gra\xE7a!"
+      - "\u7121\u6599\u3067\u30D7\u30EC\u30A4\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: free_try
+      TermType: 0
+      Description: 
+      Languages:
+      - Free Try
+      - Essais gratuit
+      - Kostenlos ausprobieren
+      - Prova gratis
+      - "\xA1Prueba gratis!"
+      - "Teste gr\xE1tis"
+      - "\u7121\u6599\u3067\u30C8\u30E9\u30A4"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: gdpr_update
+      TermType: 0
+      Description: 
+      Languages:
+      - "We have updated our privacy policy and terms of service to be in compliance
+        with EU\u2019s General Data Protection Regulation (GDPR).\nBy clicking OK,
+        you confirm that you acknowledge and accept this policy.\nMore information
+        may be found here:"
+      - "Nous avons mis \xE0 jour notre politique de confidentialit\xE9 et nos conditions
+        de service pour \xEAtre en conformit\xE9 avec le r\xE8glement g\xE9n\xE9ral
+        sur la protection des donn\xE9es de l'UE (GDPR).\nVous trouverez plus d'informations
+        ici:"
+      - 'Wir haben unsere Datenschutzrichtlinien und Nutzungsbedingungen aktualisiert,
+        damit sie der EU-Datenschutz-Grundverordnung (DSGVO) entsprechen.
+
+        Mehr
+        Informationen dazu hier:'
+      - "Abbiamo aggiornato la nostra policy sulla privacy e le nostre condizioni,
+        in conformit\xE0 con il Regolamento generale sulla protezione dei dati (GDPR).\nPer
+        maggiori informazioni, consulta questa pagina:"
+      - "Hemos actualizado nuestra pol\xEDtica y nuestras condiciones de servicio,
+        para asegurar el cumplimiento de las leyes de protecci\xF3n de datos (RGPD).\nM\xE1s
+        informaci\xF3n en:"
+      - "Atualizamos nossa pol\xEDtica de privacidade e os termos de servi\xE7o para
+        estarmos em conformidade com o Regulamento Geral de Prote\xE7\xE3o de Dados
+        da Uni\xE3o Europeia (GDPR). Mais informa\xE7\xF5es aqui:"
+      - "\u5F53\u793E\u306F\u3001EU\u306E\u4E00\u822C\u30C7\u30FC\u30BF\u4FDD\u8B77\u898F\u5236\uFF08GDPR\uFF09\u306B\u6E96\u62E0\u3059\u308B\u3088\u3046\u3001\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC\u3068\u5229\u7528\u898F\u7D04\u3092\u66F4\u65B0\u3057\u307E\u3057\u305F.\n\u8A73\u7D30\u306F\u3053\u3061\u3089\u3092\u3054\u89A7\u304F\u3060\u3055\u3044\uFF1A"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: general
+      TermType: 0
+      Description: 
+      Languages:
+      - General
+      - "G\xE9n\xE9ral"
+      - Allgemein
+      - Generale
+      - General
+      - Geral
+      - "\u4E00\u822C"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: gold_earning_x3
+      TermType: 0
+      Description: 
+      Languages:
+      - Gold Earning x3
+      - Gains x3
+      - Goldgewinn x3
+      - Guadagni d'oro x3
+      - Monedas ganadas x3
+      - Ganhos de ouro x3
+      - "\u30B4\u30FC\u30EB\u30C9x3"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: gold_earnings_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - X3 Gold earnings
+      - X3 Plus de gains
+      - X3 Goldgewinne
+      - X3 Guadagni d'oro
+      - X3 Monedas ganadas
+      - X3 Ganhos de ouro
+      - "\u30B4\u30FC\u30EB\u30C9X3"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: golden_ball_description
+      TermType: 0
+      Description: 
+      Languages:
+      - Hey! Here is a free golden ball for you to try it!
+      - "Hey! Voil\xE0 une balle dor\xE9e gratuite pour que tu essaies!"
+      - "Hey! Hier ist ein kostenloser Goldener Ball f\xFCr dich zum Ausprobieren!"
+      - Ehi! Ecco una pallina d'oro gratis, provala!
+      - "\xA1Oye! \xA1Aqu\xED hay para que pruebes una bola de oro gratis!"
+      - "Ei! Teste esta bola dourada de gra\xE7a!"
+      - "\u7121\u6599\u306E\u30B4\u30FC\u30EB\u30C7\u30F3\u30DC\u30FC\u30EB\u3092\u8A66\u3057\u306B\u6253\u3063\u3066\u307F\u308B\uFF1F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: golden_ball_x1
+      TermType: 0
+      Description: 
+      Languages:
+      - GOLDEN BALL X1
+      - "BALLE DOR\xC9E X1"
+      - GOLDENER BALL x1
+      - PALLINA D'ORO X1
+      - BOLA ORO X1
+      - BOLA DOURADA X1
+      - "\u30B4\u30FC\u30EB\u30C7\u30F3\u30DC\u30FC\u30EBx1"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: golden_ball_x10
+      TermType: 0
+      Description: 
+      Languages:
+      - GOLDEN BALL X10
+      - "BALLE DOR\xC9E X10"
+      - GOLDENER BALL x10
+      - PALLINA D'ORO X10
+      - BOLA ORO X10
+      - BOLA DOURADA X10
+      - "\u30B4\u30FC\u30EB\u30C7\u30F3\u30DC\u30FC\u30EBx10"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: golfer
+      TermType: 0
+      Description: 
+      Languages:
+      - Golfer
+      - Golfeur
+      - Golfer
+      - Golfista
+      - Golfista
+      - Jogador de golfe
+      - "\u30B4\u30EB\u30D5\u30A1\u30FC"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: got_it
+      TermType: 0
+      Description: 
+      Languages:
+      - Got it!
+      - Compris!
+      - Verstanden!
+      - Ho capito!
+      - "\xA1Conseguido!"
+      - Entendi!
+      - "\u3084\u3063\u305F\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: graphics
+      TermType: 0
+      Description: 
+      Languages:
+      - Graphics
+      - Graphiques
+      - Grafik
+      - Grafiche
+      - "Gr\xE1ficos"
+      - "Gr\xE1ficos"
+      - "\u30B0\u30E9\u30D5"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: great
+      TermType: 0
+      Description: 
+      Languages:
+      - Great!
+      - "G\xE9nial!"
+      - "Gro\xDFartig!"
+      - Grande!
+      - "\xA1Genial!"
+      - "\xD3timo!"
+      - "\u3059\u3070\u3089\u3057\u3044"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: hit_the_ball
+      TermType: 0
+      Description: 
+      Languages:
+      - Hit the ball as hard as you can to put it into orbit and reach this new planet
+        !
+      - "Tape la balle aussi fort que possible pour l'envoyer en orbite et atteindre
+        une nouvelle plan\xE8te!"
+      - Schlag den Ball, so hart du kannst, um ihn in den Orbit zu bringen und diesen
+        neuen Planeten zu erreichen!
+      - "Colpisci la pallina pi\xF9 forte che puoi e mandala in orbita per raggiungere
+        questo nuovo pianeta!"
+      - "\xA1Lanza la bola lo m\xE1s fuerte que puedas para ponerla en \xF3rbita
+        y alcanzar este nuevo planeta!"
+      - "Bata na bola o mais forte que puder para coloc\xE1-la em \xF3rbita e alcan\xE7ar
+        um novo planeta!"
+      - "\u601D\u3044\u5207\u308A\u30DC\u30FC\u30EB\u3092\u6253\u3063\u3066\u8ECC\u9053\u306B\u4E57\u305B\u3001\u65B0\u305F\u306A\u60D1\u661F\u307E\u3067\u5C4A\u304B\u305B\u3088\u3046\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: hope_you_dont
+      TermType: 0
+      Description: 
+      Languages:
+      - "Hope you don\u2019t mind I shot some balls while you were away! Here is
+        what I earned :"
+      - "Pendant ton absence, j'ai lanc\xE9 quelques balles, \xE7a ne te d\xE9range
+        pas? J'ai gagn\xE9:"
+      - "Hoffe, es macht dir nichts aus, dass ich ein paar B\xE4lle geschlagen habe,
+        als du weg warst! Hier ist, was ich verdient habe:"
+      - 'Spero che non ti dispiaccia...in tua assenza ho tirato qualche pallina!
+        Ecco cosa ho guadagnato:'
+      - "Espero que no te importe, \xA1he lanzado algunas bolas mientras estabas
+        fuera! Esto es lo que gan\xE9:"
+      - "Lancei algumas bolas enquanto voc\xEA estava fora, espero que n\xE3o se
+        importe! Olhe o que eu ganhei:"
+      - "\u3042\u306A\u305F\u306E\u3044\u306A\u3044\u9593\u306B\u4F55\u7403\u304B\u6253\u3063\u3061\u3083\u3044\u307E\u3057\u305F\u3002\u30B2\u30C3\u30C8\u3057\u305F\u306E\u306F\uFF1A"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: i_give_up
+      TermType: 0
+      Description: 
+      Languages:
+      - I give up ...
+      - J'abandonne...
+      - Ich gebe auf...
+      - Mi arrendo...
+      - Lo dejo...
+      - Eu desisto...
+      - "\u8CA0\u3051\u3067\u3059..."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: important_policy_updates
+      TermType: 0
+      Description: 
+      Languages:
+      - Important Policy Updates
+      - "Importante mise \xE0 jour de la politique de confidentialit\xE9"
+      - Wichtige Aktualisierungen der Richtlinien
+      - Aggiornamenti importanti della Policy
+      - "Importantes actualizaciones de nuestra pol\xEDtica"
+      - "Atualiza\xE7\xF5es importantes na pol\xEDtica de privacidade"
+      - "\u91CD\u8981\u306A\u30DD\u30EA\u30B7\u30FC\u66F4\u65B0"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: in_the_lava
+      TermType: 0
+      Description: 
+      Languages:
+      - Into Lava!
+      - Dans la lave!
+      - In Lava!
+      - Nella lava!
+      - "\xA1Intro Lava!"
+      - Na lava!
+      - "\u6EB6\u5CA9\u306E\u4E2D\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: in_the_water
+      TermType: 0
+      Description: 
+      Languages:
+      - Into Water!
+      - Dans l'eau!
+      - Ins Wasser!
+      - Nell'acqua!
+      - "\xA1Intro Agua!"
+      - "Na \xE1gua!"
+      - "\u6C34\u306E\u4E2D\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: jackpot
+      TermType: 0
+      Description: 
+      Languages:
+      - Jackpot
+      - Jackpot
+      - Jackpot
+      - Jackpot
+      - Bote
+      - "Grande pr\xEAmio"
+      - "\u30B8\u30E3\u30C3\u30AF\u30DD\u30C3\u30C8"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: jackpot_popup_collected
+      TermType: 0
+      Description: 
+      Languages:
+      - Gold collected
+      - "Or collect\xE9"
+      - Gesammeltes Gold
+      - Oro raccolto
+      - Monedas conseguidas
+      - Ouro coletado
+      - "\u96C6\u3081\u305F\u30B4\u30FC\u30EB\u30C9"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: jackpot_popup_title
+      TermType: 0
+      Description: 
+      Languages:
+      - JACKPOT
+      - JACKPOT
+      - JACKPOT
+      - JACKPOT
+      - BOTE
+      - "GRANDE PR\xCAMIO"
+      - "\u30B8\u30E3\u30C3\u30AF\u30DD\u30C3\u30C8"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: keep_current_golfer
+      TermType: 0
+      Description: 
+      Languages:
+      - Keep the current golfer
+      - Garder le golfeur actuel
+      - Den aktuellen Golfer behalten
+      - Tieni il golfista attuale
+      - Mantener al jugador actual
+      - Manter o jogador de golfe atual
+      - "\u73FE\u5728\u306E\u30B4\u30EB\u30D5\u30A1\u30FC\u306E\u307E\u307E\u3067\u30D7\u30EC\u30A4"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: launch
+      TermType: 0
+      Description: 
+      Languages:
+      - Launch
+      - Lancer
+      - Start
+      - Avvia
+      - Iniciar
+      - Iniciar
+      - "\u767A\u5C04"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: lava_planet
+      TermType: 0
+      Description: 
+      Languages:
+      - Lava Planet
+      - "Plan\xE8te de Lave"
+      - Lava-Planet
+      - Pianeta della Lava
+      - Planeta Lava
+      - Planeta Lava
+      - "\u6EB6\u5CA9\u306E\u60D1\u661F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: lets_go
+      TermType: 0
+      Description: 
+      Languages:
+      - Let's go!
+      - Allons-y!
+      - Los geht's!
+      - Andiamo!
+      - "\xA1Vamos all\xE1!"
+      - "Vamos l\xE1!"
+      - "\u3055\u3042\u884C\u3053\u3046\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: lucky_wheel_ready
+      TermType: 0
+      Description: 
+      Languages:
+      - Your wheel is ready!
+      - "Ta roulette est pr\xEAte!"
+      - Dein Rad ist bereit!
+      - "La tua ruota \xE8 pronta!"
+      - "\xA1La rueda est\xE1 lista!"
+      - "Sua roda est\xE1 pronta!"
+      - "\u30EB\u30FC\u30EC\u30C3\u30C8\u6E96\u5099\u5B8C\u4E86\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: maybe_later
+      TermType: 0
+      Description: 
+      Languages:
+      - Maybe Later
+      - Plus tard
+      - "Vielleicht sp\xE4ter"
+      - "Magari pi\xF9 tardi"
+      - "Quiz\xE1 m\xE1s tarde"
+      - Talvez mais tarde
+      - "\u307E\u305F\u5F8C\u3067"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: mission_new_golfer
+      TermType: 0
+      Description: 
+      Languages:
+      - Score a hole over <color=#FFDA3D>{0} ft</color> away to unlock a new golfer!
+      - "Marque un trou a plus de <color=#FFDA3D>{0}m</color> pour d\xE9bloquer un
+        nouveau golfer!"
+      - Erreiche <color=#FFDA3D>{0} m</color>, um einen neuen Golfer freizuschalten!
+      - Raggiungi i <color=#FFDA3D>{0} m</color> per sbloccare un nuovo golfista!
+      - "\xA1Alcanza <color=#FFDA3D>{0} m</color> para desbloquear a un nuevo golfista!"
+      - Alcance <color=#FFDA3D>{0} m</color> para desbloquear um novo jogador!
+      - "<color=#FFDA3D>{0}</color> \u30D5\u30A3\u30FC\u30C8\u98DB\u3070\u3057\u3066\u65B0\u3057\u3044\u30B4\u30EB\u30D5\u30A1\u30FC\u3092\u89E3\u9664\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: mission_new_planet
+      TermType: 0
+      Description: 
+      Languages:
+      - Score a hole over <color=#FFDA3D>{0} ft</color> away to unlock a new planet!
+      - "Marque un trou a plus de <color=#FFDA3D>{0}m</color> pour d\xE9bloquer une
+        nouvelle plan\xE8te!"
+      - Erreiche <color=#FFDA3D>{0} m</color>, um einen neuen Planeten freizuschalten!
+      - Raggiungi i <color=#FFDA3D>{0} m</color> per sbloccare un nuovo pianeta!
+      - "\xA1Alcanza <color=#FFDA3D>{0} m</color> para desbloquear un nuevo planeta!"
+      - Alcance <color=#FFDA3D>{0} m</color> para desbloquear um novo planeta!
+      - "<color=#FFDA3D>{0} \u30D5</color>\u30A3\u30FC\u30C8\u98DB\u3070\u3057\u3066\u65B0\u3057\u3044\u60D1\u661F\u3092\u89E3\u9664\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: mission_orbit
+      TermType: 0
+      Description: 
+      Languages:
+      - Make a <color=#FFDA3D>Perfect Shot</color> to travel to a new planet!
+      - "R\xE9ussi un tir parfait pour voyager jusqu'\xE0 une nouvelle plan\xE8te!"
+      - Mach einen <color=#FFDA3D>Perfekten Schlag</color>, um zu einem neuen Planeten
+        zu reisen!
+      - Fai un <color=#FFDA3D>tiro perfetto</color> per viaggiare verso un nuovo
+        pianeta!
+      - "\xA1Haz un <color=#FFDA3D>tiro perfecto</color> para viajar a un nuevo planeta!"
+      - "Fa\xE7a um <color=#FFDA3D>lance perfeito</color> para viajar para um novo
+        planeta!"
+      - "\u5B8C\u74A7\u306A\u4E00\u6253\u3067\u65B0\u3057\u3044\u60D1\u661F\u307E\u3067\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: mission_orbit_clubhouse
+      TermType: 0
+      Description: 
+      Languages:
+      - Send the ball in orbit!
+      - Envoie la balle en orbite!
+      - Schick den Ball in den Orbit!
+      - Manda la pallina in orbita!
+      - "\xA1Pon la bola en \xF3rbita!"
+      - "Mande a bola para a \xF3rbita!"
+      - "\u8ECC\u9053\u306B\u30DC\u30FC\u30EB\u3092\u4E57\u305B\u308B\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: mission_planet_ended
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the club house to travel to an other planet!
+      - "Va au Club House pour voyager vers une autre plan\xE8te!"
+      - "\xD6ffne das Clubhaus, um zu einem anderen Planeten zu fliegen!"
+      - Apri la club house per viaggiare verso un altro pianeta!
+      - "\xA1Abre la clubhouse y viaja a otro planeta!"
+      - Abra a sede do clube para viajar para outro planeta!
+      - "\u30AF\u30E9\u30D6\u30CF\u30A6\u30B9\u3092\u958B\u3051\u3066\u3001\u5225\u306E\u60D1\u661F\u306B\u65C5\u884C\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: monthly
+      TermType: 0
+      Description: 
+      Languages:
+      - Monthly
+      - Mensuel
+      - Monatlich
+      - Mensile
+      - Mensualmente
+      - Mensalmente
+      - "\u6BCE\u6708"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: most_popular
+      TermType: 0
+      Description: 
+      Languages:
+      - Most Popular!
+      - Plus populaire!
+      - Am beliebtesten!
+      - "Pi\xF9 popolare!"
+      - "\xA1M\xE1s popular!"
+      - Mais popular!
+      - "\u4E00\u756A\u4EBA\u6C17\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: multiply_coins
+      TermType: 0
+      Description: 
+      Languages:
+      - Multiply Coins!
+      - Multiplier les gains
+      - "M\xFCnzen vervielfachen!"
+      - Moltiplica le monete!
+      - "\xA1Multiplicar monedas!"
+      - Multiplique as moedas!
+      - "\u30B3\u30A4\u30F3\u304C\uFF13\u500D\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: multiply_gold
+      TermType: 0
+      Description: 
+      Languages:
+      - Multiply Gold up to x100!!
+      - "Multiplie les gains jusqu'\xE0 x100"
+      - Gold x100 vervielfachen!
+      - Moltiplica l'oro x100!
+      - "\xA1\xA1Multiplicar Gold x100!!"
+      - Multiplicar o ouro por 100!!
+      - "\u30B4\u30FC\u30EB\u30C9x100!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: network_error
+      TermType: 0
+      Description: 
+      Languages:
+      - Network error
+      - "Erreur r\xE9seau"
+      - Netzwerkfehler
+      - Errore di rete
+      - Error de red
+      - Erro de rede
+      - "\u30CD\u30C3\u30C8\u30EF\u30FC\u30AF\u30A8\u30E9\u30FC"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: nevermind
+      TermType: 0
+      Description: 
+      Languages:
+      - Nevermind...
+      - Laisse tomber...
+      - Macht nichts...
+      - Non fa niente...
+      - No importa...
+      - "Deixa pra l\xE1..."
+      - "\u6C17\u306B\u3057\u306A\u3044\u3067..."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: new_character
+      TermType: 0
+      Description: 
+      Languages:
+      - New Character Unlocked!
+      - "Nouveau personnage d\xE9bloqu\xE9!"
+      - Neue Figur freigeschaltet!
+      - Nuovo personaggio sbloccato!
+      - "\xA1Nuevo personaje desbloqueado!"
+      - Novo personagem desbloqueado!
+      - "\u65B0\u3057\u3044\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC\u3092\u89E3\u9664"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: new_planet
+      TermType: 0
+      Description: 
+      Languages:
+      - New Planet Unlocked!
+      - "Nouvelle plan\xE8te d\xE9bloqu\xE9e!"
+      - Neuer Planet freigeschaltet!
+      - Nuovo pianeta sbloccato!
+      - "\xA1Nuevo planeta desbloqueado!"
+      - Novo planeta desbloqueado!
+      - "\u65B0\u3057\u3044\u60D1\u661F\u3092\u89E3\u9664\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: new_planet_popup_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Approaching new planet!
+      - "En approche de la nouvelle plan\xE8te!"
+      - "Ann\xE4herung an neuen Planeten!"
+      - In arrivo sul nuovo pianeta!
+      - "\xA1Acerc\xE1ndose al nuevo planeta!"
+      - Aproximando-se de um novo planeta!
+      - "\u65B0\u3057\u3044\u60D1\u661F\u306B\u63A5\u8FD1\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: new_planet_popup_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - Do a perfect shot to reach a new planet!
+      - "R\xE9ussi un tir parfait pour atteindre une nouvelle plan\xE8te!"
+      - Mach einen perfekten Schlag, um einen neuen Planeten zu erreichen!
+      - Fai un tiro perfetto per raggiungere un nuovo pianeta!
+      - "\xA1Realiza el lanzamiento perfecto para alcanzar un nuevo planeta!"
+      - "Fa\xE7a um lance perfeito para alcan\xE7ar um novo planeta!"
+      - "\u5B8C\u74A7\u306A\u4E00\u6253\u3067\u3001\u65B0\u3057\u3044\u60D1\u661F\u306B\u8FD1\u3065\u3053\u3046\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: no
+      TermType: 0
+      Description: 
+      Languages:
+      - No
+      - Non
+      - Nein
+      - No
+      - No
+      - "N\xE3o"
+      - "\u3044\u3044\u3048"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: no_ads_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - no ADS
+      - "Pas de publicit\xE9"
+      - Keine Werbung
+      - "Niente pubblicit\xE0"
+      - SIN PUBLICIDAD
+      - Sem propagandas
+      - "\u5E83\u544A\u306A\u3057"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ok
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - Ok
+      - Ok
+      - OK
+      - OK
+      - OK
+      - OK
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: on_bunker
+      TermType: 0
+      Description: 
+      Languages:
+      - On a Bunker!
+      - Sur un bunker!
+      - Auf einen Bunker!
+      - Sul bunker!
+      - "\xA1Banco de arena!"
+      - Num banco de areia!
+      - "\u30D0\u30F3\u30AB\u30FC\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: on_fairway
+      TermType: 0
+      Description: 
+      Languages:
+      - On the Fairway!
+      - Sur le fairway!
+      - Auf die Spielbahn!
+      - Sul fairway!
+      - "\xA1En la calle!"
+      - No fairway!
+      - "\u30D5\u30A7\u30A2\u30A6\u30A7\u30A4\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: on_green
+      TermType: 0
+      Description: 
+      Languages:
+      - On a Green!
+      - Sur le green!
+      - "Auf ein Gr\xFCn!"
+      - Sul green!
+      - "\xA1En el Green!"
+      - Num green!
+      - "\u30B0\u30EA\u30FC\u30F3\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: on_obstacle
+      TermType: 0
+      Description: 
+      Languages:
+      - On an Obstacle!
+      - Sur un obstacle!
+      - Auf ein Hindernis!
+      - Su un ostacolo!
+      - "\xA1Obst\xE1culo!"
+      - "Num obst\xE1culo!"
+      - "\u969C\u5BB3\u7269\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: on_orbit
+      TermType: 0
+      Description: 
+      Languages:
+      - On Orbit !
+      - En orbite!
+      - In den Orbit!
+      - In orbita!
+      - "\xA1En \xF3rbita!"
+      - "Na \xF3rbita!"
+      - "\u8ECC\u9053\u306B\u4E57\u3063\u305F\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: orbit_panel_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Welcome to the {[new_planet]}!
+      - "Bienvenue \xE0 la {[new_planet]}!"
+      - Willkommen auf dem Planeten {[new_planet]}!
+      - Benvenuto su {[new_planet]}!
+      - "\xA1Bienvenido a {[new_planet]}!"
+      - Boas-vindas ao {[new_planet]}!
+      - "{[new_planet]}\u306B\u3088\u3046\u3053\u305D\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: orbit_panel_tootip
+      TermType: 0
+      Description: 
+      Languages:
+      - If you don't want to leave the {[leaving_planet]} now you can go to the {[new_planet]}
+        whenever you want by going into the World menu of the clubhouse.
+      - "Si tu veux rester \xE0 la {[leaving_planet]} pour le moment, tu peux aller
+        \xE0 la {[new_planet]} quand tu veux en allant dans le menu \"monde\" au
+        Club House."
+      - Wenn du den Planeten {[leaving_planet]} nicht verlassen willst, kannst du
+        nun, so oft du willst zu dem Planeten {[new_planet]}, indem du ins Welt-Menu
+        des Clubhauses gehst.
+      - Se non vuoi lasciare {[leaving_planet]} puoi andare su {[new_planet]} quando
+        lo desideri andando sul menu Mondo nella clubhouse.
+      - "No tienes por qu\xE9 abandonar {[leaving_planet]}, podr\xE1s ir al {[new_planet]}
+        cuando quieras, accediendo al men\xFA MUNDO de la clubhouse."
+      - "Se voc\xEA n\xE3o quiser sair do {[leaving_planet]} agora, poder\xE1 ir
+        para o {[new_planet]} quando quiser. Basta ir ao menu Mundo da sede do clube."
+      - "{[leaving_planet]}\u3092\u96E2\u308C\u305F\u304F\u306A\u304B\u3063\u305F\u3089\u3001\u30AF\u30E9\u30D6\u30CF\u30A6\u30B9\u306E\u30EF\u30FC\u30EB\u30C9\u30E1\u30CB\u30E5\u30FC\u304B\u3089\u3069\u308C\u3067\u3082\u9078\u3093\u3067{[new_planet]}\u3078\u884C\u3053\u3046\u3002"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: orbit_shot_completed
+      TermType: 0
+      Description: 
+      Languages:
+      - Start over a new adventure on this planet?
+      - "Recommencer \xE0 z\xE9ro l'aventure sur cette plan\xE8te?"
+      - Willst du ein neues Abenteuer auf diesem Planeten beginnen?
+      - Vuoi cominciare una nuova avventura su questo pianeta?
+      - "\xBFComenzar una nueva aventura en este planeta?"
+      - "Come\xE7ar uma nova aventura neste planeta?"
+      - "\u3053\u306E\u60D1\u661F\u3067\u6700\u521D\u304B\u3089\u30A2\u30C9\u30D9\u30F3\u30C1\u30E3\u30FC\u306B\u6311\u6226\u3059\u308B\uFF1F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: perfect
+      TermType: 0
+      Description: 
+      Languages:
+      - Perfect!
+      - Parfait!
+      - Perfekt!
+      - Perfetto!
+      - "\xA1Perfecto!"
+      - Perfeito!
+      - "\u30D1\u30FC\u30D5\u30A7\u30AF\u30C8\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: policy_and_terms
+      TermType: 0
+      Description: 
+      Languages:
+      - Privacy Policy and terms
+      - "Politique de confidentialit\xE9 et conditions"
+      - "Datenschutzrichtlinien und Gesch\xE4ftsbedingungen"
+      - Informativa sulla privacy e termini
+      - "Pol\xEDtica de privacidad y condiciones de servicio"
+      - "Termos e pol\xEDtica de privacidade"
+      - "\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\u30DD\u30EA\u30B7\u30FC\u3068\u898F\u7D04"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: processing
+      TermType: 0
+      Description: 
+      Languages:
+      - WORK IN PROGRESS
+      - TRAVAIL EN COURS
+      - IN ARBEIT
+      - LAVORI IN CORSO
+      - WORK IN PROGRESS
+      - TRABALHO EM ANDAMENTO
+      - "\u7A3C\u50CD\u4E2D"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: purchase_restored
+      TermType: 0
+      Description: 
+      Languages:
+      - Purchase restored
+      - "Achat restaur\xE9"
+      - Kauf wiederhergestellt
+      - Acquisto ripristinato
+      - Compra restablecida
+      - Compra restaurada
+      - "\u8CFC\u5165\u3092\u5FA9\u5143"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: rainbow_planet
+      TermType: 0
+      Description: 
+      Languages:
+      - Rainbow Planet
+      - "Plan\xE8te Arc-en-Ciel"
+      - Regenbogen-Planet
+      - Pianeta Arcobaleno
+      - "Planeta Arco\xEDris"
+      - "Planeta Arco-\xEDris"
+      - "\u8679\u306E\u60D1\u661F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ready
+      TermType: 0
+      Description: 
+      Languages:
+      - Ready!
+      - "Pr\xEAt!"
+      - Bereit!
+      - Pronto!
+      - "\xA1Prep\xE1rate!"
+      - Pronto!
+      - "\u7528\u610F\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: remove_ads
+      TermType: 0
+      Description: 
+      Languages:
+      - + Remove ads !
+      - + retire les pubs!
+      - + Werbung entfernen!
+      - "+ Rimuovi pubblicit\xE0!"
+      - + Eliminar anuncios
+      - + Remover propagandas!
+      - "+\u5E83\u544A\u3092\u524A\u9664\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: remove_ads_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Remove Ads for free for 3 days
+      - Retirer les pubs gratuitement pendant 3 jours
+      - "Werbung f\xFCr drei Tage kostenlos entfernen"
+      - "Rimuovi gratis le pubblicit\xE0 per 3 giorni"
+      - "Eliminar anuncios gratis durante 3 d\xEDas"
+      - "Remover propagandas de gra\xE7a por 3 dias"
+      - "\uFF13\u65E5\u9593\u7121\u6599\u3067\u5E83\u544A\u3092\u524A\u9664"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: restore_purchases
+      TermType: 0
+      Description: 
+      Languages:
+      - Restore purchases
+      - Restaurer les achats
+      - "K\xE4ufe wiederherstellen"
+      - Ripristina gli acquisti
+      - Restaurar compras
+      - Restaurar compras
+      - "\u8CFC\u5165\u5185\u5BB9\u3092\u5FA9\u5143"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: restoring_purchases_loading
+      TermType: 0
+      Description: 
+      Languages:
+      - Restoring purchases...
+      - Restauration de l'achat...
+      - "K\xE4ufe werden wiederhergestellt..."
+      - Ripristino acquisti...
+      - Restaurando compras...
+      - Restaurando compras...
+      - "\u8CFC\u5165\u3092\u5FA9\u5143\u4E2D..."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: retry
+      TermType: 0
+      Description: 
+      Languages:
+      - RETRY?
+      - "R\xC9ESSAYER\_?"
+      - NOCH MAL VERSUCHEN?
+      - RIPROVARE?
+      - "\xBFREINTENTAR?"
+      - TENTAR NOVAMENTE?
+      - "\u30EA\u30C8\u30E9\u30A4\uFF1F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: scored_albatros
+      TermType: 0
+      Description: 
+      Languages:
+      - You scored an Albatros!
+      - "Tu as r\xE9ussi un Albatros!"
+      - Du hast einen Albatros erzielt!
+      - Hai conquistato un Albatros!
+      - "\xA1Has hecho un albatros!"
+      - "Voc\xEA marcou um Albatroz!"
+      - "\uFF12\u56DE\u76EE\u306E\u30A2\u30EB\u30D0\u30C8\u30ED\u30B9\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: scored_birdie
+      TermType: 0
+      Description: 
+      Languages:
+      - You scored a Birdie!
+      - "Tu as r\xE9ussi un Birdie!"
+      - Du hast einen Birdie erzielt!
+      - Hai conquistato un Uccellino!
+      - "\xA1Has hecho un hoyo bajo par!"
+      - "Voc\xEA marcou um Birdie!"
+      - "\uFF12\u56DE\u76EE\u306E\u30D0\u30FC\u30C7\u30A3\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: scored_eagle
+      TermType: 0
+      Description: 
+      Languages:
+      - You scored an Eagle!
+      - "Tu as r\xE9ussi un Eagle!"
+      - Du hast einen Eagle erzielt
+      - Hai conquistato un'Aquila!
+      - "\xA1Has hecho un eagle!"
+      - "Voc\xEA marcou um Eagle!"
+      - "\u30A4\u30FC\u30B0\u30EB\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: settings
+      TermType: 0
+      Description: 
+      Languages:
+      - SETTINGS
+      - "PARAM\xC8TRES"
+      - EINSTELLUNGEN
+      - Impostazioni
+      - Ajustes
+      - "Configura\xE7\xF5es"
+      - "\u8A2D\u5B9A"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: shop
+      TermType: 0
+      Description: 
+      Languages:
+      - SHOP
+      - Boutique
+      - Shop
+      - Negozio
+      - Tienda
+      - Loja
+      - "\u8CB7\u3044\u7269"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: shop_loading
+      TermType: 0
+      Description: 
+      Languages:
+      - Loading shop...
+      - Chargement de la boutique...
+      - Shop laden...
+      - Caricamento negozio...
+      - Cargando tienda...
+      - Carregando a loja...
+      - "\u30B7\u30E7\u30C3\u30D7\u3092\u30ED\u30FC\u30C7\u30A3\u30F3\u30B0\u4E2D..."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: sounds_off
+      TermType: 0
+      Description: 
+      Languages:
+      - Sounds off
+      - "Son d\xE9sactiv\xE9"
+      - "Ger\xE4usche aus"
+      - Suono off
+      - Sin sonido
+      - Som desligado
+      - "\u97F3\u58F0\u30AA\u30D5"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: sounds_on
+      TermType: 0
+      Description: 
+      Languages:
+      - Sounds on
+      - "Son activ\xE9"
+      - "Ger\xE4usche an"
+      - Suono on
+      - Con sonido
+      - Som ligado
+      - "\u97F3\u58F0\u30AA\u30F3"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: speed
+      TermType: 0
+      Description: 
+      Languages:
+      - SPEED
+      - VITESSE
+      - GESCHWINDIGKEIT
+      - "VELOCIT\xC0"
+      - VELOCIDAD
+      - VELOCIDADE
+      - "\u30B9\u30D4\u30FC\u30C9"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: speed_up
+      TermType: 0
+      Description: 
+      Languages:
+      - Speed up
+      - "Acc\xE9l\xE8re"
+      - Beschleunigung
+      - Accelera
+      - Acelerar
+      - Acelerar
+      - "\u30B9\u30D4\u30FC\u30C9\u30A2\u30C3\u30D7"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: speed_upgrade_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - Ball flies {0}% faster
+      - La balle va {0}% + vite
+      - Ball fliegt {0}% schneller
+      - "La pallina vola il {0}% pi\xF9 veloce"
+      - "La bola vuela {0}% m\xE1s r\xE1pido"
+      - "A bola voa {0}% mais r\xE1pido"
+      - "{0}%\u901F\u304F\u30D3\u30FC\u30EB\u304C\u98DB\u3076"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: spin
+      TermType: 0
+      Description: 
+      Languages:
+      - Spin
+      - Jouer
+      - Drehen
+      - GIRA
+      - TIRADAS
+      - GIRAR
+      - "\u30B9\u30D4\u30F3"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: spin_again
+      TermType: 0
+      Description: 
+      Languages:
+      - Collect and Spin Again
+      - "R\xE9colte tes gains et rejoue"
+      - Sammeln und noch mal drehen
+      - Raccogli e gira di nuovo
+      - Gira de nuevo
+      - Coletar e girar de novo
+      - "\u3082\u3046\u4E00\u5EA6\u56DE\u305D\u3046"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: start
+      TermType: 0
+      Description: 
+      Languages:
+      - START
+      - COMMENCER
+      - START
+      - INIZIA
+      - COMENZAR
+      - "COME\xC7AR"
+      - "\u30B9\u30BF\u30FC\u30C8"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: strength
+      TermType: 0
+      Description: 
+      Languages:
+      - STRENGTH
+      - FORCE
+      - "ST\xC4RKE"
+      - FORZA
+      - FUERZA
+      - "FOR\xC7A"
+      - "\u5F37\u3055"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: strength_upgrade_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - Golfer is {0}% stronger
+      - Le golfer est {0}% + fort
+      - "Golfer ist {0}% st\xE4rker"
+      - "Il golfista \xE8 il {0}% pi\xF9 forte"
+      - "El golfista es {0}% m\xE1s fuerte"
+      - "O jogador de golfe est\xE1 {0}% mais forte"
+      - "{0}%\u5F37\u3044\u30B4\u30EB\u30D5\u30A1\u30FC"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: subscription_terms
+      TermType: 0
+      Description: 
+      Languages:
+      - Subscription Terms
+      - Conditions d'abonnement
+      - Abonnement-Bedingungen
+      - Termini dell'iscrizione
+      - "T\xE9rminos de la suscripci\xF3n"
+      - Termos de assinatura
+      - "\u8CFC\u8AAD\u6761\u4EF6"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: sweet
+      TermType: 0
+      Description: 
+      Languages:
+      - Sweet!
+      - Super!
+      - Super!
+      - Ottimo!
+      - "\xA1Fabuloso!"
+      - Beleza!
+      - "\u3059\u3054\u3044\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: thanks
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok, thanks!
+      - Ok, merci!
+      - Ok, danke!
+      - Ok, grazie!
+      - "Ok, \xA1gracias!"
+      - Ok, obrigado!
+      - "\u3042\u308A\u304C\u3068"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: theme
+      TermType: 0
+      Description: 
+      Languages:
+      - Theme
+      - "Th\xE8me"
+      - Hintergrund
+      - Tema
+      - Tema
+      - Tema
+      - "\u30C6\u30FC\u30DE"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: travelling_loading
+      TermType: 0
+      Description: 
+      Languages:
+      - Travelling to
+      - En avant pour la
+      - Auf der Reise zum Planeten
+      - In viaggio verso
+      - Viajando a
+      - Viajando para
+      - "\u65C5\u884C"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: triple
+      TermType: 0
+      Description: 
+      Languages:
+      - Triple
+      - Tripler
+      - Triple
+      - Triplo
+      - Triple
+      - Triplo
+      - "\u30C8\u30EA\u30D7\u30EB"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: unlimited_golden_ball_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Try unlimited Golden Balls for 3 days!
+      - "Essaie les balles dor\xE9es en illimit\xE9 pendant 3 jours!"
+      - "Probiere unbegrenzt Goldene B\xE4lle f\xFCr drei Tage!"
+      - Prova le Palline d'oro illimitate per 3 giorni!
+      - "\xA1Prueba disponer de bolas oro ilimitadas durante 3 d\xEDas!"
+      - Experimente as bolas douradas ilimitadas por 3 dias!
+      - "\uFF13\u65E5\u9593\u7121\u5236\u9650\u3067\u30B4\u30FC\u30EB\u30C7\u30F3\u30DC\u30FC\u30EB\u4F7F\u7528\u53EF\u80FD"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: unlock_all_vip_content
+      TermType: 0
+      Description: 
+      Languages:
+      - + UNLOCK ALL VIP CONTENT
+      - "+ D\xC9BLOQUE TOUT LE CONTENU VIP"
+      - + GESAMTEN VIP-INHALT FREISCHALTEN
+      - + SBLOCCA TUTTI I CONTENUTI VIP
+      - + DESBLOQUEAR TODO EL CONTENIDO VIP
+      - "+ DESBLOQUEAR TODO CONTE\xDADO VIP"
+      - "+VIP\u5BFE\u8C61\u306E\u5185\u5BB9\u3092\u89E3\u9664"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: unlock_forever
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock Forever
+      - "D\xE9bloqu\xE9 pour toujours"
+      - "F\xFCr immer freischalten"
+      - Sblocca per sempre
+      - Desbloquear para siempre
+      - Desbloquear para sempre
+      - "\u7121\u5236\u9650\u3067\u89E3\u9664"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: unlock_premium
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock Premium
+      - "D\xE9bloque le Premium"
+      - Premium freischalten
+      - Sblocca Premium
+      - Desbloquear Premium
+      - Desbloquear Premium
+      - "\u30D7\u30EC\u30DF\u30A2\u30E0\u3092\u89E3\u9664"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: vibrations_off
+      TermType: 0
+      Description: 
+      Languages:
+      - Vibrations off
+      - "Vibration d\xE9sactiv\xE9e"
+      - Vibrationen aus
+      - Vibrazioni off
+      - "Sin vibraci\xF3n"
+      - "Vibra\xE7\xE3o desligada"
+      - "\u30D0\u30A4\u30D6\u30EC\u30FC\u30B7\u30E7\u30F3\u30AA\u30D5"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: vibrations_on
+      TermType: 0
+      Description: 
+      Languages:
+      - Vibrations on
+      - "Vibration activ\xE9e"
+      - Vibrationen an
+      - Vibrazioni on
+      - "Con vibraci\xF3n"
+      - "Vibra\xE7\xE3o ligada"
+      - "\u30D0\u30A4\u30D6\u30EC\u30FC\u30B7\u30E7\u30F3\u30AA\u30F3"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: vip_advantages_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Enjoy exclusive VIP advantages!
+      - Profite des avantages VIP exclusifs!
+      - "Genie\xDFe exklusive VIP-Vorteile!"
+      - Goditi gli esclusivi vantaggi per VIP!
+      - "\xA1Disfruta de las ventajas VIP en exclusiva!"
+      - Aproveite vantagens VIP exclusivas!
+      - "\u7279\u5225VIP\u306E\u5F85\u9047\u3092\u53D7\u3051\u3088\u3046\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: vip_character_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock 5 VIP characters for free for 3 days!
+      - "D\xE9bloque 5 personnages VIP pendant 3 jours!"
+      - "Schalte kostenlos 5 VIP-Figuren f\xFCr drei Tage frei!"
+      - Sblocca 5 personaggi VIP gratis per 3 giorni!
+      - "\xA1Desbloquear 5 personajes VIP gratis durante 3 d\xEDas!"
+      - "Desbloqueie 5 personagens VIP por 3 dias de gra\xE7a!"
+      - "\uFF13\u65E5\u9593\u7121\u6599\u3067\uFF15\u4EBA\u306EVIP\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC\u3092\u89E3\u9664"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: vip_daily_reward
+      TermType: 0
+      Description: 
+      Languages:
+      - VIP Daily Reward!
+      - "R\xE9compense quotidienne VIP!"
+      - "T\xE4gliche VIP-Belohnung!"
+      - Premi VIP ogni giorno!
+      - "\xA1Recompensa VIP diaria!"
+      - "Recompensa VIP di\xE1ria!"
+      - "VIP\u306E\u65E5\u66FF\u308F\u308A\u8CDE\u54C1"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: vip_golden_ball
+      TermType: 0
+      Description: 
+      Languages:
+      - VIP ORNAGE COLOR
+      - "BALLE DOR\xC9E VIP"
+      - GOLDENER VIP-BALL
+      - PALLINA D'ORO VIP
+      - BOLA ORO VIP
+      - BOLA DOURADA VIP
+      - "VIP\u30B4\u30FC\u30EB\u30C7\u30F3\u30DC\u30FC\u30EB"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: vip_terms
+      TermType: 0
+      Description: 
+      Languages:
+      - 'VIP subscription offers a weekly subscription, you will have a 3-days FREE
+        trial period, after this period you will be charged {[WEEKLY_PRICE]}. After
+        buying the subscription, you will unlock the following features: 5 exclusive
+        golfers, permanent golden ball multiplying your gold earning by 3 and NO
+        ADS. This is an Auto-renewable subscription. The subscription is renewed
+        unless you turn it off 24 hours before the period ends. Your account will
+        be charged for renewal as well. Payment will be charged to iTunes Account
+        at confirmation of purchase. Account will be charged for renewal within 24-hours
+        prior to the end of the current period, and identify the cost of the renewal.
+        Subscriptions may be managed by the user and auto-renewal may be turned off
+        by going to the user''s Account Settings after purchase. Any unused portion
+        of a free trial period, if offered, will be forfeited when the user purchases
+        a subscription to that publication, where applicable. For more information,
+        check the links below:[i2s_Android]VIP subscription offers a weekly subscription,
+        you will have a 3-days FREE trial period, after this period you will be charged
+        {[WEEKLY_PRICE]}. After buying the subscription, you will unlock the following
+        features: 5 exclusive golfers, permanent golden ball multiplying your gold
+        earning by 3 and NO ADS. This is an Auto-renewable subscription. The subscription
+        is renewed unless you turn it off 24 hours before the period ends. Your account
+        will be charged for renewal as well. Payment will be charged to GooglePlayStore
+        Account at confirmation of purchase. Account will be charged for renewal
+        within 24-hours prior to the end of the current period, and identify the
+        cost of the renewal. Subscriptions may be managed by the user and auto-renewal
+        may be turned off by going to the user''s Account Settings after purchase.
+        Any unused portion of a free trial period, if offered, will be forfeited
+        when the user purchases a subscription to that publication, where applicable.
+        For more information, check the links below:'
+      - "L'abonnement VIP offre un abonnement hebdomadaire, vous aurez une p\xE9riode
+        d'essai GRATUITE de 3 jours, apr\xE8s cette p\xE9riode, vous serez factur\xE9
+        {[WEEKLY_PRICE]}. Apr\xE8s souscription \xE0 l'abonnement, vous d\xE9bloquerez
+        les fonctionnalit\xE9s suivantes: 5 golfeurs exclusifs, la balle dor\xE9e
+        qui multiplie vos gains x3 en permanence et PAS DE PUBS. Ceci est un abonnement
+        auto-renouvelable. L'abonnement est renouvel\xE9 \xE0 moins que vous ne le
+        d\xE9sactiviez jusqu'\xE0 24 heures avant la fin de sa dur\xE9e. Votre compte
+        sera d\xE9bit\xE9 pour le renouvellement. Le paiement sera factur\xE9 sur
+        votre compte iTunes \xE0 la confirmation de l'achat. Le compte sera factur\xE9
+        pour le renouvellement dans les 24 heures avant la fin de la p\xE9riode en
+        cours selon le co\xFBt de l'abonnement. Les abonnements et le renouvellement
+        automatique peuvent \xEAtre g\xE9r\xE9s par l'utilisateur et d\xE9sactiv\xE9
+        en acc\xE9dant aux param\xE8tres du compte de l'utilisateur apr\xE8s l'achat.
+        Tout temps restant sur une p\xE9riode d'essai est perdu lorsque l'utilisateur
+        souscris \xE0 un abonnement pour cette application. Pour plus d'informations,
+        consultez les liens ci-dessous:[i2s_Android]L'abonnement VIP offre un abonnement
+        hebdomadaire, vous aurez une p\xE9riode d'essai GRATUITE de 3 jours, apr\xE8s
+        cette p\xE9riode, vous serez factur\xE9 {[WEEKLY_PRICE]}. Apr\xE8s souscription
+        \xE0 l'abonnement, vous d\xE9bloquerez les fonctionnalit\xE9s suivantes:
+        5 golfeurs exclusifs, la balle dor\xE9e qui multiplie vos gains x3 en permanence
+        et PAS DE PUBS. Ceci est un abonnement auto-renouvelable. L'abonnement est
+        renouvel\xE9 \xE0 moins que vous ne le d\xE9sactiviez jusqu'\xE0 24 heures
+        avant la fin de sa dur\xE9e. Votre compte sera d\xE9bit\xE9 pour le renouvellement.
+        Le paiement sera factur\xE9 sur votre compte GooglePlayStore \xE0 la confirmation
+        de l'achat. Le compte sera factur\xE9 pour le renouvellement dans les 24
+        heures avant la fin de la p\xE9riode en cours selon le co\xFBt de l'abonnement.
+        Les abonnements et le renouvellement automatique peuvent \xEAtre g\xE9r\xE9s
+        par l'utilisateur et d\xE9sactiv\xE9 en acc\xE9dant aux param\xE8tres du
+        compte de l'utilisateur apr\xE8s l'achat. Tout temps restant sur une p\xE9riode
+        d'essai est perdu lorsque l'utilisateur souscris \xE0 un abonnement pour
+        cette application. Pour plus d'informations, consultez les liens ci-dessous:"
+      - "Das VIP-Abonnement bietet ein Wochenabonnement. Du bekommst eine 3-t\xE4gige
+        KOSTENLOSE Probezeit. Nach dieser Zeit werden dir {[WEEKLY_PRICE]} berechnet.
+        Nachdem du das Abonnement gekauft hast, schaltest du folgende Funktionen
+        frei: 5 exklusive Golfer, permanenter Goldener Ball, der deine Goldgewinne
+        mit 3 multipliziert und KEINE WERBUNG. Die Verl\xE4ngerung des Abonnements
+        ist automatisch und erfolgt, wenn du sie nicht 24 Stunden vor Ablauf der
+        Laufzeit ausschaltest. Dein Account wird auch bei Verl\xE4ngerung belastet.
+        Die Geb\xFChren werden nach der Kaufbest\xE4tigung \xFCber den iTunes-Account
+        abgerechnet. Der Account wird f\xFCr die Verl\xE4ngerung innerhalb der 24
+        Stunden vor dem Ende der aktuellen Laufzeit belastet und weist die Kosten
+        f\xFCr die Verl\xE4ngerung aus. Abonnements k\xF6nnen vom Nutzer verwaltet
+        werden, und die automatische Verl\xE4ngerung kann nach dem Kauf in den Einstellungen
+        des Nutzerkontos ausgeschaltet werden. Jeglicher ungenutzter Anteil einer
+        kostenlosen Probezeit, wenn diese angeboten wird, verf\xE4llt, wenn der Nutzer
+        ein Abonnement dieser Ver\xF6ffentlichung erwirbt. Mehr Informationen unter
+        dem nachstehenden Link:[i2s_Android]Das VIP-Abonnement bietet ein Wochenabonnement.
+        Du bekommst eine 3-t\xE4gige KOSTENLOSE Probezeit. Nach dieser Zeit werden
+        dir {[WEEKLY_PRICE]} berechnet. Nachdem du das Abonnement gekauft hast, schaltest
+        du folgende Funktionen frei: 5 exklusive Golfer, permanenter Goldener Ball,
+        der deine Goldgewinne mit 3 multipliziert und KEINE WERBUNG. Die Verl\xE4ngerung
+        des Abonnements ist automatisch und erfolgt, wenn du sie nicht 24 Stunden
+        vor Ablauf der Laufzeit ausschaltest. Dein Account wird auch bei Verl\xE4ngerung
+        belastet. Die Geb\xFChren werden nach der Kaufbest\xE4tigung \xFCber den
+        GooglePlayStore-Account abgerechnet. Der Account wird f\xFCr die Verl\xE4ngerung
+        innerhalb der 24 Stunden vor dem Ende der aktuellen Laufzeit belastet und
+        weist die Kosten f\xFCr die Verl\xE4ngerung aus. Abonnements k\xF6nnen vom
+        Nutzer verwaltet werden, und die automatische Verl\xE4ngerung kann nach dem
+        Kauf in den Einstellungen des Nutzerkontos ausgeschaltet werden. Jeglicher
+        ungenutzter Anteil einer kostenlosen Probezeit, wenn diese angeboten wird,
+        verf\xE4llt, wenn der Nutzer ein Abonnement dieser Ver\xF6ffentlichung erwirbt.
+        Mehr Informationen unter dem nachstehenden Link:"
+      - "L'abbonamento VIP offre un'iscrizione settimanale, avrai un periodo di prova
+        GRATUITO di 3 giorni, dopo il quale ti saranno addebitati {[WEEKLY_PRICE]}.
+        Dopo aver acquistato l'abbonamento, sbloccherai le seguenti funzionalit\xE0:
+        5 golfisti esclusivi, pallina d'oro permanente che moltiplica il tuo guadagno
+        d'oro di 3 e NIENTE PUBBLICIT\xC0. Questo abbonamento \xE8 auto-rinnovabile.
+        A meno che non lo disattivi, l'abbonamento si rinnova 24 ore prima della
+        fine del periodo. Anche il tuo account verr\xE0 addebitato per il rinnovo.
+        Il pagamento verr\xE0 addebitato sull'account iTunes alla conferma dell'acquisto.
+        L'account verr\xE0 addebitato per il rinnovo entro 24 ore prima della fine
+        del periodo corrente e identificato il costo del rinnovo. Le sottoscrizioni
+        possono essere gestite dall'utente e il rinnovo automatico pu\xF2 essere
+        disattivato andando alle Impostazioni account dell'utente dopo l'acquisto.
+        Qualsiasi porzione inutilizzata di un periodo di prova gratuito, se offerto,
+        verr\xE0 incamerata quando l'utente acquista un abbonamento a tale pubblicazione,
+        ove applicabile. Per ulteriori informazioni, controlla i seguenti link:[i2s_Android]L'abbonamento
+        VIP offre un'iscrizione settimanale, avrai un periodo di prova GRATUITO di
+        3 giorni, dopo il quale ti saranno addebitati {[WEEKLY_PRICE]}. Dopo aver
+        acquistato l'abbonamento, sbloccherai le seguenti funzionalit\xE0: 5 golfisti
+        esclusivi, pallina d'oro permanente che moltiplica il tuo guadagno d'oro
+        di 3 e NIENTE PUBBLICIT\xC0. Questo abbonamento \xE8 auto-rinnovabile. A
+        meno che non lo disattivi, l'abbonamento si rinnova 24 ore prima della fine
+        del periodo. Anche il tuo account verr\xE0 addebitato per il rinnovo. Il
+        pagamento verr\xE0 addebitato sull'account GooglePlayStore alla conferma
+        dell'acquisto. L'account verr\xE0 addebitato per il rinnovo entro 24 ore
+        prima della fine del periodo corrente e identificato il costo del rinnovo.
+        Le sottoscrizioni possono essere gestite dall'utente e il rinnovo automatico
+        pu\xF2 essere disattivato andando alle Impostazioni account dell'utente dopo
+        l'acquisto. Qualsiasi porzione inutilizzata di un periodo di prova gratuito,
+        se offerto, verr\xE0 incamerata quando l'utente acquista un abbonamento a
+        tale pubblicazione, ove applicabile. Per ulteriori informazioni, controlla
+        i seguenti link:"
+      - "La suscripci\xF3n VIP ofrece una suscripci\xF3n semanal, dispondr\xE1s de
+        un per\xEDodo de prueba GRATUITO de 3 d\xEDas, tras este per\xEDodo te cobraremos
+        {[WEEKLY_PRICE]}. Al suscribirte, se desbloquear\xE1n las siguientes caracter\xEDsticas:
+        5 golfistas exclusivos, bola oro permanente, multiplicaci\xF3n de ganancias
+        por 3 y nada de publicidad. Esta es una suscripci\xF3n Auto-renovable. La
+        suscripci\xF3n se renueva a menos que la canceles 24 horas antes de que termine
+        el per\xEDodo. Se cobrar\xE1n tambi\xE9n las renovaciones. El pago se cargar\xE1
+        a la cuenta de iTunes al confirmar la compra. Se cobrar\xE1 la renovaci\xF3n
+        dentro de las 24 horas previas al final del per\xEDodo, y se identificar\xE1
+        el coste de la renovaci\xF3n. Las suscripciones pueden ser administradas
+        por el usuario y la renovaci\xF3n autom\xE1tica se puede desactivar accediendo
+        a la Configuraci\xF3n de la cuenta del usuario tras la compra. Cualquier
+        caracter\xEDstica no utilizada durante el periodo de prueba, se perder\xE1
+        al realizar la suscripci\xF3n. Para m\xE1s informaci\xF3n, consulta los siguientes
+        enlaces:[i2s_Android]La suscripci\xF3n VIP ofrece una suscripci\xF3n semanal,
+        dispondr\xE1s de un per\xEDodo de prueba GRATUITO de 3 d\xEDas, tras este
+        per\xEDodo te cobraremos {[WEEKLY_PRICE]}. Al suscribirte, se desbloquear\xE1n
+        las siguientes caracter\xEDsticas: 5 golfistas exclusivos, bola oro permanente,
+        multiplicaci\xF3n de ganancias por 3 y nada de publicidad. Esta es una suscripci\xF3n
+        Auto-renovable. La suscripci\xF3n se renueva a menos que la canceles 24 horas
+        antes de que termine el per\xEDodo. Se cobrar\xE1n tambi\xE9n las renovaciones.
+        El pago se cargar\xE1 a la cuenta de GooglePlayStore al confirmar la compra.
+        Se cobrar\xE1 la renovaci\xF3n dentro de las 24 horas previas al final del
+        per\xEDodo, y se identificar\xE1 el coste de la renovaci\xF3n. Las suscripciones
+        pueden ser administradas por el usuario y la renovaci\xF3n autom\xE1tica
+        se puede desactivar accediendo a la Configuraci\xF3n de la cuenta del usuario
+        tras la compra. Cualquier caracter\xEDstica no utilizada durante el periodo
+        de prueba, se perder\xE1 al realizar la suscripci\xF3n. Para m\xE1s informaci\xF3n,
+        consulta los siguientes enlaces:"
+      - "A assinatura VIP oferece um plano de assinatura semanal. Voc\xEA ter\xE1
+        3 dias de teste GR\xC1TIS. Depois deste per\xEDodo, ser\xE1 cobrado o pre\xE7o
+        semanal de {[WEEKLY_PRICE]}. Ap\xF3s comprar a assinatura, voc\xEA desbloquear\xE1
+        os seguintes recursos: 5 jogadores de golfe exclusivos, bolas douradas permanentes
+        que multiplicam os ganhos de ouro por 3 e NENHUMA PROPAGANDA. Esta assinatura
+        \xE9 renovada automaticamente. A assinatura ser\xE1 renovada a menos que
+        voc\xEA a desative 24 horas antes do final do per\xEDodo. A renova\xE7\xE3o
+        tamb\xE9m ser\xE1 cobrada na sua conta. O pagamento ser\xE1 cobrado na conta
+        do iTunes na confirma\xE7\xE3o de compra. A renova\xE7\xE3o ser\xE1 cobrada
+        na contra dentro de 24 horas antes do fim do per\xEDodo atual, identificado
+        o custo da renova\xE7\xE3o. As assinaturas podem ser gerenciadas pelo usu\xE1rio
+        e a renova\xE7\xE3o autom\xE1tica pode ser desabilitada na Configura\xE7\xE3o
+        da Conta ap\xF3s a compra. Qualquer parte de um per\xEDodo de teste gr\xE1tis,
+        caso oferecido, ser\xE1 perdida quando o usu\xE1rio adquirir uma assinatura
+        para essa publica\xE7\xE3o, quando aplic\xE1vel. Para mais informa\xE7\xF5es,
+        consulte os links abaixo:[i2s_Android]A assinatura VIP oferece um plano de
+        assinatura semanal. Voc\xEA ter\xE1 3 dias de teste GR\xC1TIS. Depois deste
+        per\xEDodo, ser\xE1 cobrado o pre\xE7o semanal de {[WEEKLY_PRICE]}. Ap\xF3s
+        comprar a assinatura, voc\xEA desbloquear\xE1 os seguintes recursos: 5 jogadores
+        de golfe exclusivos, bolas douradas permanentes que multiplicam os ganhos
+        de ouro por 3 e NENHUMA PROPAGANDA. Esta assinatura \xE9 renovada automaticamente.
+        A assinatura ser\xE1 renovada a menos que voc\xEA a desative 24 horas antes
+        do final do per\xEDodo. A renova\xE7\xE3o tamb\xE9m ser\xE1 cobrada na sua
+        conta. O pagamento ser\xE1 cobrado na conta do GooglePlayStore na confirma\xE7\xE3o
+        de compra. A renova\xE7\xE3o ser\xE1 cobrada na contra dentro de 24 horas
+        antes do fim do per\xEDodo atual, identificado o custo da renova\xE7\xE3o.
+        As assinaturas podem ser gerenciadas pelo usu\xE1rio e a renova\xE7\xE3o
+        autom\xE1tica pode ser desabilitada na Configura\xE7\xE3o da Conta ap\xF3s
+        a compra. Qualquer parte de um per\xEDodo de teste gr\xE1tis, caso oferecido,
+        ser\xE1 perdida quando o usu\xE1rio adquirir uma assinatura para essa publica\xE7\xE3o,
+        quando aplic\xE1vel. Para mais informa\xE7\xF5es, consulte os links abaixo:"
+      - "VIP\u5B9A\u671F\u8CFC\u5165\u306F\u9031\u3054\u3068\u306E\u5B9A\u671F\u914D\u4FE1\u3068\u306A\u308A\u30013\u65E5\u9593\u306E\u7121\u6599\u8A66\u7528\u671F\u9593\u304C\u3042\u308A\u307E\u3059\u3002\u3053\u306E\u671F\u9593\u304C\u904E\u304E\u308B\u3068{[WEEKLY_PRICE]}\u304C\u8AB2\u91D1\u3055\u308C\u307E\u3059\u3002\u5B9A\u671F\u8CFC\u8AAD\u3092\u8CFC\u5165\u3059\u308B\u3068\u30015\u540D\u306E\u30B4\u30EB\u30D5\u30A1\u30FC\u30013\u500D\u306E\u30B4\u30FC\u30EB\u30C9\u7372\u5F97\u3068\u5E83\u544A\u306A\u3057\u3068\u3044\u3046\u6A5F\u80FD\u304C\u89E3\u9664\u3057\u307E\u3059\u3002\u3053\u308C\u306F\u81EA\u52D5\u66F4\u65B0\u53EF\u80FD\u306A\u5B9A\u671F\u8CFC\u5165\u3067\u3059\u3002\u671F\u9593\u304C\u7D42\u4E86\u3059\u308B24\u6642\u9593\u524D\u306B\u7121\u52B9\u306B\u3057\u306A\u3044\u9650\u308A\u3001\u5951\u7D04\u306F\u66F4\u65B0\u3055\u308C\u307E\u3059\u3002\u3042\u306A\u305F\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u3082\u66F4\u65B0\u6599\u304C\u8ACB\u6C42\u3055\u308C\u307E\u3059\u3002\u304A\u652F\u6255\u3044\u306F\u3001\u8CFC\u5165\u78BA\u8A8D\u306E\u969B\u306BiTunes\u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u8ACB\u6C42\u3055\u308C\u307E\u3059\u3002\u30A2\u30AB\u30A6\u30F3\u30C8\u306F\u3001\u73FE\u5728\u306E\u671F\u9593\u304C\u7D42\u4E86\u3059\u308B\u524D\u306E24\u6642\u9593\u4EE5\u5185\u306B\u66F4\u65B0\u3055\u308C\u3001\u305D\u306E\u969B\u306B\u8CBB\u7528\u3092\u304A\u77E5\u3089\u305B\u3057\u307E\u3059\u3002\u5B9A\u671F\u8CFC\u5165\u306F\u30E6\u30FC\u30B6\u30FC\u304C\u7BA1\u7406\u3057\u3001\u8CFC\u5165\u5F8C\u306B\u30E6\u30FC\u30B6\u30FC\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u8A2D\u5B9A\u306B\u79FB\u52D5\u3059\u308B\u3053\u3068\u3067\u81EA\u52D5\u66F4\u65B0\u3092\u7121\u52B9\u306B\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002\u7121\u6599\u8A66\u7528\u671F\u9593\u306E\u672A\u4F7F\u7528\u90E8\u5206\u306F\u3001\u63D0\u4F9B\u3055\u308C\u3066\u3044\u308B\u5834\u5408\u306F\u3001\u30E6\u30FC\u30B6\u30FC\u304C\u8A72\u5F53\u3059\u308B\u5834\u5408\u306F\u305D\u306E\u66F8\u7C4D\u306E\u8CFC\u8AAD\u3092\u8CFC\u5165\u3059\u308B\u3068\u5931\u52B9\u3057\u307E\u3059\u3002\u8A73\u7D30\u306B\u3064\u3044\u3066\u306F\u3001\u4EE5\u4E0B\u306E\u30EA\u30F3\u30AF\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002[i2s_Android]VIP\u5B9A\u671F\u8CFC\u5165\u306F\u9031\u3054\u3068\u306E\u5B9A\u671F\u914D\u4FE1\u3068\u306A\u308A\u30013\u65E5\u9593\u306E\u7121\u6599\u8A66\u7528\u671F\u9593\u304C\u3042\u308A\u307E\u3059\u3002\u3053\u306E\u671F\u9593\u304C\u904E\u304E\u308B\u3068{[WEEKLY_PRICE]}\u304C\u8AB2\u91D1\u3055\u308C\u307E\u3059\u3002\u5B9A\u671F\u8CFC\u8AAD\u3092\u8CFC\u5165\u3059\u308B\u3068\u30015\u540D\u306E\u30B4\u30EB\u30D5\u30A1\u30FC\u30013\u500D\u306E\u30B4\u30FC\u30EB\u30C9\u7372\u5F97\u3068\u5E83\u544A\u306A\u3057\u3068\u3044\u3046\u6A5F\u80FD\u304C\u89E3\u9664\u3057\u307E\u3059\u3002\u3053\u308C\u306F\u81EA\u52D5\u66F4\u65B0\u53EF\u80FD\u306A\u5B9A\u671F\u8CFC\u5165\u3067\u3059\u3002\u671F\u9593\u304C\u7D42\u4E86\u3059\u308B24\u6642\u9593\u524D\u306B\u7121\u52B9\u306B\u3057\u306A\u3044\u9650\u308A\u3001\u5951\u7D04\u306F\u66F4\u65B0\u3055\u308C\u307E\u3059\u3002\u3042\u306A\u305F\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u3082\u66F4\u65B0\u6599\u304C\u8ACB\u6C42\u3055\u308C\u307E\u3059\u3002\u304A\u652F\u6255\u3044\u306F\u3001\u8CFC\u5165\u78BA\u8A8D\u306E\u969B\u306BGooglePlayStore\u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u8ACB\u6C42\u3055\u308C\u307E\u3059\u3002\u30A2\u30AB\u30A6\u30F3\u30C8\u306F\u3001\u73FE\u5728\u306E\u671F\u9593\u304C\u7D42\u4E86\u3059\u308B\u524D\u306E24\u6642\u9593\u4EE5\u5185\u306B\u66F4\u65B0\u3055\u308C\u3001\u305D\u306E\u969B\u306B\u8CBB\u7528\u3092\u304A\u77E5\u3089\u305B\u3057\u307E\u3059\u3002\u5B9A\u671F\u8CFC\u5165\u306F\u30E6\u30FC\u30B6\u30FC\u304C\u7BA1\u7406\u3057\u3001\u8CFC\u5165\u5F8C\u306B\u30E6\u30FC\u30B6\u30FC\u306E\u30A2\u30AB\u30A6\u30F3\u30C8\u8A2D\u5B9A\u306B\u79FB\u52D5\u3059\u308B\u3053\u3068\u3067\u81EA\u52D5\u66F4\u65B0\u3092\u7121\u52B9\u306B\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002\u7121\u6599\u8A66\u7528\u671F\u9593\u306E\u672A\u4F7F\u7528\u90E8\u5206\u306F\u3001\u63D0\u4F9B\u3055\u308C\u3066\u3044\u308B\u5834\u5408\u306F\u3001\u30E6\u30FC\u30B6\u30FC\u304C\u8A72\u5F53\u3059\u308B\u5834\u5408\u306F\u305D\u306E\u66F8\u7C4D\u306E\u8CFC\u8AAD\u3092\u8CFC\u5165\u3059\u308B\u3068\u5931\u52B9\u3057\u307E\u3059\u3002\u8A73\u7D30\u306B\u3064\u3044\u3066\u306F\u3001\u4EE5\u4E0B\u306E\u30EA\u30F3\u30AF\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: want_to_go_tooltip
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Want to go to the '
+      - "Tu veux aller \xE0 la "
+      - 'Willst du zum Planeten '
+      - 'Voglio andare sul '
+      - 'Quieres ir a '
+      - 'Quer ir para o '
+      - "\u884C\u304D\u305F\u3044 "
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: weekly_sub_description
+      TermType: 0
+      Description: 
+      Languages:
+      - 3 days free trial then {[WEEKLY_PRICE]} per week
+      - 3 jours d'essai gratuit puis {[WEEKLY_PRICE]} par semaine
+      - 3 Tage kostenlose Probezeit, dann {[WEEKLY_PRICE]} pro Woche
+      - 3 giorni di prova gratuita, poi {[WEEKLY_PRICE]} a settimana
+      - "3 d\xEDas de prueba gratis, despu\xE9s {[WEEKLY_PRICE]} por semana"
+      - 3 dias de teste gratuito. Depois, {[WEEKLY_PRICE]} por semana
+      - "\uFF13\u65E5\u9593\u7121\u6599\u304A\u8A66\u3057\u306E\u5F8C\u3001\uFF11\u9031\u9593{[WEEKLY_PRICE]}"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: welcome_title
+      TermType: 0
+      Description: 
+      Languages:
+      - Welcome to Golf Orbit!
+      - Bienvenue sur Golf Orbit!
+      - Willkommen bei Golf Orbit!
+      - Benvenuto a Golf Orbit!
+      - "\xA1Bienvenido a Golf Orbit!"
+      - Boas-vindas ao Golf Orbit!
+      - "\u30B4\u30EB\u30D5\u30AA\u30FC\u30D3\u30C3\u30C8\u3078\u3088\u3046\u3053\u305D\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: wheel_popup_title
+      TermType: 0
+      Description: 
+      Languages:
+      - LUCKY WHEEL
+      - ROUE DE LA FORTUNE
+      - "GL\xDCCKSRAD"
+      - RUOTA DELLA FORTUNA
+      - RUEDA DE LA FORTUNA
+      - RODA DA SORTE
+      - "\u30E9\u30C3\u30AD\u30FC\u30EB\u30FC\u30EC\u30C3\u30C8"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: world
+      TermType: 0
+      Description: 
+      Languages:
+      - World
+      - World
+      - World
+      - World
+      - World
+      - World
+      - World
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: would_you_like
+      TermType: 0
+      Description: 
+      Languages:
+      - Would you like to rate Golf Orbit?
+      - Aimerais-tu noter Golf Orbit?
+      - "M\xF6chtest du Golf Orbit bewerten?"
+      - Potresti dare un voto a Golf Orbit?
+      - "\xBFTe gustar\xEDa valorar Golf Orbit?"
+      - Que tal avaliar o Golf Orbit?
+      - "\u30B4\u30EB\u30D5\u30AA\u30FC\u30D3\u30C3\u30C8\u3092\u8A55\u4FA1\u3057\u307E\u3059\u304B\uFF1F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: yearly
+      TermType: 0
+      Description: 
+      Languages:
+      - Yearly
+      - Annuel
+      - "J\xE4hrlich"
+      - Annuale
+      - Anualmente
+      - Anualmente
+      - "\u6BCE\u5E74"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: yes
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes!
+      - Oui !
+      - Ja!
+      - "S\xEC!"
+      - "\xA1S\xED!"
+      - Sim!
+      - "\u306F\u3044\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: you_can_still_choose_golfer
+      TermType: 0
+      Description: 
+      Languages:
+      - You can still choose this golfer whenever you want by going into the club
+        house !
+      - Tu peux choisir ce golfeur par la suite quand tu veux au Club House!
+      - "Du kannst diesen Golfer immer noch jederzeit w\xE4hlen, indem du ins Clubhaus
+        gehst!"
+      - Puoi sempre scegliere il golfista quando lo desideri andando nella club house!
+      - "\xA1Puedes escoger a este jugador siempre que quieras, a trav\xE9s de la
+        clubhouse!"
+      - "Voc\xEA ainda poder\xE1 usar este jogador de golfe. Basta ir \xE0 sede do
+        clube!"
+      - "\u30AF\u30E9\u30D6\u30CF\u30A6\u30B9\u306B\u884C\u3051\u3070\u3001\u3044\u3064\u3067\u3082\u307E\u305F\u3053\u306E\u30B4\u30EB\u30D5\u30A1\u30FC\u3092\u9078\u3076\u3053\u3068\u304C\u3067\u304D\u308B\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: you_can_still_go
+      TermType: 0
+      Description: 
+      Languages:
+      - You can still go to the Lava Planet whenever you want by going into the club
+        house !
+      - "Tu peux retourner \xE0 la plan\xE8te de Lave quand tu veux en allant au
+        Club House!"
+      - Du kannst immer noch jederzeit zum Lava-Planeten, indem du ins Clubhaus gehst!
+      - Puoi sempre andare sul Pianeta della Lava quando desideri attraverso la club
+        house!
+      - "\xA1Puedes ir al planeta Lava cuando quieras a trav\xE9s de la clubhouse!"
+      - "Voc\xEA poder\xE1 ir para o Planeta Lava quando quiser. Basta ir \xE0 sede
+        do clube!"
+      - "\u30AF\u30E9\u30D6\u30CF\u30A6\u30B9\u306B\u5165\u3063\u3066\u3001\u307E\u305F\u6EB6\u5CA9\u306E\u60D1\u661F\u306B\u884C\u304F\u3053\u3068\u3082\u3067\u304D\u308B\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: daily_reward
+      TermType: 0
+      Description: 
+      Languages:
+      - Daily reward!
+      - "R\xE9compense quotidienne!"
+      - "T\xE4gliche Belohnung!"
+      - Premio di oggi!
+      - "\xA1Recompensa diaria!"
+      - "Recompensa di\xE1ria!"
+      - "\u672C\u65E5\u306E\u8CDE\u54C1\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: subtitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Ever played golf on Mars?
+      - "T'as d\xE9j\xE0 jou\xE9 au golf sur Mars?"
+      - Schon mal Golf auf dem Mars gespielt?
+      - Hai magi giocato a golf su Marte?
+      - "\xBFHas jugado al golf en Marte alguna vez?"
+      - "J\xE1 jogou golfe em Marte?"
+      - "\u706B\u661F\u3067\u30B4\u30EB\u30D5\u3057\u305F\u3053\u3068\u3042\u308B\uFF1F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: description
+      TermType: 0
+      Description: 
+      Languages:
+      - Drive as far as possible, improve your skills and drive even further! If
+        you shoot really far you might even land on another plant!!
+      - "Fait un drive le plus loin que tu puisses, am\xE9liore tes comp\xE9tences
+        et fait des drives encore plus puissants! Si tu tires vraiment loin tu pourrais
+        m\xEAme atterrir sur une autre plan\xE8te!"
+      - "Schlage den Ball so weit wie m\xF6glich. Verbessere deine F\xE4higkeiten
+        und schlage ihn sogar noch weiter! Wenn du wirklich weit schl\xE4gst, landest
+        du vielleicht sogar auf einem anderen Planeten!"
+      - "Colpisci la pallina e falla arrivare pi\xF9 lontano che puoi, migliora le
+        tue abilit\xE0 e falla arrivare ancora pi\xF9 lontano! Se la fai arrivare
+        davvero lontano potresti persino farla atterrare su un altro pianeta!"
+      - "Llega hasta donde puedas.\xA1Mejora tus habilidades y llega tan lejos como
+        puedas! Y si consigues lanzar lejos de verdad, \xA1\xA1es posible que incluso
+        alcances otro planeta!!"
+      - "V\xE1 o mais longe poss\xEDvel, aprimore suas habilidades e chegue ainda
+        mais longe! Se sua tacada for muito longe, voc\xEA pode at\xE9 aterrissar
+        em outro planeta!! (p.s.: Should it be \"plant\" or \"planet\" in English?
+        As the game has planets in it, I've translated as that.)"
+      - "\u30B9\u30AD\u30EB\u3092\u4E0A\u3052\u3066\u3082\u3063\u3068\u3082\u3063\u3068\u9060\u304F\u3078\u98DB\u3070\u305D\u3046\uFF01\u3042\u307E\u308A\u306B\u9060\u304F\u306B\u98DB\u3070\u3057\u3059\u304E\u3066\u5225\u306E\u60D1\u661F\u306B\u884C\u3063\u3061\u3083\u3046\u304B\u3082\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ad_1
+      TermType: 0
+      Description: 
+      Languages:
+      - After 69 tries I reached Orbit
+      - "Apr\xE8s 69 essais j'ai atteint l'orbite"
+      - Nach 69 Versuchen erreichte ich den Orbit
+      - Ho raggiunto l'Orbita dopo 69 tentativi
+      - "Tras 69 intentos, \xA1he llegado a \xD3rbita!"
+      - "Alcancei a \xF3rbita ap\xF3s 69 tentativas"
+      - "\uFF16\uFF19\u56DE\u30C8\u30E9\u30A4\u3059\u308B\u3068\u30AA\u30FC\u30D3\u30C3\u30C8\u306B\u5C4A\u304F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ad_2
+      TermType: 0
+      Description: 
+      Languages:
+      - if you can reach orbit, you are legally the best golfer
+      - Si tu peux atteindre l'orbite, tu es officiellement le meilleur golfer
+      - Wenn du den Orbit erreichst, bist du offiziell der beste Golfer
+      - Se riesci a raggiungere l'orbita, sei praticamente il miglior golfista al
+        mondo!
+      - "Si puedes llegar a la \xF3rbita, \xA1eres realmente el mejor jugador de
+        golf!"
+      - "Se conseguir alcan\xE7ar a \xF3rbita, voc\xEA ser\xE1 oficialmente o melhor
+        jogador de golfe"
+      - "\u30AA\u30FC\u30D3\u30C3\u30C8\u306B\u5C4A\u3044\u305F\u3089\u81EA\u52D5\u7684\u306B\u30D9\u30B9\u30C8\u30B4\u30EB\u30D5\u30A1\u30FC\u306B\u306A\u308B"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ad_3
+      TermType: 0
+      Description: 
+      Languages:
+      - Only Obiwan can reach orbit
+      - Seul Obiwan peut atteindre l'orbit
+      - Nur Obiwan kann den Orbit erreichen
+      - "Solo Obiwan pu\xF2 raggiungere l'orbita"
+      - "Solo Obiwan es capaz de llegar a la \xF3rbita"
+      - "Apenas Obiwan consegue alcan\xE7ar a \xF3rbita"
+      - "\u30AA\u30D3\u30EF\u30F3\u3060\u3051\u304C\u30AA\u30FC\u30D3\u30C3\u30C8\u306B\u305F\u3069\u308A\u7740\u3051\u308B"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ad_4
+      TermType: 0
+      Description: 
+      Languages:
+      - Help Obiwan reach orbit and destroy the Death Star
+      - "Aide Obiwan \xE0 atteindre l'orbite et d\xE9truire l'\xC9toile Noire"
+      - "Hilf Obiwan, den Orbit zu erreichen und den Todesstern zu zerst\xF6ren"
+      - Aiuta Obiwan ha raggiungere l'orbita e a distruggere la Morte Nera
+      - "Ayuda a Obiwan a llegar a la \xF3rbita y destruir la Estrella de la Muerte"
+      - "Ajude Obiwan a alcan\xE7ar a \xF3rbita e destruir a Estrela da Morte"
+      - "\u30AA\u30FC\u30D3\u30C3\u30C8\u306B\u305F\u3069\u308A\u7740\u304F\u3088\u3046\u30AA\u30D3\u30EF\u30F3\u3092\u52A9\u3051\u3001\u30C7\u30B9\u30B9\u30BF\u30FC\u3092\u3084\u3063\u3064\u3051\u3088\u3046"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ad_5
+      TermType: 0
+      Description: 
+      Languages:
+      - I dare you to reach the end of the world
+      - "Je te d\xE9fie d'atteindre la fin du monde"
+      - Ich fordere dich heraus, das Ende der Welt zu erreichen
+      - Ti sfido a raggiungere la fine del mondo
+      - Te reto a llegar al fin del mundo
+      - "Desafio voc\xEA a alcan\xE7ar o fim do mundo"
+      - "\u4F55\u3068\u304B\u3053\u306E\u4E16\u754C\u306E\u679C\u3066\u307E\u3067"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ad_6
+      TermType: 0
+      Description: 
+      Languages:
+      - Only 1% can do this
+      - Seulement 1% des joueurs y arrivent
+      - Nur 1% schafft das
+      - Solo l'1% ci riesce
+      - Solo el 1% puede hacer esto
+      - Apenas 1% consegue fazer isso
+      - "\uFF11%\u306E\u30D7\u30EC\u30A4\u30E4\u30FC\u3057\u304B\u9054\u6210\u3067\u304D\u306A\u3044"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: offline_earnings
+      TermType: 0
+      Description: 
+      Languages:
+      - Offline earnings
+      - Gains hors-ligne
+      - Offline-Gewinne
+      - Guadagni offline
+      - Ganancias offline
+      - Ganhos offline
+      - "\u30AA\u30D5\u30E9\u30A4\u30F3\u30DD\u30A4\u30F3\u30C8"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: notification_content
+      TermType: 0
+      Description: 
+      Languages:
+      - your offline earnings just reached the maximum! Come claim your money!
+      - "Tu as atteins ta limite de gains hors-ligne! Reviens r\xE9colter ton argent!"
+      - Deine Offline-Gewinne haben gerade das Maximum erreicht! Komm und fordere
+        dein Geld ein!
+      - i tuoi guadagni offline hanno raggiunto il massimo! Vieni a incassare i tuoi
+        soldi!
+      - "\xA1Tus ganancias offline han llegado al tope! \xA1Reclama tu dinero!"
+      - "Seus ganhos offline chegaram ao m\xE1ximo! Venha pegar o seu dinheiro!"
+      - "\u30AA\u30D5\u30E9\u30A4\u30F3\u30DD\u30A4\u30F3\u30C8\u304CMAX\u306B\u9054\u3057\u307E\u3057\u305F\uFF01\u8CDE\u91D1\u3092\u30B2\u30C3\u30C8\u3057\u3088\u3046\uFF01"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: notification_inquiry
+      TermType: 0
+      Description: 
+      Languages:
+      - Do you want to be notified when offline earnings reach the maximum?
+      - "Veux-tu \xEAtre notifier lorsque tes gains hors-ligne atteignent leur limite?"
+      - Willst du benachrichtigt werden, wenn deine Offline-Gewinne das Maximum erreicht
+        haben?
+      - Vuoi ricevere un avviso quando i tuoi guadagni offline raggiungono il massimo?
+      - "\xBFQuieres que te mandemos una notificaci\xF3n cuando tus ganancias offline
+        alcancen el m\xE1ximo?"
+      - "Voc\xEA quer ser notificado quando os ganhos offline chegarem ao m\xE1ximo?"
+      - "\u30AA\u30D5\u30E9\u30A4\u30F3\u30DD\u30A4\u30F3\u30C8\u304CMAX\u306B\u9054\u3057\u305F\u3089\u901A\u77E5\u3092\u53D7\u3051\u53D6\u308A\u307E\u3059\u304B\uFF1F"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: chest_of_gold
+      TermType: 0
+      Description: 
+      Languages:
+      - Chest of Gold
+      - Coffre d'or
+      - Goldene Truhe
+      - Cassa d'oro
+      - Cofre dorado
+      - Caixa de ouro
+      - "\u91D1\u306E\u7BB1"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: everyday
+      TermType: 0
+      Description: 
+      Languages:
+      - EVERYDAY!
+      - TOUS LES JOURS!
+      - "t\xE4glich!"
+      - quotidiano!
+      - cotidiano!
+      - cotidiano!
+      - "\u65E5\u5E38!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: travel
+      TermType: 0
+      Description: 
+      Languages:
+      - Travel
+      - Voyager
+      - Reisen
+      - Viaggiare
+      - Viajar
+      - Viaggiare
+      - GO
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: language
+      TermType: 0
+      Description: 
+      Languages:
+      - Language
+      - Langue
+      - Sprache
+      - Lingua
+      - Idioma
+      - "L\xEDngua"
+      - "\u8A00\u8A9E"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: follow_us
+      TermType: 0
+      Description: 
+      Languages:
+      - Follow US
+      - Follow US
+      - Follow US
+      - Follow US
+      - Follow US
+      - Follow US
+      - Follow US
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: instagram_popup_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Follow us on Instagram and get a special character!
+      - Follow us on Instagram and get a special character!
+      - Follow us on Instagram and get a special character!
+      - Follow us on Instagram and get a special character!
+      - Follow us on Instagram and get a special character!
+      - Follow us on Instagram and get a special character!
+      - Follow us on Instagram and get a special character!
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: BECOME_VIP_LEFT
+      TermType: 0
+      Description: 
+      Languages:
+      - Become
+      - '   Deviens'
+      - Werden Sie jetzt
+      - Diventa
+      - "Convi\xE9rtase"
+      - Torne-se
+      - "      \u4ECA"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: BECOME_VIP_RIGHT
+      TermType: 0
+      Description: 
+      Languages:
+      - 'now!     '
+      - maintenant
+      - ' '
+      - 'ora      '
+      - 'ahora  '
+      - 'agora   '
+      - "\u306A\u3063\u3066"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: restore
+      TermType: 0
+      Description: 
+      Languages:
+      - Restore
+      - Restaurer
+      - Wiederherstellen
+      - Ripristina
+      - Restaurar
+      - Restaurar
+      - "\u8CFC\u5165\u5185\u5BB9\u3092\u5FA9\u5143"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: daily_gems
+      TermType: 0
+      Description: 
+      Languages:
+      - '100 gems
+
+'
+      - '100 gemmes
+
+'
+      - '100 Edelsteine
+
+'
+      - '100 gemme
+
+'
+      - 
+      - 100 gemas
+      - "\u6BCE\u65E5100"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: daily_gold
+      TermType: 0
+      Description: 
+      Languages:
+      - '100K gold
+
+'
+      - "100K pi\xE8ces"
+      - "100K St\xFCck"
+      - 100K ori
+      - 100K de oro
+      - 100K de ouro
+      - "\u6BCE\u65E5100K"
+      Flags: 00000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: French
+      Code: fr
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Italian
+      Code: it
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: Portuguese
+      Code: pt
+      Flags: 0
+    - Name: Japanese
+      Code: ja
+      Flags: 0
+    IgnoreDeviceLanguage: 1
+    _AllowUnloadingLanguages: 1
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 5
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

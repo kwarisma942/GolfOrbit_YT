@@ -1,0 +1,798 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 084664185ca624045953c45cb1a6b020, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: d74fd1e46981e4d239594a17c3b0dfe3, type: 2}
+  golfers:
+  - name: MaleGolfer
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: f1ffc365ceedc0d4b9e4315877e66c8d, type: 3}
+    prefab: {fileID: 114088501262840912, guid: 6632be138a73bab4fa876b3d68019979, type: 3}
+    shopHead: {fileID: 21300000, guid: 701e66949cd9b9d4b88957d90586928c, type: 3}
+  - name: Gymguy
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 1d692cce39d596c43906086a5a03c183, type: 3}
+    prefab: {fileID: 114561149954903020, guid: 9192947e7c1dd4f4697c05e3074cd305, type: 3}
+    shopHead: {fileID: 21300000, guid: 9f36f5d9868e24eb0a47c5244d12c255, type: 3}
+  - name: Clown
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 5fbfb8371d4658c43a28ca86bfb5c093, type: 3}
+    prefab: {fileID: 114151053822944804, guid: 99af5f976e6ae48fba59df78664e8c3c, type: 3}
+    shopHead: {fileID: 21300000, guid: 6165739d36f5947a5919e23a583aba3c, type: 3}
+  - name: Grandpa
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 6a4e524f421da094cafdc06b5c37320c, type: 3}
+    prefab: {fileID: 114818842111103788, guid: c7bfa99a1ee0a44e686e4db8dc772ac6, type: 3}
+    shopHead: {fileID: 21300000, guid: 037e623a710f347f09ec8d97cf114faa, type: 3}
+  - name: Lion
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 0889ad62996d1c14d97540c71f8a88b8, type: 3}
+    prefab: {fileID: 114687937245183830, guid: b97a994d14b20429f8e26b4bab5df14f, type: 3}
+    shopHead: {fileID: 21300000, guid: dfed1bc7ad5f046d8a539febf103f254, type: 3}
+  - name: Obiwan
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 6dc4320c8d1e51848b95b0903b778b85, type: 3}
+    prefab: {fileID: 114061681882539054, guid: a38783d6ddfc24763904c233e3d9ce47, type: 3}
+    shopHead: {fileID: 21300000, guid: e6a98bd1f02c54db9aa68b317853f36a, type: 3}
+  - name: Chicken
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: a04d58edbaca9d24fad0978eaf9b5890, type: 3}
+    prefab: {fileID: 114805189299438898, guid: 5805898739778437882778a5df7e2807, type: 3}
+    shopHead: {fileID: 21300000, guid: ab09d5d29248242d5a4c1d24fd23ddff, type: 3}
+  - name: Alien
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 351af259e557daa4d8240c8421005762, type: 3}
+    prefab: {fileID: 114587264801278248, guid: 205c4f27f44494a52b9152455ae89718, type: 3}
+    shopHead: {fileID: 21300000, guid: 63b948ba719f841df87abe95d8aaddae, type: 3}
+  - name: Lifeguard
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: c632cc071741226468b5827fcd44ef44, type: 3}
+    prefab: {fileID: 114956397073335240, guid: cb61c5afb66c34d43a6893b42abe912c, type: 3}
+    shopHead: {fileID: 21300000, guid: d9ce743fbb4289e44b8055baab92fa94, type: 3}
+  - name: FemaleGolfer
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 04d625cbdf8ae3d479f0a62a62c57966, type: 3}
+    prefab: {fileID: 114089724630722658, guid: c18aa2f923aafb847b0cf4b6831ef61a, type: 3}
+    shopHead: {fileID: 21300000, guid: 95452ebbd001f1f458118c50cf0ee0f1, type: 3}
+  - name: Grandma
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 28e86c5d46794844a8d38f14c0106931, type: 3}
+    prefab: {fileID: 114199245718965668, guid: c81d57990beca974986bba2d505b3f0d, type: 3}
+    shopHead: {fileID: 21300000, guid: 828c495ef92abb44087d014330ae1ac1, type: 3}
+  - name: Santa
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: bace01b1621c8384f9491b54979eb3c2, type: 3}
+    prefab: {fileID: 114430027387001562, guid: 4bdaf54afcabe1243923ce69c0533293, type: 3}
+    shopHead: {fileID: 21300000, guid: 291e807cbfd1b274087e20e6d2f22b33, type: 3}
+  - name: Viking
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: c7c6422c151895e4e9ee79f86b80c12f, type: 3}
+    prefab: {fileID: 114936389662735694, guid: fcb62572779902546971fb3ca7e258ba, type: 3}
+    shopHead: {fileID: 21300000, guid: 2866b968d7e05da4bb6a0530ae4bce1d, type: 3}
+  - name: TigerWoods
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: e4d234a2ea4c40f4eb1d35ed2435d506, type: 3}
+    prefab: {fileID: 114116656577495870, guid: 0267f72e790ecaf4085349ce16a318f4, type: 3}
+    shopHead: {fileID: 21300000, guid: 2b62fd4ba176a1b4696fa8815c832b57, type: 3}
+  - name: Trump
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: b754fd4f7fa4a594d838b7e6b3748696, type: 3}
+    prefab: {fileID: 114623170002306878, guid: f6adba9fbbcdf164fab8d3c985b09c76, type: 3}
+    shopHead: {fileID: 21300000, guid: f8591b954f85f71408463dd0ab98d78a, type: 3}
+  - name: Astronaut
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 53869f5fe3262584bae7c2bc5964975b, type: 3}
+    prefab: {fileID: 114471535137729142, guid: 69960c7be5c090c4f85f32437db4889d, type: 3}
+    shopHead: {fileID: 21300000, guid: d8befb7a793c6bd4588ef7551ce2ab17, type: 3}
+  - name: French
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 02582c7a0aa853149b9b6caf5d5779d6, type: 3}
+    prefab: {fileID: 114113277512008716, guid: d699c83c11da89344b7b5cbc43912cb3, type: 3}
+    shopHead: {fileID: 21300000, guid: e568c5e8ca1380147b6cb43de5bd6c92, type: 3}
+  - name: Mario
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 0409333e7021ba6468e42102782089f6, type: 3}
+    prefab: {fileID: 114001211821473000, guid: cb9e56cf0a423f642bd83b9fceb3c426, type: 3}
+    shopHead: {fileID: 21300000, guid: b70bc78321587f24db4ad79617a496c3, type: 3}
+  - name: Panda
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 0f7bcf207a0ee1442b7d67719845267f, type: 3}
+    prefab: {fileID: 114148853914221276, guid: 0cabf1d62d133d2469aa3ea930b60c66, type: 3}
+    shopHead: {fileID: 21300000, guid: ad607731501a5eb4e8d38bc121f329e0, type: 3}
+  - name: Unicorn
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 238802672a9cabc4f913913f0ef2d692, type: 3}
+    prefab: {fileID: 114573116359597460, guid: d8727718a3806ab4e8ec62176d9acd2f, type: 3}
+    shopHead: {fileID: 21300000, guid: 57aecf8ea71b84447ad2a032f9267efd, type: 3}
+  - name: Cat
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 11de9b44a5a25974f97b31d1f80e8516, type: 3}
+    prefab: {fileID: 114030875284306340, guid: 9d43117c921bab148925833fa52e567d, type: 3}
+    shopHead: {fileID: 21300000, guid: a6bdba21ae9e31f4998bdd64c88926fa, type: 3}
+  - name: Zombie
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: a315184d6ee068d4ba885055efed3984, type: 3}
+    prefab: {fileID: 114242454067490972, guid: 4f879b8bd3b9ead4c8fd57cdde509fea, type: 3}
+    shopHead: {fileID: 21300000, guid: 80c150f6918109a488a254638bf767be, type: 3}
+  - name: Pirate
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 09772669b7f2d5d40a80b8076b64f5b8, type: 3}
+    prefab: {fileID: 114399493819973246, guid: 96bc3e133881fbd49baf444efd3272d7, type: 3}
+    shopHead: {fileID: 21300000, guid: 8db7aa13d59bffd40821b6da3457e71b, type: 3}
+  - name: Ballerina
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: db366889ba930494b8a19e19a3a992d4, type: 3}
+    prefab: {fileID: 114495401558752740, guid: 46e6a73a2a4018c49a9db3f2d2da991f, type: 3}
+    shopHead: {fileID: 21300000, guid: ddacc8fd3be0e254ea96e9fa15cb9a71, type: 3}
+  premiumGolfers: []
+  instagramGolfer:
+    name: Mexican
+    enabled: 1
+    shopPreview: {fileID: 21300000, guid: 78739c5fd148a694ba300238ef024a5a, type: 3}
+    prefab: {fileID: 114088501262840912, guid: 33dc657c846c2c14bb9c3203eb7ce7c8, type: 3}
+    shopHead: {fileID: 21300000, guid: 65f47ac3fecf92045b2534c1e06e671a, type: 3}
+  planets:
+  - name: earth_planet
+    shopPreview: {fileID: 21300000, guid: ae4559dc1f988994196b8bcc83445502, type: 3}
+    shopButtonPreview: {fileID: 21300000, guid: bc2f9445b55c1004eb1655dbe9e28e22,
+      type: 3}
+    prefabs:
+    - {fileID: 114039699900681710, guid: 4d8ba9bdc4d16994d977e89d7fc45905, type: 3}
+    - {fileID: 114039699900681710, guid: 5233d19377daaa94099d9a6a628345dc, type: 3}
+    - {fileID: 114039699900681710, guid: bf8697e8223083644bd1d581d22d70e7, type: 3}
+    orbitButtonSprite: {fileID: 0}
+    orbitImage: {fileID: 21300000, guid: 96de46a2cadba1e4a86bad314b66fa96, type: 3}
+    dayTimeController: {fileID: 114461829055609132, guid: c99bb0b7cc326f44ea99bab3a523d5d7,
+      type: 3}
+    landParticlesColor:
+    - serializedVersion: 2
+      key0: {r: 0.43529415, g: 0.8745099, b: 0.20784315, a: 1}
+      key1: {r: 0.10196079, g: 0.7254902, b: 0.12941177, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0.8588236, g: 0.7568628, b: 0.32156864, a: 1}
+      key1: {r: 0.9215687, g: 0.882353, b: 0.6666667, a: 1}
+      key2: {r: 0.9215687, g: 0.8352942, b: 0.4901961, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 26214
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0, g: 0.5137255, b: 0.7294118, a: 0.75686276}
+      key1: {r: 0, g: 0.7254902, b: 1, a: 0.75686276}
+      key2: {r: 0, g: 0.5921569, b: 0.84313726, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 26214
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0.04705883, g: 0.5529412, b: 0.07450981, a: 1}
+      key1: {r: 0.08627451, g: 0.4784314, b: 0.10196079, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    birdsColor:
+      serializedVersion: 2
+      key0: {r: 0.9294118, g: 0.92549026, b: 0.92549026, a: 1}
+      key1: {r: 0.95294124, g: 0.7803922, b: 0.30980393, a: 1}
+      key2: {r: 0.22352943, g: 0.2509804, b: 0.28627452, a: 0}
+      key3: {r: 1, g: 1, b: 1, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 21627
+      ctime1: 43253
+      ctime2: 65535
+      ctime3: 65535
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    backgroundMusic: {fileID: 8300000, guid: c2c4a265a67e8234a862a2039b59bed6, type: 3}
+    waterName: in_the_water
+  - name: lava_planet
+    shopPreview: {fileID: 21300000, guid: efbbdf9cc7333014ba89c40cc60dd126, type: 3}
+    shopButtonPreview: {fileID: 21300000, guid: 7131bb7d27271fc4e9f45f0c84b7128d,
+      type: 3}
+    prefabs:
+    - {fileID: 114039699900681710, guid: 51147b3486ae7344b916c3214fe95bd6, type: 3}
+    - {fileID: 114039699900681710, guid: 51147b3486ae7344b916c3214fe95bd6, type: 3}
+    - {fileID: 114039699900681710, guid: 51147b3486ae7344b916c3214fe95bd6, type: 3}
+    orbitButtonSprite: {fileID: 21300000, guid: 088d139adeb3d694595f993a031d52ce,
+      type: 3}
+    orbitImage: {fileID: 21300000, guid: ea0d1277dd9db2a4f9adbb0030297073, type: 3}
+    dayTimeController: {fileID: 114461829055609132, guid: 371bb0a0d57080a4c8ce66d17e6f0207,
+      type: 3}
+    landParticlesColor:
+    - serializedVersion: 2
+      key0: {r: 0.43529415, g: 0.8745099, b: 0.20784315, a: 1}
+      key1: {r: 0.10196079, g: 0.7254902, b: 0.12941177, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0.23529413, g: 0.058823533, b: 0.3019608, a: 1}
+      key1: {r: 0.09411766, g: 0, b: 0.12941177, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 1, g: 0.73333335, b: 0, a: 1}
+      key1: {r: 1, g: 0.48235297, b: 0, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0.4666667, g: 0.17254902, b: 0.18823531, a: 1}
+      key1: {r: 0.30588236, g: 0.16862746, b: 0.1764706, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    birdsColor:
+      serializedVersion: 2
+      key0: {r: 0.9843138, g: 1, b: 0.49803925, a: 1}
+      key1: {r: 0.9725491, g: 0.46274513, b: 0.427451, a: 1}
+      key2: {r: 0.9490197, g: 0.21960786, b: 0.17254902, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 21627
+      ctime1: 43253
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    backgroundMusic: {fileID: 8300000, guid: a4cebb00ad9d31748ad47973a5bb3353, type: 3}
+    waterName: in_the_lava
+  - name: rainbow_planet
+    shopPreview: {fileID: 21300000, guid: 74fa2f49ab2550e45868ef44b3809561, type: 3}
+    shopButtonPreview: {fileID: 21300000, guid: aa5deb5f4b24c60439b30ad1b27d03a1,
+      type: 3}
+    prefabs:
+    - {fileID: 114039699900681710, guid: b413a922cfb347c479f250bdc0fcd8ba, type: 3}
+    - {fileID: 114039699900681710, guid: b413a922cfb347c479f250bdc0fcd8ba, type: 3}
+    - {fileID: 114039699900681710, guid: b413a922cfb347c479f250bdc0fcd8ba, type: 3}
+    orbitButtonSprite: {fileID: 21300000, guid: 35cbfc4a821944f4db70f645e90233cd,
+      type: 3}
+    orbitImage: {fileID: 0}
+    dayTimeController: {fileID: 114461829055609132, guid: 4fb9afaa66eac954a9318b0957a4371f,
+      type: 3}
+    landParticlesColor:
+    - serializedVersion: 2
+      key0: {r: 0.43529415, g: 0.8745099, b: 0.20784315, a: 1}
+      key1: {r: 0.10196079, g: 0.7254902, b: 0.12941177, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 1, g: 0.96470594, b: 0.32941177, a: 1}
+      key1: {r: 1, g: 0.6666667, b: 0, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0.52156866, g: 1, b: 0.6, a: 1}
+      key1: {r: 0, g: 1, b: 0.54901963, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    - serializedVersion: 2
+      key0: {r: 0.3921569, g: 0.28235295, b: 0.67058825, a: 1}
+      key1: {r: 0.24313727, g: 0.19607845, b: 0.36078432, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 13107
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    birdsColor:
+      serializedVersion: 2
+      key0: {r: 0.25882354, g: 0.7686275, b: 0.6509804, a: 1}
+      key1: {r: 0.909804, g: 0.13725491, b: 0.14901961, a: 1}
+      key2: {r: 0.9607844, g: 0.11764707, b: 0.48235297, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 21627
+      ctime1: 43253
+      ctime2: 65535
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 1
+      m_NumColorKeys: 3
+      m_NumAlphaKeys: 2
+    backgroundMusic: {fileID: 8300000, guid: e7bb37f5706935940918218dbac65503, type: 3}
+    waterName: in_the_water
+  balls:
+  - name: White
+    ballColor: {r: 1, g: 1, b: 1, a: 1}
+    ballSprite: {fileID: 21300000, guid: 8645d3408a98a7a4ebe7a38fc9598161, type: 3}
+    ballTooltip: 
+    cost: 0
+  - name: Golden
+    ballColor: {r: 0.95294124, g: 0.85098046, b: 0.28627452, a: 1}
+    ballSprite: {fileID: 21300000, guid: f0ca721e62d32eb448b2960308ad4a37, type: 3}
+    ballTooltip: ball_golden_tooltip
+    cost: 0
+  - name: Red
+    ballColor: {r: 0.9294118, g: 0.23529413, b: 0.23529413, a: 1}
+    ballSprite: {fileID: 21300000, guid: 48b75078d7b0cc14c98ff7b699290760, type: 3}
+    ballTooltip: ball_red_tooltip
+    cost: 2500
+  - name: Violet
+    ballColor: {r: 0.83921576, g: 0.2784314, b: 0.8313726, a: 1}
+    ballSprite: {fileID: 21300000, guid: 361601c112aa04f46b7355bab9a78448, type: 3}
+    ballTooltip: ball_violet_tooltip
+    cost: 6000
+  - name: Blue
+    ballColor: {r: 0.22352943, g: 0.54509807, b: 0.882353, a: 1}
+    ballSprite: {fileID: 21300000, guid: e6fa23656f426d14fb19d69a73d8f237, type: 3}
+    ballTooltip: ball_blue_tooltip
+    cost: 2500
+  - name: Orange
+    ballColor: {r: 0.9725491, g: 0.54509807, b: 0.1254902, a: 1}
+    ballSprite: {fileID: 21300000, guid: aa001dad877ba0e49ad2174ce598e59b, type: 3}
+    ballTooltip: ball_orange_tooltip
+    cost: 2500
+  inAppProducts:
+  - name: handfull of gems
+    description: 200 gems
+    productId: com.gpp.gosmalliap
+    hardCurrencyAmount: 200
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC2,29"
+    fakeUSPrice: $1.99
+  - name: handfull of gems  2
+    description: 200 gems
+    productId: com.gpp.gosmalliap2
+    hardCurrencyAmount: 200
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC2,29"
+    fakeUSPrice: $1.99
+  - name: pile of gems
+    description: 600 gems + no ads
+    productId: com.gpp.gomediumiap
+    hardCurrencyAmount: 600
+    removeAds: 0
+    isMostpopular: 1
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC5,49"
+    fakeUSPrice: $4.99
+  - name: pile of gems 2
+    description: 600 gems + no ads
+    productId: com.gpp.gomediumiap2
+    hardCurrencyAmount: 600
+    removeAds: 0
+    isMostpopular: 1
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC5,49"
+    fakeUSPrice: $4.99
+  - name: cup of gems
+    description: 1500 gems + no ads
+    productId: com.gpp.gobigiap
+    hardCurrencyAmount: 1500
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC10,99"
+    fakeUSPrice: $9.99
+  - name: cup of gems 2
+    description: 1500 gems + no ads
+    productId: com.gpp.gobigiap3
+    hardCurrencyAmount: 1500
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC10,99"
+    fakeUSPrice: $9.99
+  - name: chest of gems
+    description: 10 000 gems + no ads
+    productId: com.gpp.gogiganticiap
+    hardCurrencyAmount: 10000
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 1
+    fakeEUPrice: "\u20AC54,99"
+    fakeUSPrice: $49.99
+  - name: chest of gems 2
+    description: 10 000 gems + no ads
+    productId: com.gpp.gogiganticiap2
+    hardCurrencyAmount: 10000
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 1
+    fakeEUPrice: "\u20AC54,99"
+    fakeUSPrice: $49.99
+  - name: Weekly subscription
+    description: 
+    productId: com.gpp.golforbit.weeklypremiumsubscription2
+    hardCurrencyAmount: 0
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC8,49"
+    fakeUSPrice: $7.99
+  - name: Weekly subscription 2
+    description: 
+    productId: com.gpp.golforbit.weeklypremium
+    hardCurrencyAmount: 0
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC8,49"
+    fakeUSPrice: $7.99
+  - name: Monthly subscription
+    description: 
+    productId: com.gpp.golforbit.monthlypremiumsubscription2
+    hardCurrencyAmount: 0
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC20,49"
+    fakeUSPrice: $7.99
+  - name: Monthly subscription 2
+    description: 
+    productId: com.gpp.golforbit.monthlypremium
+    hardCurrencyAmount: 0
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC20,49"
+    fakeUSPrice: $7.99
+  - name: yearly subscription
+    description: 
+    productId: com.gpp.golforbit.yearlypremiumsubscription2
+    hardCurrencyAmount: 0
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC102,99"
+    fakeUSPrice: $99.99
+  - name: yearly subscription 2
+    description: 
+    productId: com.gpp.golforbit.yearlypremiums
+    hardCurrencyAmount: 0
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC102,99"
+    fakeUSPrice: $99.99
+  - name: google_play_pass
+    description: 
+    productId: google_play_pass
+    hardCurrencyAmount: 0
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC3.99"
+    fakeUSPrice: $3.99
+  - name: noads
+    description: Remove ADs
+    productId: noads
+    hardCurrencyAmount: 0
+    removeAds: 0
+    isMostpopular: 0
+    isBestOffer: 0
+    fakeEUPrice: "\u20AC3.99"
+    fakeUSPrice: $3.99
+  shopItems:
+  - name: chest_of_gold
+    description: 100,000 coins
+    hardCurrencyPrice: 100
+    softCurrencyAmount: 100000
+  holePrefab: {fileID: 1928671878255620, guid: 21313416d79fa8647b06350cd02380d0, type: 3}
+  oldHolePrefab: {fileID: 1502254385597446, guid: 55b3b6d461ae0eb4394107add0255da4,
+    type: 3}

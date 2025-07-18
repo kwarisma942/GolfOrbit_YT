@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Panda_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: aa0cea71cd8f3d540858e02db4d28e47, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - f5df86a066118d5459dc024f969c5669: 21300000
+    - 527362a475a574543879a5f071112314: 21300000
+    - 5ab02118c432e884bb5dd43359078f79: 21300000
+    - 4ffac3aa7dc7e6b41b6605b5e3a9197f: 21300000
+    - 3a7ce82b61a8bb648b7abb687d444d29: 21300000
+    - bf329f7b54141f74fbc5d800198a22c0: 21300000
+    - e4f13acba71c48c4ebc10b42b0266d13: 21300000
+    - dc53bfdb4f859454b8a61ccdd0dbf3c1: 21300000
+    - 275fe75c7b22ac24f80f0a459e8fabbb: 21300000
+    - ff36326d0c88711429e2c8f52a990c12: 21300000
+    - c72c197e063075a4ea5cf5b28c6bc004: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f5df86a066118d5459dc024f969c5669, type: 3}
+  - {fileID: 21300000, guid: 527362a475a574543879a5f071112314, type: 3}
+  - {fileID: 21300000, guid: 5ab02118c432e884bb5dd43359078f79, type: 3}
+  - {fileID: 21300000, guid: 4ffac3aa7dc7e6b41b6605b5e3a9197f, type: 3}
+  - {fileID: 21300000, guid: 3a7ce82b61a8bb648b7abb687d444d29, type: 3}
+  - {fileID: 21300000, guid: bf329f7b54141f74fbc5d800198a22c0, type: 3}
+  - {fileID: 21300000, guid: e4f13acba71c48c4ebc10b42b0266d13, type: 3}
+  - {fileID: 21300000, guid: dc53bfdb4f859454b8a61ccdd0dbf3c1, type: 3}
+  - {fileID: 21300000, guid: 275fe75c7b22ac24f80f0a459e8fabbb, type: 3}
+  - {fileID: 21300000, guid: ff36326d0c88711429e2c8f52a990c12, type: 3}
+  - {fileID: 21300000, guid: c72c197e063075a4ea5cf5b28c6bc004, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Panda_R_leg
+  - panda_torso
+  - panda_bottom
+  - panda_L_leg
+  - Panda_L_foot
+  - Panda_L_forearm
+  - Panda_R_arm
+  - Panda_R_foot
+  - Panda_L_arm
+  - Panda_R_forearm
+  - Panda_club
+  m_RenderDataMap: {}
+  m_Tag: Panda_atlas
+  m_IsVariant: 0

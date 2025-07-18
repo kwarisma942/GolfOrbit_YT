@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a144ecc93036b49d392975863065482e, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  application:
+    version: 1.0
+    jsonID: not loaded
+    targetFrameRate: 60
+    splashScreenDuration: 3
+    enableRemoteSettings: 1
+    enablePurchasing: 1
+    enableAnalytics: 1
+    enableAds: 1
+    enableFacebook: 1
+    enableOfflineEarning: 1
+  ads:
+    delayFirstInterstitial: 0
+    delayBetweenInterstitials: 60
+    lifeTimeShotBeforeInterstitial: 2
+    isFirstInterstitial: 1
+    banner: 0
+    useSmartBanner: 0
+    useIntertitial: 1
+    rewardedVideoTestAdUnit: cf1c83d753a34b35858a20a2ba97fb4a
+    interstitialTestAdUnit: 625c6fd0bec54acf8a2f5ac011a9268a
+  game:
+    baseCoinMultiplier: 0.25
+    ballCosts:
+    - coinsPrice: 0
+      gemPrice: 0
+      useVideo: 0
+    - coinsPrice: 0
+      gemPrice: 0
+      useVideo: 0
+    - coinsPrice: 0
+      gemPrice: 2500
+      useVideo: 0
+    - coinsPrice: 0
+      gemPrice: 6000
+      useVideo: 0
+    - coinsPrice: 0
+      gemPrice: 2500
+      useVideo: 0
+    - coinsPrice: 0
+      gemPrice: 2500
+      useVideo: 0
+    worldDifficultyMultiplier: 1.25
+    worldEndedGoldMultiplier: 2
+    characterUnlockDistance:
+    - 200
+    - 500
+    - 1000
+    - 1500
+    - 2000
+    - 2500
+    - 3000
+    upgradeBasePrice: 50
+    priceMultipliers:
+    - startLevel: 0
+      multiplier: 1.44
+    - startLevel: 6
+      multiplier: 1.37
+    - startLevel: 11
+      multiplier: 1.24
+    - startLevel: 21
+      multiplier: 1.18
+    - startLevel: 51
+      multiplier: 1.12
+    powerBase: 30
+    powerPerLevel: 2
+    powerLevelMultiplier: 0.3
+    powerBonuses:
+    - startLevel: 0
+      bonus: 1
+    - startLevel: 11
+      bonus: 4
+    - startLevel: 21
+      bonus: 10
+    - startLevel: 31
+      bonus: 22
+    - startLevel: 41
+      bonus: 46
+    minBounciness: 0.1
+    maxBounciness: 0.5
+    gamesForJackpot: 10
+    jackpotMultipliers:
+    - chance: 59
+      multiplier: 10
+    - chance: 30
+      multiplier: 20
+    - chance: 10
+      multiplier: 30
+    - chance: 1
+      multiplier: 100
+    holescoreMultipliers: 030000000a0000001e000000
+    puttType: 0
+    planetDifficulty: 0
+    moneyMultiplier: 3
+    upgradePriceMultiplier: 1
+    upgradeValueMultiplier: 1
+    ballSqrSpeedToDestroyObstacles: 400
+    minPerfectAngle: 28
+    maxPerfectAngle: 34
+    iap:
+      handfullOfGemsAmount: 200
+      pileOfGems: 600
+      cupOfGemsAmount: 1500
+      chestOfGemsAmount: 10000
+    wheelGifts:
+    - type: 0
+      amount: 50
+    - type: 2
+      amount: 1
+    - type: 0
+      amount: 75
+    - type: 0
+      amount: 25
+    - type: 0
+      amount: 50
+    - type: 3
+      amount: 1
+    - type: 0
+      amount: 100
+    - type: 0
+      amount: 25
+    enableStartAnimation: 0
+    enableChristmasEvent: 0
+    enableInstagramPopup: 1
+    useNewVideoIcon: 1
+    useNewFXs: 1
+    subPopupABTest: 0

@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1221378463647726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4811264848693494}
+  - component: {fileID: 114461829055609132}
+  m_Layer: 0
+  m_Name: DayTimeController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4811264848693494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221378463647726}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 673.95593, y: 381.38046, z: -26.387709}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114461829055609132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221378463647726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5351568034605824cb8b83397306d812, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgEarthMat: {fileID: 2100000, guid: ee04b274251f9b54781818725e4b4371, type: 2}
+  bgfloorMat: {fileID: 2100000, guid: 8586f2824b22a114ba332eb5c071f967, type: 2}
+  hillsMat: {fileID: 2100000, guid: 8491796081dc6f343bf1e76b67b0bd7b, type: 2}
+  seaMat: {fileID: 2100000, guid: 75e94b33d301fae46a2748e999a3a9be, type: 2}
+  montainsMat: {fileID: 2100000, guid: 416a872a5184d4640a15149d4a89e8fb, type: 2}
+  skyMat: {fileID: 2100000, guid: 7718037734b9b8e45b36c6b064079338, type: 2}
+  cloudsMat: {fileID: 2100000, guid: f5be0edd72bc5c941949a4a2a99ecafc, type: 2}
+  fairMat: {fileID: 2100000, guid: 4eaad1d6f53b039478b61038e558e34e, type: 2}
+  obstacleWaterMat: {fileID: 2100000, guid: 9497f25fb1bc51a4fb3d7016b53bccca, type: 2}
+  obstacleSandMat: {fileID: 2100000, guid: 94b7a0dd554bac04f958f9a3d7b5f3e8, type: 2}
+  obstacleGreenMat: {fileID: 2100000, guid: 479788f6d0f5ca845ad4bbe7998bc45a, type: 2}
+  poundSparkleMat: {fileID: 2100000, guid: b7d463a6d9a1f3f43adcf5f024685ac6, type: 2}
+  sandSparkleMat: {fileID: 2100000, guid: c61c150340281e949a5fb82dba4fd3a5, type: 2}
+  universeBorderMat: {fileID: 2100000, guid: 45c6a9c0b90435941b252feed0c34b83, type: 2}
+  rocksMat: {fileID: 2100000, guid: 6fb885eef90b39f4a9798055cf8c1a1b, type: 2}
+  dayEarthColor: {r: 0.08627451, g: 0.4784314, b: 0.10196079, a: 1}
+  dayFloorColor: {r: 0.04705883, g: 0.5529412, b: 0.07450981, a: 1}
+  dayHills: {fileID: 2800000, guid: 4554d0e6bf81a654498e1eef2fb00089, type: 3}
+  daySea: {fileID: 2800000, guid: cb4820e94603a074e9b0f5d74325ea32, type: 3}
+  daySkyRepeat: {fileID: 2800000, guid: 6ad8fd82294942b42b3a4ebbf83f350c, type: 3}
+  dayFair: {fileID: 2800000, guid: 0f7ea56c0429ea04183b7690c3e6e1ca, type: 3}
+  dayObstacleWater: {fileID: 2800000, guid: 659c89a141fc93343b0dcaa9d166b9de, type: 3}
+  dayObstacleSand: {fileID: 2800000, guid: a1ae7cd086c9e4d44aace2c25d38cca8, type: 3}
+  dayObstacleGreen: {fileID: 2800000, guid: 4be259c3de228f0438539388a6d2926c, type: 3}
+  dayPoundSparkleColor: {r: 0, g: 0.5137255, b: 0.7372549, a: 1}
+  daySandSparkleColor: {r: 0.8509804, g: 0.7490196, b: 0.32156864, a: 1}
+  dayUniverseBorder: {fileID: 2800000, guid: 109eaaf6fce5af944861303d03a3b1e2, type: 3}
+  dayRocks: {fileID: 2800000, guid: 982238ee5d8154a4fb2f06f1c62504f4, type: 3}
+  nightEarthColor: {r: 0.050980397, g: 0.28235295, b: 0.0627451, a: 1}
+  nightFloorColor: {r: 0.08235294, g: 0.454902, b: 0.10196079, a: 1}
+  nightHills: {fileID: 2800000, guid: 42202749dec16e54a92bc64c6348eb15, type: 3}
+  nightSea: {fileID: 2800000, guid: 4a212685590b53643ba07be3241261a5, type: 3}
+  nightSkyRepeat: {fileID: 2800000, guid: 75f4bbcbc50f9de4692dec2a7c9a5d39, type: 3}
+  nightFair: {fileID: 2800000, guid: 228065ac25950734c9e53fa66c2fc8a8, type: 3}
+  nightObstacleWater: {fileID: 2800000, guid: ffff4693e19ad534485b35a2dd87c76d, type: 3}
+  nightObstacleSand: {fileID: 2800000, guid: f16399e7e6ea1ac418aa9553d991b838, type: 3}
+  nightObstacleGreen: {fileID: 2800000, guid: 78592f06d9386884ba67f8d7b15c4ebe, type: 3}
+  nightPoundSparkleColor: {r: 0, g: 0.7137255, b: 1, a: 1}
+  nightSandSparkleColor: {r: 0.6392157, g: 0.5882353, b: 0.3803922, a: 1}
+  nightUniverseBorder: {fileID: 2800000, guid: 2c0f23e477da05a41a03f4c3ff3c65c6, type: 3}
+  nightRocks: {fileID: 2800000, guid: 982238ee5d8154a4fb2f06f1c62504f4, type: 3}
+  sunsetEarthColor: {r: 0.56078434, g: 0.13725491, b: 0.13725491, a: 1}
+  sunsetFloorColor: {r: 0.8313726, g: 0.32941177, b: 0.19215688, a: 1}
+  sunsetHills: {fileID: 2800000, guid: 5bacc5b382796f440bceeeb79da8e121, type: 3}
+  sunsetSea: {fileID: 2800000, guid: caee9493069ae164e92139e79c6dbdb1, type: 3}
+  sunsetSkyRepeat: {fileID: 2800000, guid: b896043f80de3ba4d87e3f371a80e06b, type: 3}
+  sunsetFair: {fileID: 2800000, guid: c6edf717e0a147b4faeb5e3944ba739f, type: 3}
+  sunsetObstacleWater: {fileID: 2800000, guid: 8a20819497d8a164188667bc44195f1f, type: 3}
+  sunsetObstacleSand: {fileID: 2800000, guid: a1ae7cd086c9e4d44aace2c25d38cca8, type: 3}
+  sunsetObstacleGreen: {fileID: 2800000, guid: f1db2c2e06f3dd443b1b4a002bb682c8, type: 3}
+  sunsetPoundSparkleColor: {r: 1, g: 0.73333335, b: 0, a: 1}
+  sunsetSandSparkleColor: {r: 0.8509804, g: 0.7490196, b: 0.32156864, a: 1}
+  sunsetUniverseBorder: {fileID: 2800000, guid: ccfe1726092b49f4f84e5febf68de262,
+    type: 3}
+  sunsetRocks: {fileID: 2800000, guid: 982238ee5d8154a4fb2f06f1c62504f4, type: 3}
+  greyEarthColor: {r: 0.49803925, g: 0.49803925, b: 0.49803925, a: 1}
+  greyFloorColor: {r: 0.56078434, g: 0.56078434, b: 0.56078434, a: 1}
+  greyHills: {fileID: 2800000, guid: b81493510789a0e46875cc6112ab0d99, type: 3}
+  greySea: {fileID: 2800000, guid: 9b7a0a032e368e24d8145c91bb2b864b, type: 3}
+  greySkyRepeat: {fileID: 2800000, guid: 9e44f5eb0489e864f97fda616ce7978f, type: 3}
+  greyFair: {fileID: 2800000, guid: 9211e97269eace54c8935dc0f21d75a5, type: 3}
+  greyObstacleWater: {fileID: 2800000, guid: 1b08e923d6af02f4295e58858cabb426, type: 3}
+  greyObstacleSand: {fileID: 2800000, guid: 9194f8b8932c157499ae22357a138d3f, type: 3}
+  greyObstacleGreen: {fileID: 2800000, guid: 4123e3f1ee87e004fa4dfdc6c9fa7328, type: 3}
+  greyPoundSparkleColor: {r: 0.69803923, g: 0.69803923, b: 0.69803923, a: 1}
+  greySandSparkleColor: {r: 0.5058824, g: 0.5058824, b: 0.5058824, a: 1}
+  greyUniverseBorder: {fileID: 2800000, guid: 1f5e83f1f3bb5934fb4bcf57876c0f7b, type: 3}
+  greyRocks: {fileID: 2800000, guid: ae11f707d3263fa4b91b96d4c1e7ed11, type: 3}
+  greyScaleMat: {fileID: 2100000, guid: d08991dde3a23184b808c0cdbbf53d32, type: 2}
+  spriteDefault: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}

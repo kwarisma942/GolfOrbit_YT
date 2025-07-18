@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clown_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: cf57ee4a2176fb84f9571fec37734743, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 37a53dc3706914b28a6e4a34ddd52f77: 21300000
+    - 099069d4e7e5046b59e66dbb45ddf541: 21300000
+    - fc2c2bf5c6176472782a38e4b1e2234d: 21300000
+    - 1882d256988f048cf88f21532db60312: 21300000
+    - 438b6f17eceb0467c89b7ee20473144f: 21300000
+    - 78d2e73753259474b9d3522311cefda1: 21300000
+    - 58516ee79f54d437e94b537e8eb46130: 21300000
+    - f584d4c85cfc74caaa25d653c6ab5065: 21300000
+    - 17b8b82b7037a4f6d8701ed20726e405: 21300000
+    - e805542d350c745879b40da1ea409b69: 21300000
+    - 1ba2ad3eb7905456991295eca0985968: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 37a53dc3706914b28a6e4a34ddd52f77, type: 3}
+  - {fileID: 21300000, guid: 099069d4e7e5046b59e66dbb45ddf541, type: 3}
+  - {fileID: 21300000, guid: fc2c2bf5c6176472782a38e4b1e2234d, type: 3}
+  - {fileID: 21300000, guid: 1882d256988f048cf88f21532db60312, type: 3}
+  - {fileID: 21300000, guid: 438b6f17eceb0467c89b7ee20473144f, type: 3}
+  - {fileID: 21300000, guid: 78d2e73753259474b9d3522311cefda1, type: 3}
+  - {fileID: 21300000, guid: 58516ee79f54d437e94b537e8eb46130, type: 3}
+  - {fileID: 21300000, guid: f584d4c85cfc74caaa25d653c6ab5065, type: 3}
+  - {fileID: 21300000, guid: 17b8b82b7037a4f6d8701ed20726e405, type: 3}
+  - {fileID: 21300000, guid: e805542d350c745879b40da1ea409b69, type: 3}
+  - {fileID: 21300000, guid: 1ba2ad3eb7905456991295eca0985968, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - clown-rightleg
+  - clown-leftarm
+  - clown-bottomy
+  - clown-leftleg
+  - clown-club
+  - clown-rightforearm-
+  - clown-torso
+  - clown-rightArm
+  - clown-left-foot
+  - clown-leftforearm
+  - clown-rightfoot-copy
+  m_RenderDataMap: {}
+  m_Tag: Clown_atlas
+  m_IsVariant: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ed199084e2c39408ccc3e4c8c35e2e, type: 3}
+  m_Name: FGApplovinMaxSettings
+  m_EditorClassIdentifier: 
+  version: 3.2.10
+  maxSdkKey: 3wNF4bkgXazqDqTLOt-gZxd9iZ2daKKs5fe0a8QM26Sa9dc4DPZeGyHkiwNNkl9FsFfaZPf8b3XpPRWTUMbmtp
+  iOSInterstitialAdUnitId: 
+  iOSRewardedAdUnitId: 
+  iOSBannerAdUnitId: 
+  iOSAppOpenAdUnitId: 
+  iOSMrecAdUnitId: 
+  androidInterstitialAdUnitId: fbf4070f2505be8b
+  androidRewardedAdUnitId: 252b06ab2e33a9ac
+  androidBannerAdUnitId: cdccfc9fecb330e9
+  androidAppOpenAdUnitId: 
+  androidMrecAdUnitId: 725e41b56b219ac1
+  AdditionalUnitIds: []

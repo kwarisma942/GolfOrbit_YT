@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "760372581818",
+    "project_id": "golf-orbit",
+    "storage_bucket": "golf-orbit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760372581818:android:1c021d5855cd0125523983",
+        "android_client_info": {
+          "package_name": "com.derwinstudio.golforbit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760372581818-dnulaqv13buq7u6rk8adogsgjto11t8k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.derwinstudio.golforbit",
+            "certificate_hash": "f6b9a0033a66adfd5562dcb5212fe2c7f915d58d"
+          }
+        },
+        {
+          "client_id": "760372581818-7ro6ieev12rc9cojo47ko9apui2rvd85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADImIM8SC_NMTY1l_AB4bMaIbw7Z89UzU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760372581818-7ro6ieev12rc9cojo47ko9apui2rvd85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pirate_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 5759f3221c208f9409364ed8f0fd755f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 4e7eb140dffa9514cab5b1f4b0323eec: 21300000
+    - bd572dc23703bbd469878d7677ff242e: 21300000
+    - 99767c74a67b2334484bf8b74b15a3c2: 21300000
+    - 0440cc763158c194ba693858ea381fdf: 21300000
+    - c9a62886b002c7547aba836bde270b94: 21300000
+    - 3fcfc33c6d47b644797486b1347834e8: 21300000
+    - 3f6a2b6c3d6c631408b2a11c23c01a8c: 21300000
+    - 90187d9ce3c46094c83909c7ba9d158b: 21300000
+    - 96afc9fcc2d34d041934728b8610353e: 21300000
+    - 1d00fdfc7de6e054c9f654d896a1cec0: 21300000
+    - b9192b4ffd20bec428fbc3d280b7588e: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4e7eb140dffa9514cab5b1f4b0323eec, type: 3}
+  - {fileID: 21300000, guid: bd572dc23703bbd469878d7677ff242e, type: 3}
+  - {fileID: 21300000, guid: 99767c74a67b2334484bf8b74b15a3c2, type: 3}
+  - {fileID: 21300000, guid: 0440cc763158c194ba693858ea381fdf, type: 3}
+  - {fileID: 21300000, guid: c9a62886b002c7547aba836bde270b94, type: 3}
+  - {fileID: 21300000, guid: 3fcfc33c6d47b644797486b1347834e8, type: 3}
+  - {fileID: 21300000, guid: 3f6a2b6c3d6c631408b2a11c23c01a8c, type: 3}
+  - {fileID: 21300000, guid: 90187d9ce3c46094c83909c7ba9d158b, type: 3}
+  - {fileID: 21300000, guid: 96afc9fcc2d34d041934728b8610353e, type: 3}
+  - {fileID: 21300000, guid: 1d00fdfc7de6e054c9f654d896a1cec0, type: 3}
+  - {fileID: 21300000, guid: b9192b4ffd20bec428fbc3d280b7588e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - pirate_L_hand@2x
+  - pirate__R_leg@2x
+  - pirate_R_hand@2x
+  - pirate_L_shoulder@2x
+  - pirate_L_foot@2x
+  - pirate_R_foot@2x
+  - Pirate_club@2x
+  - pirate_L_leg@2x
+  - pirate_torso@2x
+  - pirate_butt@2x
+  - pirate_R_shoulder@2x
+  m_RenderDataMap: {}
+  m_Tag: Pirate_atlas
+  m_IsVariant: 0

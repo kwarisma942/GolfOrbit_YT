@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Chicken_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 86e327562946b044dbaffa002b014c45, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 2b1ca450b877940fc92bca804d86df7e: 21300000
+    - f54b5fb2b36844d1ea6ba1a8022139c9: 21300000
+    - cd21c346c416a4860bb920abe74b0b52: 21300000
+    - ab99c6e71e6a1456c84cdfa24d165073: 21300000
+    - 68f02cc848f304d93aecbaf90fe75766: 21300000
+    - 0fb494d8a42ed43599cf9a673cf0b479: 21300000
+    - b029e43951d14486f8b86c3f69e96594: 21300000
+    - 5a4e258aa6efa4a3eab8f10449da32a1: 21300000
+    - 18e0c90b3d84d4b048fe677ccfeb08d3: 21300000
+    - b4788d0dd89134c77a751a2950af3cad: 21300000
+    - 7cba7c9eca7e14411a3a47a9b0d26283: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2b1ca450b877940fc92bca804d86df7e, type: 3}
+  - {fileID: 21300000, guid: f54b5fb2b36844d1ea6ba1a8022139c9, type: 3}
+  - {fileID: 21300000, guid: cd21c346c416a4860bb920abe74b0b52, type: 3}
+  - {fileID: 21300000, guid: ab99c6e71e6a1456c84cdfa24d165073, type: 3}
+  - {fileID: 21300000, guid: 68f02cc848f304d93aecbaf90fe75766, type: 3}
+  - {fileID: 21300000, guid: 0fb494d8a42ed43599cf9a673cf0b479, type: 3}
+  - {fileID: 21300000, guid: b029e43951d14486f8b86c3f69e96594, type: 3}
+  - {fileID: 21300000, guid: 5a4e258aa6efa4a3eab8f10449da32a1, type: 3}
+  - {fileID: 21300000, guid: 18e0c90b3d84d4b048fe677ccfeb08d3, type: 3}
+  - {fileID: 21300000, guid: b4788d0dd89134c77a751a2950af3cad, type: 3}
+  - {fileID: 21300000, guid: 7cba7c9eca7e14411a3a47a9b0d26283, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - chicken-torso-
+  - chicken-leftArm
+  - chicken-rightForeArm
+  - chicken-leftFoot
+  - chicken_bottom
+  - chicken-rightFoot
+  - chicken-leftForeArm
+  - chicken-leftleg
+  - chicken-rightArm
+  - chicken-club
+  - chicken-rightLeg
+  m_RenderDataMap: {}
+  m_Tag: Chicken_atlas
+  m_IsVariant: 0

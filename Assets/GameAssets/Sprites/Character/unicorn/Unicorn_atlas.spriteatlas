@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unicorn_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: af1f935b81d215e42bb2e9d7e5ea0867, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - d58cc6625f8f0734495267cc4f912e1f: 21300000
+    - e5cfaf62032e4b24695ec0a2040eff94: 21300000
+    - c9dfe9347521ff74f88ff6cefd935bb0: 21300000
+    - 17a457a51ec934a45a9cdeee43401901: 21300000
+    - 03cfa5a64ee7e0a42b20b9b08dae09b2: 21300000
+    - 885e3038fca46e348ab5244012a8898b: 21300000
+    - 7853cc6ae8f2937498907b4321738a23: 21300000
+    - c05d358c851325547b387f782d1494f9: 21300000
+    - f118e31ece0db154f82b11dc856cc7eb: 21300000
+    - a842562f223bd344887571aa0f0b1fe4: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d58cc6625f8f0734495267cc4f912e1f, type: 3}
+  - {fileID: 21300000, guid: e5cfaf62032e4b24695ec0a2040eff94, type: 3}
+  - {fileID: 21300000, guid: c9dfe9347521ff74f88ff6cefd935bb0, type: 3}
+  - {fileID: 21300000, guid: 17a457a51ec934a45a9cdeee43401901, type: 3}
+  - {fileID: 21300000, guid: 03cfa5a64ee7e0a42b20b9b08dae09b2, type: 3}
+  - {fileID: 21300000, guid: 885e3038fca46e348ab5244012a8898b, type: 3}
+  - {fileID: 21300000, guid: 7853cc6ae8f2937498907b4321738a23, type: 3}
+  - {fileID: 21300000, guid: c05d358c851325547b387f782d1494f9, type: 3}
+  - {fileID: 21300000, guid: f118e31ece0db154f82b11dc856cc7eb, type: 3}
+  - {fileID: 21300000, guid: a842562f223bd344887571aa0f0b1fe4, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - unicorn_R_foot@2x
+  - unicorn_torso@2x
+  - unicorn_R_arm@2x
+  - unicorn_butt@2x
+  - unicorn_R_leg@2x
+  - unicorn_L_shoulder@2x
+  - unicorn_R_shoulder@2x
+  - unicorn_L_foot@2x
+  - unicorn_club@2x
+  - unicorn_L_arm@2x
+  m_RenderDataMap: {}
+  m_Tag: Unicorn_atlas
+  m_IsVariant: 0

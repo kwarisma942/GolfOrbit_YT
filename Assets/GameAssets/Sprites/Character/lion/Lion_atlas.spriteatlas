@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lion_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7855cbd9ab125ce47bc965835addf2af, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 8842741090a284b458f4ee6bc766d419: 21300000
+    - 4a3b2831fe3904f909792c8c1a34a561: 21300000
+    - 83d617410a12740d5a8c9960bc0f7570: 21300000
+    - 8d2a5f91e352e424d857365b93a4567d: 21300000
+    - a9bed2b1f06684685ba7654083b20151: 21300000
+    - b81d9b74a5c6b4444b3c9bbe28f9085f: 21300000
+    - 7dd4ef2a6bf47416b921bb3f04c1262d: 21300000
+    - 3e4b186a526c645b3b40620da44e6122: 21300000
+    - 3f75904d1258e472fbc149277e7c5337: 21300000
+    - ffd15cfd0a3d24dd78c1bcdcc65c89ee: 21300000
+    - b0743afed0eb141a0932d91d17d3e82f: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 8842741090a284b458f4ee6bc766d419, type: 3}
+  - {fileID: 21300000, guid: 4a3b2831fe3904f909792c8c1a34a561, type: 3}
+  - {fileID: 21300000, guid: 83d617410a12740d5a8c9960bc0f7570, type: 3}
+  - {fileID: 21300000, guid: 8d2a5f91e352e424d857365b93a4567d, type: 3}
+  - {fileID: 21300000, guid: a9bed2b1f06684685ba7654083b20151, type: 3}
+  - {fileID: 21300000, guid: b81d9b74a5c6b4444b3c9bbe28f9085f, type: 3}
+  - {fileID: 21300000, guid: 7dd4ef2a6bf47416b921bb3f04c1262d, type: 3}
+  - {fileID: 21300000, guid: 3e4b186a526c645b3b40620da44e6122, type: 3}
+  - {fileID: 21300000, guid: 3f75904d1258e472fbc149277e7c5337, type: 3}
+  - {fileID: 21300000, guid: ffd15cfd0a3d24dd78c1bcdcc65c89ee, type: 3}
+  - {fileID: 21300000, guid: b0743afed0eb141a0932d91d17d3e82f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - lion-torso
+  - lion-rightforearm
+  - lion-leftleg
+  - lion-club
+  - lion-rightArm
+  - lion-left-foot
+  - lion-rightfoot
+  - lion-leftarm
+  - lion-leftforearm
+  - lion-rightleg
+  - lion-short
+  m_RenderDataMap: {}
+  m_Tag: Lion_atlas
+  m_IsVariant: 0

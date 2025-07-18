@@ -1,0 +1,1584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{AF83D0D7-C7CB-EDD1-E7FF-E6A89FB1004C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp/bin/Debug/</OutputPath>
+    <DefineConstants>UNITY_2022_3_56;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_WEBGL;TEXTCORE_1_0_OR_NEWER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;DOTWEEN;TextMeshPro;TAPNATION;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp/bin/Release/</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169;USG0001</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.22</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>WebGL:20</UnityBuildTarget>
+    <UnityVersion>2022.3.56f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets/PlayOn/Scripts/RectTransformExtension.cs" />
+    <Compile Include="Assets/I2/Localization/Examples/Common/Scripts/ToggleLanguage.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/CharacterUnlockPopup.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/GoogleTranslation.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/Popups/AClosablePopup.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/ResourceManager.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/SubscriptionPanel/SubscriptionCard.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/Adapters/AlertUnityUIAdapter.cs" />
+    <Compile Include="Assets/LargeTextureFinder.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/PushButton.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/MobileInputs.cs" />
+    <Compile Include="Assets/Scripts/GameLogic/Interactable/BonusReached.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/Adapters/IAlertAdapter.cs" />
+    <Compile Include="Assets/Scripts/GameLogic/Interactable/GoalReached.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/Golfer.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/RatingPopup.cs" />
+    <Compile Include="Assets/NiceVibrations/Demo/Scripts/NiceVibrationsDemoManager.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_2DToolKit_Sprite.cs" />
+    <Compile Include="Assets/PaperPlaneTools/RateBox/RateBoxPrefabScript.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/SetLanguage.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/GiftWheel/GiftWheelCard.cs" />
+    <Compile Include="Assets/I2/Localization/Examples/Common/Scripts/Example_ChangeLanguage.cs" />
+    <Compile Include="Assets/Scripts/ScriptLocalization.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/Alert.cs" />
+    <Compile Include="Assets/QuietPackage/Scripts/VarsManager.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PropertyAttributes/DecorateFoldout/Scripts/FoldAttribute.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageData.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PropertyAttributes/Min/Scripts/MinAttribute.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSource.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestException.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_SVGImporter_Renderer.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/TermData.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_2DToolKit_Label.cs" />
+    <Compile Include="Assets/RestClient/DemoScene/Scripts/Model/Post.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/StaticCoroutine.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_TextMeshPro_Label.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_TextMeshPro_UGUI.cs" />
+    <Compile Include="Assets/QuietPackage/Resources/Sprites/Banner/UIRotate.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/WordAnimator.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Import_Google.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PurchasingManagement/Scripts/UnityPurchasingSettings.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/CustomLocalizeCallback.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/RestClientPromise.cs" />
+    <Compile Include="Assets/I2/Localization/Examples/Common/Scripts/CallbackNotification.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Manager/LocalizationManager_Parameters.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/EditorHelpers/EditorHelper.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/SettingsPanel/DayTimeToggle.cs" />
+    <Compile Include="Assets/QuietPackage/UniClipboard/Example/UniClipboardExample.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/LoadingScreen.cs" />
+    <Compile Include="Assets/PaperPlaneTools/RateBox/RateBox.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/Entities/Ball.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestHelperExtension.cs" />
+    <Compile Include="Assets/CrystalFramework/Utility/Demos/SafeAreaDemo.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/MainSceneUIManager.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/Entities/Hole.cs" />
+    <Compile Include="Assets/Scripts/SDK/CrazygamesIntegration.cs" />
+    <Compile Include="Assets/QuietPackage/UniClipboard/UniClipboard/UniClipboard.cs" />
+    <Compile Include="Assets/MobileDeviceDetection.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Export_Google.cs" />
+    <Compile Include="Assets/APSDemo.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/VersionText.cs" />
+    <Compile Include="Assets/PlayOn/Scripts/AdListener.cs" />
+    <Compile Include="Assets/QuietPackage/Scripts/Notifs/QuietFCM.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/ApplicationManager.cs" />
+    <Compile Include="Assets/PlayOn/Scripts/AdUnitAnchor.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_TextMesh.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/StaticVariables.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/LocalizedString.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/CustomLogger/Scripts/GUILogger.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData.cs" />
+    <Compile Include="Assets/LoadLibrary_Addressables.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityUI_Image.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/DebugPanel.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Manager/LocalizationManager_Sources.cs" />
+    <Compile Include="Assets/Scripts/AudioFocusWebGL.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/UISettingsButton.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Helpers/ColorHelper.cs" />
+    <Compile Include="Assets/SimpleAndroidNotifications/NotificationManager.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Helpers/TextResizer.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_VideoPlayer.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/Popups/InformationPopup.cs" />
+    <Compile Include="Assets/QuietPackage/Scripts/EventSystem/EEvent.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/RTLFixer.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/Adapters/AlertAndroidAdapter.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/PlanetManager.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/ChristmasPanel.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/GameDatas.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/InitScene/UI/Panels/GDPRPanel.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UpdateStore.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/ILocalizeTarget.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/ASceneManager.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/ScreenShake.cs" />
+    <Compile Include="Assets/Scripts/Camera/CameraLogic.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/CustomLogger/Scripts/FileLogger.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/LeaveGamePopup.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/AlertIOSButton.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/VideoToVIPIconSwitch.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_NGUI_Texture.cs" />
+    <Compile Include="Assets/I2/Localization/Examples/Common/Scripts/GlobalParametersExample.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/Entities/WorldElement.cs" />
+    <Compile Include="Assets/Scripts/GPlayPassManager.cs" />
+    <Compile Include="Assets/RestClient/DemoScene/Scripts/Model/Photo.cs" />
+    <Compile Include="Assets/Scripts/GameLogic/Interactable/LavaHit.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/AlertMonoBehaviour.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Misc.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/AUIPanel.cs" />
+    <Compile Include="Assets/QuietPackage/Utils/SimpleJSON.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/HindiFixer.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/RequestHelper.cs" />
+    <Compile Include="Assets/I2/Localization/Examples/Common/Scripts/Example_LocalizedString.cs" />
+    <Compile Include="Assets/I2/Localization/Examples/Common/Scripts/RegisterBundlesManager.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/Common.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_NGUI_Label.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/GameDatas.PlayerPrefKey.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/ShopPanel/ShopPanel.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Manager/LocalizationManager_RTL.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Localize.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/Popups/ProcessingPopup.cs" />
+    <Compile Include="Assets/Scripts/AppstoreTestScene.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/World/WaterMesh.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/BlackScreen.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/CustomLogger/Scripts/FpsCounter.cs" />
+    <Compile Include="Assets/UpdateValue.cs" />
+    <Compile Include="Assets/RestClient/Packages/RSG.Promise/Tuple.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/LocalizationExporter.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/ABTest/SubscriptionDesign.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/UISounds.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/GDPRPopup.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/RestClient.cs" />
+    <Compile Include="Assets/BugReporting/FramerateMonitor.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LocalizeDropdown.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceAsset.cs" />
+    <Compile Include="Assets/PlayOn/Demo/PlayOnDemo.cs" />
+    <Compile Include="Assets/QuietPackage/QuietObject/QP_QuietObject.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Import_CSV.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/GetObjectToSpacificParentScript.cs" />
+    <Compile Include="Assets/RestClient/DemoScene/Scripts/Model/User.cs" />
+    <Compile Include="Assets/BugReporting/BugReportingState.cs" />
+    <Compile Include="Assets/Scripts/Singleton.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/Entities/TutoThumbMovement.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/ILocalizeTargetDesc.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/SubscriptionPanel/SubscriptionPanel.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/Popups/AConfirmPopup.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_Child.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PhysicsEvents/Scripts/CollisionEventDispatch.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Helpers/MathHelper.cs" />
+    <Compile Include="Assets/RestClient/Packages/RSG.Promise/Exceptions/PromiseException.cs" />
+    <Compile Include="Assets/SimpleAndroidNotifications/NotificationParams.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Configurables/SpecializationManager.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Manager/LocalizationManager_Targets.cs" />
+    <Compile Include="Assets/Scripts/UnityPurchasing/generated/GooglePlayTangle.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/World/GreenMesh.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/UIShopButton.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/GameAssets.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/EventCallback.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/ShopPanel/ShopCardHC.cs" />
+    <Compile Include="Assets/App/Scripts/WebGLDeviceHelper.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/Jackpot/MultiplierText.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/AUIManager.cs" />
+    <Compile Include="Assets/CrystalFramework/Utility/SafeArea.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/SetLanguageDropdown.cs" />
+    <Compile Include="Assets/RestClient/Packages/RSG.Promise/EnumerableExt.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/MainSceneManager.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/HttpBase.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_NGUI_Sprite.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/Adapters/AlertAndroidOptions.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityUI_RawImage.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/GameDatas.SavedDatas.cs" />
+    <Compile Include="Assets/PaperPlaneTools/RateBox/RateBoxTextSettings.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Manager/LocalizationManager.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/I2Utils.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/TranslationJob_GET.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/Adapters/AlertUnityAdapter.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/ASceneManager.Scene.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Manager/LocalizationManager_SystemLanguage.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/RegisterGlobalParameters.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/NewWorldPopup.cs" />
+    <Compile Include="Assets/BugReporting/BugReportingConfigureOnly.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/ClubHousePanel/SkinShopCardCharacter.cs" />
+    <Compile Include="Assets/PlayOn/Scripts/PlayOnSDK.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/GamePanel.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Helpers/GeometryHelper.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/HighScoreFX.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/ScreenshotTaker.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/DailyVipPopup.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Helpers/OpenInFileFolder.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/UILabelledValue.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/StringObfuscator.cs" />
+    <Compile Include="Assets/Scripts/GameLogic/OnScreenJoystick.cs" />
+    <Compile Include="Assets/RestClient/Packages/RSG.Promise/Promise.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Manager/LocalizationManager_Language.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/ClubHousePanel/AShopCard.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Configurables/PersistentStorage.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PurchasingManagement/Scripts/UnityPurchasingAgent.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/ClubHousePanel/SkinShopCardBall.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/LanguageButton/LanguageButton.cs" />
+    <Compile Include="Assets/SimpleAndroidNotifications/NotificationIcon.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PropertyAttributes/Max/Scripts/MaxAttribute.cs" />
+    <Compile Include="Assets/Scripts/OdeeoManager.cs" />
+    <Compile Include="Assets/PlayOn/Scripts/EditorAdUnit.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/GameConfig.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/UIAbTest.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/Extensions.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/SocialManager.cs" />
+    <Compile Include="Assets/RestClient/Packages/RSG.Promise/Promise_NonGeneric.cs" />
+    <Compile Include="Assets/PaperPlaneTools/RateBox/RateBoxStatistics.cs" />
+    <Compile Include="Assets/I2/Localization/Examples/Common/Scripts/NGUI_LanguagePopup.cs" />
+    <Compile Include="Assets/Scripts/Engine.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/ExecuteOnMainThread.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/ClubHousePanel/ClubHousePanel.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/OrbitPanel.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PurchasingManagement/Scripts/PurchasingManager.cs" />
+    <Compile Include="Assets/ExampleRemoteConfigABtests.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/SimpleJSON.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/DaytimeMaterial.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Terms.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/AlertAndroid.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PurchasingManagement/Scripts/PurchaseEvent.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/GoogleTranslation_Queries.cs" />
+    <Compile Include="Assets/RestClient/Packages/RSG.Promise/PromiseHelpers.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/GoogleLanguages.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_MeshRenderer.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/UICurrencyUpdater.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_SpriteRenderer.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PhysicsEvents/Scripts/CollisionEventTrigger.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/OfflineEarningNotificationPopup.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/LocalizationParamsManager.cs" />
+    <Compile Include="Assets/PaperPlaneTools/AlertSkin/Scripts/Scaler.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/Jackpot/JackpotPanel.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/InitScene/InitSceneManager.cs" />
+    <Compile Include="Assets/RestClient/DemoScene/Scripts/Model/Todo.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/Entities/Diamond.cs" />
+    <Compile Include="Assets/Scripts/YTGameSDK/YTGameWrapper.cs" />
+    <Compile Include="Assets/RandomBallButtonController.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/TranslationJob_WEB.cs" />
+    <Compile Include="Assets/RestClient/Packages/RSG.Promise/PromiseTimer.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/ShopPanel/ShopCard.cs" />
+    <Compile Include="Assets/GameScene.cs" />
+    <Compile Include="Assets/UI_AnchorOffset.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/TranslationJob_Main.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Types/Language.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/TranslationJob.cs" />
+    <Compile Include="Assets/GolfOrbit_AdPause/Script/PanelADPause.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/LanguageButton/LanguagePopup.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_SVGImporter_Image.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/CameraManager.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/DebugElements.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/RegisterCallback_AllowSyncFromGoogle.cs" />
+    <Compile Include="Assets/BugReporting/BugReportingScript.cs" />
+    <Compile Include="Assets/Scripts/UnityPurchasing/generated/AppleTangle.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Assets.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_Prefab.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/UIImageFitter.cs" />
+    <Compile Include="Assets/GameAssets/Extensions/PropertyAttributes/ShowOnly/Scripts/ShowOnlyAttribute.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/AlertManager.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/TranslationJob_POST.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/InputManager.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Export_CSV.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/AutoChangeCultureInfo.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/AnimIntro.cs" />
+    <Compile Include="Assets/NiceVibrations/Common/Scripts/MMVibrationManager.cs" />
+    <Compile Include="Assets/PlayOn/Scripts/PlayOnEditorCoroutinesManager.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/AlertIOS.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/ResponseHelper.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/FakeMainPanel.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/GameDatas.PlayerPrefDatas.cs" />
+    <Compile Include="Assets/SimpleAndroidNotifications/NotificationExample.cs" />
+    <Compile Include="Assets/I2/Localization/Examples/Common/Scripts/RealTimeTranslation.cs" />
+    <Compile Include="Assets/RestClient/DemoScene/Scripts/MainScript.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/GiftWheel/GiftWheelPanel.cs" />
+    <Compile Include="Assets/QuietPackage/QA/QP_QATracker.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/UISafeZone.cs" />
+    <Compile Include="Assets/PaperPlaneTools/RateBox/RateBoxConditions.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Google/GoogleTranslation_Post.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/GameManager.cs" />
+    <Compile Include="Assets/PaperPlaneTools/RateBox/RateBoxSettings.cs" />
+    <Compile Include="Assets/QuietPackage/Scripts/EventSystem/EGameEvent.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/SubscriptionPanel/NewSubscriptionPanel.cs" />
+    <Compile Include="Assets/RestClient/Packages/RSG.Promise/Exceptions/PromiseStateException.cs" />
+    <Compile Include="Assets/Scripts/GameLogic/HeroLogic.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/NetworkAlertPopup.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/MainPanel.cs" />
+    <Compile Include="Assets/PlayOn/Scripts/AdUnit.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Utils/CoroutineManager.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/ClubHousePanel/SkinShopCardWorld.cs" />
+    <Compile Include="Assets/BugReporting/BugReportingMonitor.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/Adapters/AlertIOSAdapter.cs" />
+    <Compile Include="Assets/PlayOn/Scripts/UnityMainThreadDispatcher.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/UI/AUIPopup.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Manager/LocalizationManager_Translation.cs" />
+    <Compile Include="Assets/RestClient/Packages/Proyecto26.RestClient/Helpers/JsonHelper.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/OfflineEarningsPopup.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LocalizationReader.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/FeedbackManager.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/PurchasingManager.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Game/ShotArea.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityUI_Text.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Helpers/GoogleSheetDownload.cs" />
+    <Compile Include="Assets/PaperPlaneTools/Alert/Adapters/AlertIOSOptions.cs" />
+    <Compile Include="Assets/EasyHyperText/EasyHyperText.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/SettingsPanel/SettingsPanel.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/Targets/LocalizeTarget_UnityStandard_AudioSource.cs" />
+    <Compile Include="Assets/I2/Localization/Scripts/LanguageSource/LanguageSourceData_Languages.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Panels/EndGamePanel.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/Scene/MainScene/UI/Popup/GoldenBallPopup.cs" />
+    <Compile Include="Assets/GameAssets/Scripts/World/PlanetMesh.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/AddressableAssetsData/link.xml" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/BuildReport/CustomBuildScriptExample.txt" />
+    <None Include="Assets/Parse/Plugins/Unity.Compat.dll" />
+    <None Include="Assets/GameAssets/Shaders/SpriteFusionMask.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/PaperPlaneTools/Documentation/AlertDocumentation.txt" />
+    <None Include="Assets/Parse/Plugins/Unity.Tasks.dll" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/BuildReport/README.txt" />
+    <None Include="Assets/PlayOn/Plugins/Android/AndroidManifest.xml" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/GameAssets/Shaders/GreyScale2D.shader" />
+    <None Include="Assets/I2/Localization/I2 Localization - Readme.txt" />
+    <None Include="Assets/PaperPlaneTools/Documentation/RateBoxDocumentation.txt" />
+    <None Include="Assets/QuietPackage/Utils/ParticleImage/Demo/Materials/Additive.shader" />
+    <None Include="Assets/NiceVibrations/Demo/Fonts/Lato/OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/PaperPlaneTools/AlertSkin/Skin_1/info/fonts.txt" />
+    <None Include="Assets/NiceVibrations/readme.txt" />
+    <None Include="Assets/NiceVibrations/Common/Plugins/Android/AndroidManifest.xml" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/BugReporting/Unity.Cloud.BugReporting.Client.dll" />
+    <None Include="Assets/BuildReport/license.txt" />
+    <None Include="Assets/EasyHyperText/README.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/BuildReport/VERSION.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/NiceVibrations/license.txt" />
+    <None Include="Assets/BugReporting/Unity.Cloud.BugReporting.Plugin.dll" />
+    <None Include="Assets/GameAssets/Shaders/UnlitTransparentColor.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/GameAssets/Shaders/UIEmpty.shader" />
+    <None Include="Assets/CrystalFramework/Utility/Demos/SafeAreaDemo.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/Parse/Plugins/dotNet45/Unity.Compat.dll" />
+    <None Include="Assets/Fonts/Roboto/LICENSE.txt" />
+    <None Include="Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/PaperPlaneTools/AlertSkin/Skin_1/info/art.txt" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/BugReporting/link.xml" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WebGLModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/PlaybackEngines/WebGLSupport/Managed/UnityEngine.WebGLModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Tracker.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library/PackageCache/com.unity.analytics@3.8.1/Unity.Analytics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.BugReporting.Client">
+      <HintPath>Assets/BugReporting/Unity.Cloud.BugReporting.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cloud.BugReporting.Plugin">
+      <HintPath>Assets/BugReporting/Unity.Cloud.BugReporting.Plugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.2.1/Runtime/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>Library/PackageCache/com.unity.analytics@3.8.1/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.3.56f1/Unity.app/Contents/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Notifications">
+      <HintPath>Library/ScriptAssemblies/Unity.Notifications.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.Stores.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library/ScriptAssemblies/Unity.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityCore">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Codeless">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.Codeless.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Notifications.Unified">
+      <HintPath>Library/ScriptAssemblies/Unity.Notifications.Unified.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.SecurityStub">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.Purchasing.SecurityStub.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Notifications.iOS">
+      <HintPath>Library/ScriptAssemblies/Unity.Notifications.iOS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Analytics">
+      <HintPath>Library/ScriptAssemblies/Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Components">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Components.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Services.Analytics">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Addressables.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mobile.AndroidLogcat.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mobile.AndroidLogcat.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Notifications.Android">
+      <HintPath>Library/ScriptAssemblies/Unity.Notifications.Android.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library/ScriptAssemblies/Unity.Addressables.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{D2BDFEF0-E683-8609-38B4-581943AE6DA2}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="ParticleImage.csproj">
+      <Project>{89B1F2C6-BF4A-82D2-F313-95242607D514}</Project>
+      <Name>ParticleImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="ParticleImage.Editor.csproj">
+      <Project>{91C93A76-E112-7A8B-30DB-C44496A921F9}</Project>
+      <Name>ParticleImage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="BuildReportTool.csproj">
+      <Project>{F86E5E13-0FDB-77F7-957F-4D886B3206E2}</Project>
+      <Name>BuildReportTool</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)/Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Jedi_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: c398fea6c066bd64287bb82456fb7e60, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - da294f414069d4fa79c242b89c12e030: 21300000
+    - e2c58ef10a5e742a09ce9b48dfb4a273: 21300000
+    - 8ac53534cfdc04d4c93236fbbfb723fa: 21300000
+    - 45937f098c97f45d3b9575d1dacb18f0: 21300000
+    - 76475479a6a3e401c8182f47c7bcc2c1: 21300000
+    - 64bbee2a18aba412d9b49d0adbc95d43: 21300000
+    - 66f26f7b6cfef464490c4435af7c8f6c: 21300000
+    - 4ccd50dbf2df44eafa9f641fc414aa0f: 21300000
+    - be8c4a4c4b49247f6bf8432f699ddd2d: 21300000
+    - 20f3fd3d9da9345a1abbb582492e2641: 21300000
+    - 73ea67bd983114f59bb18c5b82311dd5: 21300000
+    - 0dfb685f88ed4496291554e353e646e1: 21300000
+    - 01f4bfef7c09e47ef93094a5fa05391a: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: da294f414069d4fa79c242b89c12e030, type: 3}
+  - {fileID: 21300000, guid: e2c58ef10a5e742a09ce9b48dfb4a273, type: 3}
+  - {fileID: 21300000, guid: 8ac53534cfdc04d4c93236fbbfb723fa, type: 3}
+  - {fileID: 21300000, guid: 45937f098c97f45d3b9575d1dacb18f0, type: 3}
+  - {fileID: 21300000, guid: 76475479a6a3e401c8182f47c7bcc2c1, type: 3}
+  - {fileID: 21300000, guid: 64bbee2a18aba412d9b49d0adbc95d43, type: 3}
+  - {fileID: 21300000, guid: 66f26f7b6cfef464490c4435af7c8f6c, type: 3}
+  - {fileID: 21300000, guid: 4ccd50dbf2df44eafa9f641fc414aa0f, type: 3}
+  - {fileID: 21300000, guid: be8c4a4c4b49247f6bf8432f699ddd2d, type: 3}
+  - {fileID: 21300000, guid: 20f3fd3d9da9345a1abbb582492e2641, type: 3}
+  - {fileID: 21300000, guid: 73ea67bd983114f59bb18c5b82311dd5, type: 3}
+  - {fileID: 21300000, guid: 0dfb685f88ed4496291554e353e646e1, type: 3}
+  - {fileID: 21300000, guid: 01f4bfef7c09e47ef93094a5fa05391a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - jedi-torso
+  - jedi-leftFoot
+  - jedi-leftFoot 1
+  - jedi-leftArm
+  - jedi-bottom
+  - jedi-rightArm
+  - jedi-club
+  - jedi-forearm_right
+  - jedi-forearm_left
+  - jedi-rightLeg
+  - jedi-arm_left
+  - jedi-rightFoot
+  - jedi-leftLeg
+  m_RenderDataMap: {}
+  m_Tag: Jedi_atlas
+  m_IsVariant: 0

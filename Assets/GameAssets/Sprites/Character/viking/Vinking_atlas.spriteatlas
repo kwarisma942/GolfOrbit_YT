@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Vinking_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 220503de033416041bc0ed64d65bb37e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - a3edf671b4a9cdc4ca8ea3f78515eb50: 21300000
+    - 3dca441304420394ab9180d2974c29f0: 21300000
+    - 82e0a6c4731e1e248b58a1c0e9a1c824: 21300000
+    - a9d7d77513b82b34cb29f7a5f6f506ab: 21300000
+    - 08b119f547f29be4580813ea02eb055f: 21300000
+    - 9af87b18ab3259647ad8096ab81ec2a2: 21300000
+    - 39836479ab5e6fc47baf9927cad17501: 21300000
+    - 2292459cbabefc64398bc7dd21259d81: 21300000
+    - 48ccacbd1c4d51147b4811ea89c59196: 21300000
+    - 9193d43ee74725c4e82340d0f566cd59: 21300000
+    - 240db43f38b43bf49a2d69f2617a6fff: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a3edf671b4a9cdc4ca8ea3f78515eb50, type: 3}
+  - {fileID: 21300000, guid: 3dca441304420394ab9180d2974c29f0, type: 3}
+  - {fileID: 21300000, guid: 82e0a6c4731e1e248b58a1c0e9a1c824, type: 3}
+  - {fileID: 21300000, guid: a9d7d77513b82b34cb29f7a5f6f506ab, type: 3}
+  - {fileID: 21300000, guid: 08b119f547f29be4580813ea02eb055f, type: 3}
+  - {fileID: 21300000, guid: 9af87b18ab3259647ad8096ab81ec2a2, type: 3}
+  - {fileID: 21300000, guid: 39836479ab5e6fc47baf9927cad17501, type: 3}
+  - {fileID: 21300000, guid: 2292459cbabefc64398bc7dd21259d81, type: 3}
+  - {fileID: 21300000, guid: 48ccacbd1c4d51147b4811ea89c59196, type: 3}
+  - {fileID: 21300000, guid: 9193d43ee74725c4e82340d0f566cd59, type: 3}
+  - {fileID: 21300000, guid: 240db43f38b43bf49a2d69f2617a6fff, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - viking-rightfoot
+  - viking-torso
+  - viking-leftarm
+  - viking-rightforearm
+  - viking-rightleg
+  - viking-club
+  - viking-rightArm-
+  - viking-left-foot
+  - viking-leftleg
+  - viking-short
+  - viking-leftforearm
+  m_RenderDataMap: {}
+  m_Tag: Vinking_atlas
+  m_IsVariant: 0

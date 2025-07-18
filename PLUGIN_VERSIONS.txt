@@ -1,0 +1,7 @@
+AdsManagement v1.0.2
+FacebookSDK v7.10.1
+Unity.Purchasing v1.15.0
+Unity.RemoteSettings v0.1.6
+GameAnalytics v3.10.4
+PaperPlaneTools.RateBox v3.2.2
+I2.Localization v2.8.1f1

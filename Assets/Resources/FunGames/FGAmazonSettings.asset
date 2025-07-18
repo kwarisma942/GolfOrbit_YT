@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 786a5d6666f6ed040b0f97d9703d833f, type: 3}
+  m_Name: FGAmazonSettings
+  m_EditorClassIdentifier: 
+  version: 3.2.3
+  iosAppID: 
+  iosBannerSlotId: 
+  iosInterSlotId: 
+  iosInterVideoSlotId: 
+  iosRewardedVideoSlotId: 
+  iosMrecSlotId: 
+  androidAppID: 6a5ed28e-145b-4bb3-bab7-3cf50312c63b
+  androidBannerSlotId: 789d3311-f747-4fe6-8252-d8cb67a5ef85
+  androidInterSlotId: 
+  androidInterVideoSlotId: 
+  androidRewardedVideoSlotId: 
+  androidMrecSlotId: 
+  enableTesting: 0
+  enableLogging: 0
+  useGeoLocation: 0

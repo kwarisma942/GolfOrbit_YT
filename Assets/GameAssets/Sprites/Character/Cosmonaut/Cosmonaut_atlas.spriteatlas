@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cosmonaut_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ae03589bbb6b1384fa8766495f2e08e6, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 6ed383c3ae9bed64a93c9c952b8ea63e: 21300000
+    - 3909e2e3653207d47b915731a12d0790: 21300000
+    - 8d3b1a5439b96e44ca97506051f2f354: 21300000
+    - 6399f5159e0d55447a2fbc3606d0b32d: 21300000
+    - 30d06785f6bbea847b74c8bcf32b907d: 21300000
+    - 2e8b0c47180e7254b9270871e91a2096: 21300000
+    - 32e41e77a8b4ccd4081527dc28995c88: 21300000
+    - 446b000ede3fd194a98b6c3f21825844: 21300000
+    - 597de81f7e8f37048be0af0e37784437: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6ed383c3ae9bed64a93c9c952b8ea63e, type: 3}
+  - {fileID: 21300000, guid: 3909e2e3653207d47b915731a12d0790, type: 3}
+  - {fileID: 21300000, guid: 8d3b1a5439b96e44ca97506051f2f354, type: 3}
+  - {fileID: 21300000, guid: 6399f5159e0d55447a2fbc3606d0b32d, type: 3}
+  - {fileID: 21300000, guid: 30d06785f6bbea847b74c8bcf32b907d, type: 3}
+  - {fileID: 21300000, guid: 2e8b0c47180e7254b9270871e91a2096, type: 3}
+  - {fileID: 21300000, guid: 32e41e77a8b4ccd4081527dc28995c88, type: 3}
+  - {fileID: 21300000, guid: 446b000ede3fd194a98b6c3f21825844, type: 3}
+  - {fileID: 21300000, guid: 597de81f7e8f37048be0af0e37784437, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - cosmonaut_R_foot
+  - cosmonaut_L_arm
+  - cosmonaut_L_foot
+  - cosmonaut_torso
+  - cosmonaut_bottom
+  - cosmonaut_R_forearm
+  - cosmonaut_L_leg
+  - cosmonaut_R_arm
+  - cosmonaut_L_forearm
+  m_RenderDataMap: {}
+  m_Tag: Cosmonaut_atlas
+  m_IsVariant: 0

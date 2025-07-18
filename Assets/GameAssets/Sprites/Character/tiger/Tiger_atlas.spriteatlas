@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tiger_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ea54b39f256cc8c4aae0a94c3d24478e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 4fa6200254306fa46af6769499b6b8df: 21300000
+    - e548be150e01add4d8d9b7b08e3d8edf: 21300000
+    - cacfb3a76d614564ba6762df56e48d72: 21300000
+    - d2ea4829293b356488d9d7001fe988c7: 21300000
+    - 6077525a375b2f84dbdf7a2d97e3a1ca: 21300000
+    - 7b85048a510110b4b92a1374ba7db262: 21300000
+    - e7d6e4caeb159af4db856839b697fd88: 21300000
+    - aee2cfdbd9fb27949a2a01cdec39e2f7: 21300000
+    - da0f2c1e96d81d440a741e7165dcadf7: 21300000
+    - ab807ebf6c288e54384e7bb3404097dd: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4fa6200254306fa46af6769499b6b8df, type: 3}
+  - {fileID: 21300000, guid: e548be150e01add4d8d9b7b08e3d8edf, type: 3}
+  - {fileID: 21300000, guid: cacfb3a76d614564ba6762df56e48d72, type: 3}
+  - {fileID: 21300000, guid: d2ea4829293b356488d9d7001fe988c7, type: 3}
+  - {fileID: 21300000, guid: 6077525a375b2f84dbdf7a2d97e3a1ca, type: 3}
+  - {fileID: 21300000, guid: 7b85048a510110b4b92a1374ba7db262, type: 3}
+  - {fileID: 21300000, guid: e7d6e4caeb159af4db856839b697fd88, type: 3}
+  - {fileID: 21300000, guid: aee2cfdbd9fb27949a2a01cdec39e2f7, type: 3}
+  - {fileID: 21300000, guid: da0f2c1e96d81d440a741e7165dcadf7, type: 3}
+  - {fileID: 21300000, guid: ab807ebf6c288e54384e7bb3404097dd, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - tiger_left_forearm
+  - tiger_short
+  - tiger_torso
+  - tiger_leftarm
+  - tiger_rightleg
+  - tiger_rightfoot
+  - tiger_rightforearm
+  - tiger_lefleg
+  - tiger_rightArm
+  - tiger_left_foot
+  m_RenderDataMap: {}
+  m_Tag: Tiger_atlas
+  m_IsVariant: 0

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mexican_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9c02bcc3c837e7744a40b9083aafb770, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 677d46b3230328e48bd48f313326d834: 21300000
+    - 3a861bb352f3bac4b8fc33aeca7654dd: 21300000
+    - 9a5e8f25f5275eb45a67caf9ac76fa09: 21300000
+    - 99c5da76b7919b04abbf98b5c2d6b09e: 21300000
+    - 1512eed75b77c6a4686a95da42e494a3: 21300000
+    - 593a72d89bec19847ad348e43ee4bdd0: 21300000
+    - 34f2c95a7cad26041b58f7cb047ba54a: 21300000
+    - 9898d13b05cdabe418e6904ba492b03e: 21300000
+    - e3c0eecdc0ccd784490dc49154aed66b: 21300000
+    - b9bfff4f736807a44adcc9e76f0f0c03: 21300000
+    - 949fc0afdb6d8ff44bad5517a8e0968c: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 677d46b3230328e48bd48f313326d834, type: 3}
+  - {fileID: 21300000, guid: 3a861bb352f3bac4b8fc33aeca7654dd, type: 3}
+  - {fileID: 21300000, guid: 9a5e8f25f5275eb45a67caf9ac76fa09, type: 3}
+  - {fileID: 21300000, guid: 99c5da76b7919b04abbf98b5c2d6b09e, type: 3}
+  - {fileID: 21300000, guid: 1512eed75b77c6a4686a95da42e494a3, type: 3}
+  - {fileID: 21300000, guid: 593a72d89bec19847ad348e43ee4bdd0, type: 3}
+  - {fileID: 21300000, guid: 34f2c95a7cad26041b58f7cb047ba54a, type: 3}
+  - {fileID: 21300000, guid: 9898d13b05cdabe418e6904ba492b03e, type: 3}
+  - {fileID: 21300000, guid: e3c0eecdc0ccd784490dc49154aed66b, type: 3}
+  - {fileID: 21300000, guid: b9bfff4f736807a44adcc9e76f0f0c03, type: 3}
+  - {fileID: 21300000, guid: 949fc0afdb6d8ff44bad5517a8e0968c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mexican_arm_2
+  - mexican_leg_1
+  - mexican_torso
+  - mexican_leg_2
+  - mexican_butt
+  - mexican_foot_2
+  - mexican_club
+  - mexican_arm_1
+  - mexican_hand_2
+  - mexican_hand_1
+  - mexican_foot_1
+  m_RenderDataMap: {}
+  m_Tag: Mexican_atlas
+  m_IsVariant: 0

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mamy_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 91017aea6bcc83d47b51489653e8a665, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - d52a92a17b2a0a74c81f2401d304f916: 21300000
+    - 65d212f168a51444fba7edb6353bda3d: 21300000
+    - 47e665c8e91ce4444a0b74e8dfdbec30: 21300000
+    - 914070aa8673568439a479dbf6d8a6fb: 21300000
+    - 947b964bb8c86fb49803b695fea1899e: 21300000
+    - afcf2feb15aed264485ecced6cf48b59: 21300000
+    - bd4c493d18e70ab4f96e6cb11a57712b: 21300000
+    - 4b1341fdeb1a0494e9143e06263b608d: 21300000
+    - 651da4fd75648b04c9e41e14d6538956: 21300000
+    - 82c6443f4f47253469c9e4ff991376f2: 21300000
+    - 05de7ecf623add241b2592a2523ee292: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d52a92a17b2a0a74c81f2401d304f916, type: 3}
+  - {fileID: 21300000, guid: 65d212f168a51444fba7edb6353bda3d, type: 3}
+  - {fileID: 21300000, guid: 47e665c8e91ce4444a0b74e8dfdbec30, type: 3}
+  - {fileID: 21300000, guid: 914070aa8673568439a479dbf6d8a6fb, type: 3}
+  - {fileID: 21300000, guid: 947b964bb8c86fb49803b695fea1899e, type: 3}
+  - {fileID: 21300000, guid: afcf2feb15aed264485ecced6cf48b59, type: 3}
+  - {fileID: 21300000, guid: bd4c493d18e70ab4f96e6cb11a57712b, type: 3}
+  - {fileID: 21300000, guid: 4b1341fdeb1a0494e9143e06263b608d, type: 3}
+  - {fileID: 21300000, guid: 651da4fd75648b04c9e41e14d6538956, type: 3}
+  - {fileID: 21300000, guid: 82c6443f4f47253469c9e4ff991376f2, type: 3}
+  - {fileID: 21300000, guid: 05de7ecf623add241b2592a2523ee292, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mamy-club
+  - mamy-torso
+  - mamy-left-foot
+  - mamy-rightforearm
+  - mamy-right_foot
+  - mamy-leftarm
+  - mamy-short
+  - mamy-leftforearm
+  - mamy-leftleg
+  - mamy-rightArm
+  - mamy-rightleg
+  m_RenderDataMap: {}
+  m_Tag: Mamy_atlas
+  m_IsVariant: 0

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Kitty_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: cd8652e43e5844f49b4e5e6a6560bfbe, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - 29fc91505a2161e4abf11aed92712a4e: 21300000
+    - 18a5b8f07fe195f4fb7f165dd481e619: 21300000
+    - 55ba566363bbb9d419cab384c0f4459f: 21300000
+    - 49cf75e46e2e4ea44a25e29039d257e0: 21300000
+    - 8f763bd7795d55d4e8b9895b1213e9d5: 21300000
+    - 4f1802986f69f3245852aafa4f0e4743: 21300000
+    - 2ebfa6e80b3a7144498d3f1104c44363: 21300000
+    - 433f2adeefe604b4ca4154316c67ec79: 21300000
+    - fe53c66fd92ddb4429687b9db51e250b: 21300000
+    - fcf5119fa63ebf04a84c25fcd830b662: 21300000
+    - 44b993afaf8a27548b000788ebf7f536: 21300000
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 29fc91505a2161e4abf11aed92712a4e, type: 3}
+  - {fileID: 21300000, guid: 18a5b8f07fe195f4fb7f165dd481e619, type: 3}
+  - {fileID: 21300000, guid: 55ba566363bbb9d419cab384c0f4459f, type: 3}
+  - {fileID: 21300000, guid: 49cf75e46e2e4ea44a25e29039d257e0, type: 3}
+  - {fileID: 21300000, guid: 8f763bd7795d55d4e8b9895b1213e9d5, type: 3}
+  - {fileID: 21300000, guid: 4f1802986f69f3245852aafa4f0e4743, type: 3}
+  - {fileID: 21300000, guid: 2ebfa6e80b3a7144498d3f1104c44363, type: 3}
+  - {fileID: 21300000, guid: 433f2adeefe604b4ca4154316c67ec79, type: 3}
+  - {fileID: 21300000, guid: fe53c66fd92ddb4429687b9db51e250b, type: 3}
+  - {fileID: 21300000, guid: fcf5119fa63ebf04a84c25fcd830b662, type: 3}
+  - {fileID: 21300000, guid: 44b993afaf8a27548b000788ebf7f536, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - kitty_R_foot@2x
+  - kitty_club@2x
+  - kitty_torso@2x
+  - kitty_butt@2x
+  - kitty_R_arm@2x
+  - kitty_L_leg@2x
+  - kitty_L_foot@2x
+  - kitty_R_shoulder@2x
+  - kitty_R_leg@2x
+  - kitty_L_arm@2x
+  - kitty_L_shoulder@2x
+  m_RenderDataMap: {}
+  m_Tag: Kitty_atlas
+  m_IsVariant: 0

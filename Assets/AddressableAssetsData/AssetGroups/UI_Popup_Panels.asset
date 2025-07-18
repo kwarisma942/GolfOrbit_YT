@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI_Popup_Panels
+  m_EditorClassIdentifier: 
+  m_GroupName: UI_Popup_Panels
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2542036411a9bd84087d25ab2bae16ef
+  m_SerializeEntries:
+  - m_GUID: 75b16a793a4aaf644b180360657cd73d
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/CharacterUnlockPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dfd027d1f89ec842ba0e69a49f19c7e
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/RatingPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f882460569b71e4794195f49cceb2bd
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/NewWorldPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 465d4c2872ca79c45b9388bc5fca5270
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/InformationPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18b0c896b0fe43744af131fcacc81594
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/DailyVipPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17e7c116b9376ed47b5fbc0e798e5502
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/GoldenBallPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 520311edd59124b4cb80ccbf633068b8
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/NetworkAlertPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba93fb377206cc446979ba2305a0dcf3
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/LeaveGamePopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aaebcf904afafe4199d8fa9342a4713
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/OfflineEarningNotificationPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59e858e7b2c136142866fb13caab59ab
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/LanguagePopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPopups
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc099fac4329b5f48984605a041dd3e5
+    m_Address: Assets/GameAssets/Prefabs/UI/Panels/ClubHousePanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPanels
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 883be9d5889a7bc46a39cf1a3bc1288a
+    m_Address: Assets/GameAssets/Prefabs/UI/Panels/GamePanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPanels
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2af355fba3fbb9741993d73e9c09b096
+    m_Address: Assets/GameAssets/Prefabs/UI/Panels/EndGamePanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPanels
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c636696e3d00294ea5a699e83972a02
+    m_Address: Assets/GameAssets/Prefabs/UI/Panels/OrbitPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPanels
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c8cc4af84775fe4bb6c28490488a6c2
+    m_Address: Assets/GameAssets/Prefabs/UI/Panels/SubPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPanels
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c732b85d3e8c49143ab32860df6bb489
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/Jackpot/JackpotPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPanels
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42e27b5d1249f284097eaaa450f88120
+    m_Address: Assets/GameAssets/Prefabs/UI/Popups/WheelPopup.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPanels
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69c707f299959c6428fb3eb34f814a0a
+    m_Address: Assets/GameAssets/Prefabs/UI/Panels/ChrismasPanel.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPanels
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b63499989331ff64591b044fd88245df
+    m_Address: Assets/GameAssets/Prefabs/UI/Panels/SubscriptionPanelNew.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - AUIPanels
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 0ab1a8cb0c92c5143bd2d397878393d3, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 72399ec068f73be4cb8ef9ce7ba12e2c, type: 2}
+    - {fileID: 11400000, guid: 93861d850864d8d40b5edf64f518a50e, type: 2}

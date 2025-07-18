@@ -1,0 +1,4 @@
+Library/ArtifactDB
+Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a
+Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a
+Library/PackageCache/com.unity.burst@1.8.18/.Runtime/libburst-llvm-16.dylib
